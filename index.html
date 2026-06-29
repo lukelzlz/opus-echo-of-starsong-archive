@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OPUS: Echo of Starsong — Data Archive</title>
+<style>
+:root {
+  --bg-deep: #06060f;
+  --bg-mid: #0d0d22;
+  --bg-card: #111130;
+  --bg-card-hover: #1a1a44;
+  --border: #1e1e48;
+  --gold: #c9a84c;
+  --gold-dim: #8a7030;
+  --gold-bright: #e8c965;
+  --text: #c8c8d8;
+  --text-dim: #7a7a9a;
+  --text-bright: #e8e4f0;
+  --accent-red: #a84c4c;
+  --accent-teal: #4ca8a0;
+  --radius: 6px;
+  --radius-lg: 12px;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg-deep);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Starfield ── */
+.starfield {
+  position: fixed; inset: 0; z-index: 0; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 30%, #0f0f2e 0%, #08081c 40%, #040410 100%);
+}
+.starfield::before {
+  content: '';
+  position: absolute; inset: -50%;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 25% 35%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 40% 10%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 55% 45%, rgba(201,168,76,0.6), transparent),
+    radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 85% 55%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 15% 65%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 30% 75%, rgba(201,168,76,0.5), transparent),
+    radial-gradient(1px 1px at 50% 80%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 65% 70%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 80% 85%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 95% 40%, rgba(201,168,76,0.7), transparent),
+    radial-gradient(1px 1px at 5% 85%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 20% 5%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 60% 60%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 75% 5%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1.5px 1.5px at 45% 90%, rgba(201,168,76,0.5), transparent),
+    radial-gradient(1px 1px at 88% 30%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 12% 40%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 35% 50%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(2px 2px at 48% 22%, rgba(201,168,76,0.4), transparent),
+    radial-gradient(2px 2px at 72% 48%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 18% 78%, rgba(201,168,76,0.4), transparent),
+    radial-gradient(2px 2px at 82% 18%, rgba(255,255,255,0.6), transparent);
+  background-size: 200% 200%;
+  animation: starDrift 120s linear infinite;
+}
+.starfield::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 40%, transparent 40%, rgba(6,6,15,0.6) 100%);
+}
+
+@keyframes starDrift {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(1%, 0.5%); }
+  50% { transform: translate(0.5%, 1%); }
+  75% { transform: translate(-0.5%, 0.5%); }
+  100% { transform: translate(0, 0); }
+}
+
+/* ── Layout ── */
+.app { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
+
+/* ── Header ── */
+.header {
+  padding: 32px 0 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
+  animation: fadeDown 0.8s ease-out;
+}
+.header-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  text-shadow: 0 0 40px rgba(201,168,76,0.25);
+}
+.header-sub {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.header-actions {
+  display: flex; justify-content: center; align-items: center; gap: 12px;
+  margin-top: 16px; flex-wrap: wrap;
+}
+
+.lang-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 5px 12px;
+  border-radius: var(--radius);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: 0.04em;
+  font-family: var(--font-body);
+}
+.lang-btn:hover { border-color: var(--gold-dim); color: var(--gold-dim); }
+.lang-btn.active { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); }
+
+.search-wrap {
+  position: relative; width: 280px; max-width: 100%;
+}
+.search-wrap input {
+  width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 7px 14px 7px 36px;
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  outline: none;
+  transition: var(--transition);
+  font-family: var(--font-body);
+}
+.search-wrap input:focus { border-color: var(--gold); box-shadow: 0 0 16px rgba(201,168,76,0.1); }
+.search-wrap input::placeholder { color: var(--text-dim); }
+.search-icon {
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  color: var(--text-dim); font-size: 0.85rem; pointer-events: none;
+}
+
+/* ── Nav ── */
+.nav {
+  display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
+  margin-bottom: 28px;
+  animation: fadeDown 0.8s ease-out 0.1s both;
+}
+.nav-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-dim);
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+  letter-spacing: 0.03em;
+}
+.nav-btn:hover { color: var(--text-bright); border-color: var(--border); }
+.nav-btn.active { background: rgba(201,168,76,0.12); border-color: var(--gold-dim); color: var(--gold-bright); }
+.nav-count {
+  font-size: 0.7rem; color: var(--text-dim); margin-left: 4px;
+  font-family: var(--font-mono);
+}
+
+/* ── Content ── */
+.content { min-height: 400px; }
+.view { animation: fadeUp 0.35s ease-out; display: none; }
+.view.active { display: block; }
+
+/* ── Loading ── */
+.loader {
+  position: fixed; inset: 0; z-index: 100;
+  background: var(--bg-deep);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+.loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+.loader-ring {
+  width: 40px; height: 40px;
+  border: 2px solid var(--border);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+.loader-text {
+  margin-top: 14px; color: var(--text-dim);
+  font-size: 0.82rem; letter-spacing: 0.08em;
+}
+.loader-status { font-size: 0.72rem; color: var(--text-dim); margin-top: 4px; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeDown { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ── Stats bar ── */
+.stats-bar {
+  display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;
+  padding: 10px 0 20px;
+}
+.stat-item {
+  font-size: 0.75rem; color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+.stat-val { color: var(--gold); font-family: var(--font-mono); }
+
+/* ── Dialogue line ── */
+.dialogue-list { display: flex; flex-direction: column; gap: 2px; }
+.dialogue-line {
+  padding: 10px 14px;
+  border-left: 2px solid transparent;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  transition: var(--transition);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  cursor: default;
+}
+.dialogue-line:hover { background: rgba(201,168,76,0.04); border-left-color: var(--gold-dim); }
+.dialogue-line .line-num {
+  font-family: var(--font-mono); font-size: 0.68rem;
+  color: var(--text-dim); margin-right: 10px; user-select: none;
+}
+.dialogue-line .line-speech {
+  display: inline-block; font-size: 0.7rem; color: var(--gold-dim);
+  background: rgba(201,168,76,0.08); padding: 1px 7px; border-radius: 3px;
+  margin-right: 8px; letter-spacing: 0.03em;
+}
+.dialogue-line .line-speech:empty { display: none; }
+
+/* ── Pagination ── */
+.pagination {
+  display: flex; justify-content: center; align-items: center; gap: 8px;
+  margin-top: 20px; flex-wrap: wrap;
+}
+.page-btn {
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-dim); padding: 6px 14px; border-radius: var(--radius);
+  font-size: 0.78rem; cursor: pointer; transition: var(--transition);
+  font-family: var(--font-body);
+}
+.page-btn:hover { border-color: var(--gold-dim); color: var(--text); }
+.page-btn.active { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); }
+.page-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.page-info { font-size: 0.78rem; color: var(--text-dim); }
+
+/* ── Card Grid ── */
+.card-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  transition: var(--transition);
+  cursor: default;
+}
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--gold-dim);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.char-card .char-name { font-family: var(--font-display); font-size: 1.1rem; color: var(--text-bright); letter-spacing: 0.03em; }
+.char-card .char-native { font-size: 0.9rem; color: var(--gold-dim); margin-top: 2px; }
+.char-card .char-id {
+  font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim);
+  margin-top: 8px; opacity: 0.7;
+}
+
+.item-card .item-name { font-size: 0.95rem; color: var(--text-bright); font-weight: 500; }
+.item-card .item-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 8px; line-height: 1.6; }
+
+.loc-card .loc-name { font-size: 1rem; color: var(--text-bright); }
+.loc-card .loc-native { font-size: 0.82rem; color: var(--gold-dim); margin-top: 2px; }
+.loc-card .loc-faction {
+  font-size: 0.72rem; color: var(--accent-teal); margin-top: 6px;
+  letter-spacing: 0.04em;
+}
+.loc-card .loc-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 8px; line-height: 1.6; }
+.loc-card .loc-meta { font-size: 0.7rem; color: var(--text-dim); margin-top: 6px; }
+
+.sub-loc-card { border-left: 2px solid var(--accent-teal); }
+
+.mail-card { border-left: 2px solid var(--gold-dim); }
+.mail-card .mail-title { font-size: 0.95rem; color: var(--text-bright); }
+.mail-card .mail-sender { font-size: 0.75rem; color: var(--gold-dim); margin-top: 4px; }
+.mail-card .mail-to { font-size: 0.72rem; color: var(--text-dim); }
+.mail-card .mail-body { font-size: 0.78rem; color: var(--text); margin-top: 10px; line-height: 1.7; white-space: pre-line; }
+
+/* ── Incident ── */
+.incident-list { display: flex; flex-direction: column; gap: 12px; }
+.incident-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  transition: var(--transition);
+}
+.incident-item:hover { background: var(--bg-card-hover); }
+.incident-item.choice {
+  border-left: 3px solid var(--gold);
+}
+.incident-id {
+  font-family: var(--font-mono); font-size: 0.68rem;
+  color: var(--text-dim); margin-bottom: 8px;
+}
+.incident-text { font-size: 0.84rem; line-height: 1.7; color: var(--text); }
+.incident-segments { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+.incident-segment {
+  padding: 6px 10px; font-size: 0.82rem;
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.02);
+  border-left: 2px solid var(--border);
+  line-height: 1.7;
+}
+.incident-avatars {
+  display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px;
+}
+.avatar-tag {
+  font-size: 0.66rem; padding: 2px 8px; border-radius: 3px;
+  background: rgba(76,168,160,0.12); color: var(--accent-teal);
+  font-family: var(--font-mono); letter-spacing: 0.02em;
+}
+.choice-badge {
+  display: inline-block; font-size: 0.7rem; padding: 2px 10px;
+  border-radius: 3px; background: rgba(201,168,76,0.15);
+  color: var(--gold-bright); margin-top: 8px; letter-spacing: 0.04em;
+}
+.choice-badge:empty { display: none; }
+.incident-effects {
+  display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px;
+}
+.effect-tag {
+  font-size: 0.64rem; padding: 1px 7px; border-radius: 2px;
+  background: rgba(168,76,76,0.12); color: var(--accent-red);
+  font-family: var(--font-mono);
+}
+
+/* ── Toggle Buttons ── */
+.toggle-row {
+  display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;
+}
+.toggle-btn {
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-dim); padding: 5px 12px; border-radius: var(--radius);
+  font-size: 0.76rem; cursor: pointer; transition: var(--transition);
+  font-family: var(--font-body);
+}
+.toggle-btn:hover { border-color: var(--gold-dim); color: var(--text); }
+.toggle-btn.active { background: rgba(201,168,76,0.12); border-color: var(--gold); color: var(--gold); }
+
+/* ── Section title ── */
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem; color: var(--gold-dim);
+  letter-spacing: 0.04em; margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Search results ── */
+.search-result-group { margin-bottom: 24px; }
+.search-result-group .group-label {
+  font-family: var(--font-display); font-size: 0.9rem; color: var(--gold);
+  margin-bottom: 10px; letter-spacing: 0.04em;
+}
+.search-more {
+  font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;
+  font-style: italic;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align: center; padding: 30px 0 10px;
+  font-size: 0.7rem; color: var(--text-dim);
+  letter-spacing: 0.06em;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* ── No results ── */
+.empty-state {
+  text-align: center; padding: 40px 20px;
+  color: var(--text-dim); font-size: 0.88rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .header-title { font-size: 1.45rem; }
+  .card-grid { grid-template-columns: 1fr; }
+  .nav { gap: 2px; }
+  .nav-btn { padding: 6px 10px; font-size: 0.75rem; }
+  .search-wrap { width: 100%; }
+  .header-actions { flex-direction: column; align-items: stretch; }
+  .stats-bar { gap: 8px; }
+}
+@media (max-width: 480px) {
+  .header { padding: 20px 0 14px; }
+  .header-title { font-size: 1.2rem; }
+  .card { padding: 14px 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="starfield"></div>
+
+<div class="loader" id="loader">
+  <div class="loader-ring"></div>
+  <div class="loader-text">ESTABLISHING UPLINK</div>
+  <div class="loader-status" id="loaderStatus">Initializing data channels...</div>
+</div>
+
+<div class="app" id="app">
+  <header class="header">
+    <h1 class="header-title">OPUS: Echo of Starsong</h1>
+    <p class="header-sub">Thousand Peaks Data Archive</p>
+    <div class="header-actions">
+      <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:center;">
+        <button class="lang-btn active" data-lang="EN">EN</button>
+        <button class="lang-btn" data-lang="CHS">简中</button>
+        <button class="lang-btn" data-lang="CHT">繁中</button>
+        <button class="lang-btn" data-lang="JP">日本語</button>
+      </div>
+      <div class="search-wrap">
+        <span class="search-icon">&#9906;</span>
+        <input type="text" id="globalSearch" placeholder="Search across all archives...">
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav" id="nav">
+    <button class="nav-btn active" data-view="story">Story<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="characters">Characters<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="incidents">Incidents<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="items">Items<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="locations">Locations<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="messages">Messages<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="search">Search<span class="nav-count"></span></button>
+  </nav>
+
+  <div class="content" id="content"></div>
+
+  <footer class="footer">
+    <p>OPUS: Echo of Starsong &copy; SIGONO · Data extracted from Unity 2020.3.35f1 build</p>
+  </footer>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  const LANG_KEYS = {
+    EN: { text: 'text_EN', name: 'name_EN', desc: 'desc_EN', title: 'title_EN', sender: 'sender_EN', receiver: 'receiver_EN', content: 'content_EN', faction: 'faction_EN', info: 'info_EN', option: 'option_title_EN', speech: 'speech_EN' },
+    CHS: { text: 'text_CHS', name: 'name_CHS', desc: 'desc_CHS', title: 'title_CHS', sender: 'sender_CHS', receiver: 'receiver_EN', content: 'content_CHS', faction: 'faction_CHS', info: 'info_CHS', option: 'option_title_CHS', speech: 'speech_CHS' },
+    CHT: { text: 'text_CHT', name: 'name_CHT', desc: 'desc_CHS', title: 'title_CHS', sender: 'sender_CHS', receiver: 'receiver_EN', content: 'content_CHS', faction: 'faction_CHS', info: 'info_CHS', option: 'option_title_CHS', speech: 'speech_CHS' },
+    JP: { text: 'text_JP', name: 'name_EN', desc: 'desc_EN', title: 'title_EN', sender: 'sender_EN', receiver: 'receiver_EN', content: 'content_EN', faction: 'faction_EN', info: 'info_EN', option: 'option_title_EN', speech: 'speech_EN' }
+  };
+
+  let currentLang = 'EN';
+  let data = {
+    characters: null,
+    dialogues: null,
+    incidents: null,
+    items: null,
+    locations: null,
+    sublocations: null,
+    mails: null,
+    summary: null
+  };
+  let charMap = {};
+
+  const $ = s => document.querySelector(s);
+  const $$ = s => document.querySelectorAll(s);
+
+  function langKey(k) { return LANG_KEYS[currentLang][k] || LANG_KEYS['EN'][k]; }
+
+  function charName(id) {
+    const c = charMap[id];
+    if (!c) return id;
+    return c[langKey('name')] || c.name_EN;
+  }
+
+  function getAvatarName(avatarId) {
+    const base = avatarId.replace(/_[A-Z].*$/, '');
+    const c = charMap[base];
+    return c ? charName(base) : base;
+  }
+
+  // ── Loading ──
+  const loader = $('#loader');
+  const loaderStatus = $('#loaderStatus');
+
+  async function loadJSON(name) {
+    const resp = await fetch('data/' + name + '.json');
+    if (!resp.ok) throw new Error(name + ': ' + resp.status);
+    return resp.json();
+  }
+
+  async function loadAll() {
+    const files = [
+      { key: 'summary', name: 'summary' },
+      { key: 'characters', name: 'characters' },
+      { key: 'dialogues', name: 'story_dialogues' },
+      { key: 'incidents', name: 'incidents' },
+      { key: 'items', name: 'items' },
+      { key: 'locations', name: 'locations' },
+      { key: 'sublocations', name: 'sublocations' },
+      { key: 'mails', name: 'mails' }
+    ];
+    loaderStatus.textContent = 'Connecting to archive nodes...';
+
+    const results = await Promise.allSettled(files.map(async f => {
+      loaderStatus.textContent = 'Loading ' + f.name + '...';
+      const d = await loadJSON(f.name);
+      return { key: f.key, data: d };
+    }));
+
+    for (const r of results) {
+      if (r.status === 'fulfilled') {
+        data[r.value.key] = r.value.data;
+      } else {
+        console.error(r.reason);
+      }
+    }
+
+    // Build char map
+    if (data.characters) {
+      for (const [id, c] of Object.entries(data.characters)) {
+        charMap[id] = c;
+      }
+    }
+
+    loader.classList.add('hidden');
+    initUI();
+  }
+
+  // ── UI Init ──
+  function initUI() {
+    updateNavCounts();
+    renderView('story');
+
+    $('#globalSearch').addEventListener('input', function() {
+      const v = this.value.trim();
+      if (v.length >= 2) {
+        switchView('search');
+        renderSearch(v);
+      } else if ($('.nav-btn.active').dataset.view === 'search') {
+        switchView('story');
+      }
+    });
+
+    $('#globalSearch').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && this.value.trim().length >= 2) {
+        switchView('search');
+        renderSearch(this.value.trim());
+      }
+    });
+  }
+
+  function updateNavCounts() {
+    const counts = {
+      story: data.dialogues ? data.dialogues.length : 0,
+      characters: data.characters ? Object.keys(data.characters).length : 0,
+      incidents: data.incidents ? data.incidents.length : 0,
+      items: data.items ? data.items.length : 0,
+      locations: data.locations ? data.locations.length : 0,
+      messages: data.mails ? data.mails.length : 0
+    };
+    $$('.nav-btn').forEach(btn => {
+      const v = btn.dataset.view;
+      const span = btn.querySelector('.nav-count');
+      if (span && counts[v]) span.textContent = '(' + counts[v] + ')';
+    });
+  }
+
+  // ── Navigation ──
+  $$('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      switchView(this.dataset.view);
+    });
+  });
+
+  $$('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      currentLang = this.dataset.lang;
+      $$('.lang-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const activeView = $('.nav-btn.active').dataset.view;
+      if (activeView === 'search') {
+        const q = $('#globalSearch').value.trim();
+        if (q.length >= 2) renderSearch(q);
+      } else {
+        renderView(activeView);
+      }
+    });
+  });
+
+  function switchView(view) {
+    $$('.nav-btn').forEach(b => b.classList.remove('active'));
+    const btn = document.querySelector('.nav-btn[data-view="' + view + '"]');
+    if (btn) btn.classList.add('active');
+    $('#globalSearch').value = '';
+    renderView(view);
+  }
+
+  function renderView(view) {
+    const content = $('#content');
+    switch (view) {
+      case 'story': renderStory(content); break;
+      case 'characters': renderCharacters(content); break;
+      case 'incidents': renderIncidents(content); break;
+      case 'items': renderItems(content); break;
+      case 'locations': renderLocations(content); break;
+      case 'messages': renderMessages(content); break;
+      case 'search': content.innerHTML = '<div class="empty-state">Type in the search bar above to begin searching across all archives.</div>'; break;
+    }
+  }
+
+  // ── Story ──
+  function renderStory(container) {
+    if (!data.dialogues) { container.innerHTML = '<div class="empty-state">Failed to load dialogue data.</div>'; return; }
+    const pageSize = 50;
+    let page = 0;
+    const totalPages = Math.ceil(data.dialogues.length / pageSize);
+
+    function renderPage(p) {
+      page = p;
+      const start = p * pageSize;
+      const slice = data.dialogues.slice(start, start + pageSize);
+      const lk = langKey('text');
+      const sk = langKey('speech');
+
+      let html = '<div class="section-title">Story Dialogues</div>';
+      html += '<div class="dialogue-list">';
+      slice.forEach((d, i) => {
+        const num = start + i + 1;
+        html += '<div class="dialogue-line">';
+        html += '<span class="line-num">' + num + '</span>';
+        html += '<span class="line-speech">' + (d[sk] || '') + '</span>';
+        html += '<span>' + escHtml(d[lk] || d.text_EN || '') + '</span>';
+        html += '</div>';
+      });
+      html += '</div>';
+
+      html += '<div class="pagination">';
+      html += '<button class="page-btn" ' + (page === 0 ? 'disabled' : '') + ' data-pg="prev">&larr; Prev</button>';
+      const pageStart = Math.max(0, Math.min(page - 2, totalPages - 5));
+      const pageEnd = Math.min(totalPages, pageStart + 5);
+      for (let pg = pageStart; pg < pageEnd; pg++) {
+        html += '<button class="page-btn' + (pg === page ? ' active' : '') + '" data-pg="' + pg + '">' + (pg + 1) + '</button>';
+      }
+      html += '<button class="page-btn" ' + (page >= totalPages - 1 ? 'disabled' : '') + ' data-pg="next">Next &rarr;</button>';
+      html += '<span class="page-info">' + (start + 1) + '-' + Math.min(start + pageSize, data.dialogues.length) + ' of ' + data.dialogues.length + '</span>';
+      html += '</div>';
+
+      container.innerHTML = html;
+
+      container.querySelectorAll('.page-btn[data-pg]').forEach(btn => {
+        btn.addEventListener('click', function() {
+          let pg = this.dataset.pg;
+          if (pg === 'prev') pg = page - 1;
+          else if (pg === 'next') pg = page + 1;
+          else pg = parseInt(pg);
+          if (pg >= 0 && pg < totalPages) {
+            renderPage(pg);
+            container.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    }
+    renderPage(0);
+  }
+
+  // ── Characters ──
+  function renderCharacters(container) {
+    if (!data.characters) { container.innerHTML = '<div class="empty-state">Failed to load character data.</div>'; return; }
+    const chars = Object.values(data.characters);
+    const lk = langKey('name');
+    const chsKey = 'name_CHS';
+
+    let html = '<div class="section-title">Characters (' + chars.length + ')</div>';
+    html += '<div class="card-grid">';
+    chars.forEach(c => {
+      html += '<div class="card char-card">';
+      html += '<div class="char-name">' + escHtml(c[lk] || c.name_EN) + '</div>';
+      html += '<div class="char-native">' + escHtml(c[chsKey] || '') + '</div>';
+      html += '<div class="char-id">ID: ' + escHtml(c.id) + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  // ── Incidents ──
+  function renderIncidents(container) {
+    if (!data.incidents) { container.innerHTML = '<div class="empty-state">Failed to load incident data.</div>'; return; }
+
+    let filterChoices = false;
+    const lk = langKey('text');
+    const ok = langKey('option');
+    const choices = data.incidents.filter(inc => inc.is_choice);
+
+    function renderList(onlyChoices) {
+      filterChoices = onlyChoices;
+      const list = onlyChoices ? choices : data.incidents;
+
+      let html = '<div class="toggle-row">';
+      html += '<button class="toggle-btn' + (!onlyChoices ? ' active' : '') + '" data-filter="all">All (' + data.incidents.length + ')</button>';
+      html += '<button class="toggle-btn' + (onlyChoices ? ' active' : '') + '" data-filter="choices">Choices Only (' + choices.length + ')</button>';
+      html += '</div>';
+      html += '<div class="incident-list">';
+
+      list.forEach(inc => {
+        const isChoice = inc.is_choice;
+        const parsed = inc['parsed_' + (currentLang === 'CHT' ? 'CHS' : currentLang)];
+        html += '<div class="incident-item' + (isChoice ? ' choice' : '') + '">';
+        html += '<div class="incident-id">Incident #' + inc.id + (isChoice ? ' &bull; CHOICE' : '') + '</div>';
+
+        if (parsed && parsed.segments && parsed.segments.length > 0) {
+          html += '<div class="incident-segments">';
+          parsed.segments.forEach((seg, si) => {
+            const av = (parsed.avatars && parsed.avatars[si]) ? parsed.avatars[si] : null;
+            html += '<div class="incident-segment">';
+            if (av) html += '<span class="avatar-tag">' + escHtml(getAvatarName(av)) + '</span> ';
+            html += escHtml(seg);
+            html += '</div>';
+          });
+          html += '</div>';
+
+          if (parsed.avatars && parsed.avatars.length > 0) {
+            const uniqueAvatars = [...new Set(parsed.avatars.map(a => a.replace(/_[A-Z].*$/, '')))];
+            html += '<div class="incident-avatars">';
+            uniqueAvatars.forEach(a => {
+              html += '<span class="avatar-tag">' + escHtml(charName(a)) + '</span>';
+            });
+            html += '</div>';
+          }
+
+          if (parsed.effects && parsed.effects.length > 0) {
+            const uniqueEffects = [...new Set(parsed.effects)];
+            html += '<div class="incident-effects">';
+            uniqueEffects.forEach(e => {
+              html += '<span class="effect-tag">' + escHtml(e) + '</span>';
+            });
+            html += '</div>';
+          }
+        } else {
+          html += '<div class="incident-text">' + escHtml(inc[lk] || inc.text_EN || '') + '</div>';
+        }
+
+        if (isChoice) {
+          const optText = inc[ok] || '';
+          if (optText && optText !== '-') {
+            html += '<div class="choice-badge">Choice: ' + escHtml(optText) + '</div>';
+          }
+        }
+        html += '</div>';
+      });
+
+      html += '</div>';
+      container.innerHTML = html;
+
+      container.querySelectorAll('.toggle-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          renderList(this.dataset.filter === 'choices');
+          container.scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+    }
+    renderList(false);
+  }
+
+  // ── Items ──
+  function renderItems(container) {
+    if (!data.items) { container.innerHTML = '<div class="empty-state">Failed to load item data.</div>'; return; }
+    const lk = langKey('name');
+    const dk = langKey('desc');
+    const nk = 'name_' + (currentLang === 'JP' ? 'EN' : (currentLang === 'CHT' ? 'CHS' : currentLang));
+
+    let html = '<div class="section-title">Items (' + data.items.length + ')</div>';
+    html += '<div class="card-grid">';
+    data.items.forEach(item => {
+      const desc = item[dk] || item.desc_EN || '';
+      if (desc === '-') return; // skip placeholder items
+      html += '<div class="card item-card">';
+      html += '<div class="item-name">' + escHtml(item[lk] || item.name_EN) + '</div>';
+      html += '<div class="item-desc">' + escHtml(desc.substring(0, 200) + (desc.length > 200 ? '...' : '')) + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  // ── Locations ──
+  function renderLocations(container) {
+    if (!data.locations) { container.innerHTML = '<div class="empty-state">Failed to load location data.</div>'; return; }
+    const lk = langKey('name');
+    const dk = langKey('desc');
+    const fk = langKey('faction');
+    const nk = langKey('name');
+
+    let html = '<div class="section-title">Locations (' + data.locations.length + ')</div>';
+    html += '<div class="card-grid">';
+    data.locations.forEach(loc => {
+      html += '<div class="card loc-card">';
+      html += '<div class="loc-name">' + escHtml(loc[lk] || loc.name_EN) + '</div>';
+      html += '<div class="loc-faction">' + escHtml(loc[fk] || loc.faction_EN || '') + '</div>';
+      html += '<div class="loc-desc">' + escHtml((loc[dk] || loc.desc_EN || '').substring(0, 250)) + '</div>';
+      html += '<div class="loc-meta">' + escHtml(loc.mass_EN || '') + ' · ' + escHtml(loc.revolution_EN || '') + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+
+    if (data.sublocations && data.sublocations.length > 0) {
+      html += '<div class="section-title" style="margin-top:28px;">Sublocations (' + data.sublocations.length + ')</div>';
+      html += '<div class="card-grid">';
+      const ck = langKey('content');
+      data.sublocations.forEach(sl => {
+        html += '<div class="card loc-card sub-loc-card">';
+        html += '<div class="loc-name">' + escHtml(sl[lk] || sl.name_EN) + '</div>';
+        html += '<div class="loc-desc">' + escHtml((sl[ck] || sl.content_EN || '').substring(0, 300)) + '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
+  }
+
+  // ── Messages ──
+  function renderMessages(container) {
+    if (!data.mails) { container.innerHTML = '<div class="empty-state">Failed to load mail data.</div>'; return; }
+    const tk = langKey('title');
+    const sk = langKey('sender');
+    const ck = langKey('content');
+
+    let html = '<div class="section-title">Messages (' + data.mails.length + ')</div>';
+    html += '<div class="card-grid">';
+    data.mails.forEach(mail => {
+      html += '<div class="card mail-card">';
+      html += '<div class="mail-title">' + escHtml(mail[tk] || mail.title_EN) + '</div>';
+      html += '<div class="mail-sender">From: ' + escHtml(mail[sk] || mail.sender_EN) + '</div>';
+      html += '<div class="mail-to">To: ' + escHtml(mail.receiver_EN || '') + '</div>';
+      html += '<div class="mail-body">' + escHtml(mail[ck] || mail.content_EN || '') + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  // ── Search ──
+  function renderSearch(query) {
+    const container = $('#content');
+    const q = query.toLowerCase();
+    const maxPerCategory = 20;
+
+    let results = [];
+
+    // Characters
+    if (data.characters) {
+      const matches = [];
+      for (const [id, c] of Object.entries(data.characters)) {
+        if (c.name_EN.toLowerCase().includes(q) || c.name_CHS.includes(q) || c.name_CHT.includes(q) || c.id.toLowerCase().includes(q)) {
+          matches.push({ type: 'characters', label: 'Characters', id: c.id, name: charName(c.id), extra: c.name_CHS });
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'characters', label: 'Characters', matches, total: matches.length });
+    }
+
+    // Dialogues
+    if (data.dialogues) {
+      const matches = [];
+      for (const d of data.dialogues) {
+        const txt = (d.text_EN + ' ' + d.text_CHS + ' ' + d.text_JP).toLowerCase();
+        if (txt.includes(q)) {
+          matches.push({ id: d.uid.substring(0, 8), text: d[langKey('text')] || d.text_EN });
+          if (matches.length >= maxPerCategory) break;
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'dialogues', label: 'Dialogues', matches, total: matches.length });
+    }
+
+    // Incidents
+    if (data.incidents) {
+      const matches = [];
+      for (const inc of data.incidents) {
+        const txt = (inc.text_EN + ' ' + inc.text_CHS).toLowerCase();
+        if (txt.includes(q)) {
+          matches.push({ id: inc.id, text: inc[langKey('text')] || inc.text_EN, isChoice: inc.is_choice });
+          if (matches.length >= maxPerCategory) break;
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'incidents', label: 'Incidents', matches, total: matches.length });
+    }
+
+    // Items
+    if (data.items) {
+      const matches = [];
+      for (const item of data.items) {
+        const txt = (item.name_EN + ' ' + item.name_CHS + ' ' + item.desc_EN + ' ' + item.desc_CHS).toLowerCase();
+        if (txt.includes(q)) {
+          matches.push({ id: item.id, name: item[langKey('name')] || item.name_EN, desc: item[langKey('desc')] || item.desc_EN });
+          if (matches.length >= maxPerCategory) break;
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'items', label: 'Items', matches, total: matches.length });
+    }
+
+    // Locations + Sublocations
+    if (data.locations) {
+      const matches = [];
+      for (const loc of data.locations) {
+        const txt = (loc.name_EN + ' ' + loc.name_CHS + ' ' + loc.faction_EN + ' ' + loc.desc_EN).toLowerCase();
+        if (txt.includes(q)) {
+          matches.push({ id: loc.id, name: loc[langKey('name')] || loc.name_EN, faction: loc[langKey('faction')] || loc.faction_EN });
+          if (matches.length >= maxPerCategory) break;
+        }
+      }
+      if (data.sublocations) {
+        for (const sl of data.sublocations) {
+          const txt = (sl.name_EN + ' ' + sl.name_CHS + ' ' + sl.content_EN).toLowerCase();
+          if (txt.includes(q)) {
+            matches.push({ id: sl.id, name: sl[langKey('name')] || sl.name_EN });
+            if (matches.length >= maxPerCategory) break;
+          }
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'locations', label: 'Locations', matches, total: matches.length });
+    }
+
+    // Mails
+    if (data.mails) {
+      const matches = [];
+      for (const mail of data.mails) {
+        const txt = (mail.title_EN + ' ' + mail.sender_EN + ' ' + mail.content_EN + ' ' + mail.title_CHS + ' ' + mail.content_CHS).toLowerCase();
+        if (txt.includes(q)) {
+          matches.push({ id: mail.id, title: mail[langKey('title')] || mail.title_EN, sender: mail[langKey('sender')] || mail.sender_EN });
+          if (matches.length >= maxPerCategory) break;
+        }
+      }
+      if (matches.length > 0) results.push({ type: 'mails', label: 'Messages', matches, total: matches.length });
+    }
+
+    if (results.length === 0) {
+      container.innerHTML = '<div class="empty-state">No results found for "' + escHtml(query) + '" across any archive.</div>';
+      return;
+    }
+
+    let html = '';
+    results.forEach(group => {
+      html += '<div class="search-result-group">';
+      html += '<div class="group-label">' + group.label + ' (' + group.total + ' found)</div>';
+
+      group.matches.forEach(m => {
+        if (group.type === 'characters') {
+          html += '<div class="card char-card" style="margin-bottom:8px;">';
+          html += '<div class="char-name">' + escHtml(m.name) + '</div>';
+          html += '<div class="char-native">' + escHtml(m.extra) + '</div>';
+          html += '<div class="char-id">ID: ' + escHtml(m.id) + '</div>';
+          html += '</div>';
+        } else if (group.type === 'dialogues') {
+          html += '<div class="dialogue-line" style="margin-bottom:4px;">';
+          html += '<span class="line-num">' + escHtml(m.id) + '</span>';
+          html += escHtml(m.text.substring(0, 200));
+          html += '</div>';
+        } else if (group.type === 'incidents') {
+          html += '<div class="incident-item' + (m.isChoice ? ' choice' : '') + '" style="margin-bottom:6px;">';
+          html += '<div class="incident-id">#' + m.id + (m.isChoice ? ' CHOICE' : '') + '</div>';
+          html += '<div class="incident-text">' + escHtml(m.text.substring(0, 250)) + '</div>';
+          html += '</div>';
+        } else if (group.type === 'items') {
+          html += '<div class="card item-card" style="margin-bottom:8px;">';
+          html += '<div class="item-name">' + escHtml(m.name) + '</div>';
+          html += '<div class="item-desc">' + escHtml((m.desc || '').substring(0, 200)) + '</div>';
+          html += '</div>';
+        } else if (group.type === 'locations') {
+          html += '<div class="card loc-card" style="margin-bottom:8px;">';
+          html += '<div class="loc-name">' + escHtml(m.name) + '</div>';
+          if (m.faction) html += '<div class="loc-faction">' + escHtml(m.faction) + '</div>';
+          html += '</div>';
+        } else if (group.type === 'mails') {
+          html += '<div class="card mail-card" style="margin-bottom:8px;">';
+          html += '<div class="mail-title">' + escHtml(m.title) + '</div>';
+          html += '<div class="mail-sender">From: ' + escHtml(m.sender) + '</div>';
+          html += '</div>';
+        }
+      });
+      if (group.total > maxPerCategory) {
+        html += '<div class="search-more">...and ' + (group.total - maxPerCategory) + ' more results. Refine your search for more specific results.</div>';
+      }
+      html += '</div>';
+    });
+
+    container.innerHTML = html;
+  }
+
+  function escHtml(s) {
+    if (!s) return '';
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // ── Boot ──
+  loadAll();
+
+})();
+</script>
+
+</body>
+</html>
