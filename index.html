@@ -26,9 +26,7 @@
   --font-mono: 'SF Mono', 'Menlo', 'Consolas', monospace;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 html { font-size: 15px; scroll-behavior: smooth; }
 body {
   font-family: var(--font-body);
@@ -38,8 +36,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-/* ── Starfield ── */
 .starfield {
   position: fixed; inset: 0; z-index: 0; overflow: hidden;
   background: radial-gradient(ellipse at 50% 30%, #0f0f2e 0%, #08081c 40%, #040410 100%);
@@ -80,7 +76,6 @@ body {
   position: absolute; inset: 0;
   background: radial-gradient(ellipse at 50% 40%, transparent 40%, rgba(6,6,15,0.6) 100%);
 }
-
 @keyframes starDrift {
   0% { transform: translate(0, 0); }
   25% { transform: translate(1%, 0.5%); }
@@ -88,67 +83,38 @@ body {
   75% { transform: translate(-0.5%, 0.5%); }
   100% { transform: translate(0, 0); }
 }
-
-/* ── Layout ── */
 .app { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
-
-/* ── Header ── */
 .header {
-  padding: 32px 0 20px;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 24px;
+  padding: 32px 0 20px; text-align: center;
+  border-bottom: 1px solid var(--border); margin-bottom: 24px;
   animation: fadeDown 0.8s ease-out;
 }
 .header-title {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  color: var(--gold);
+  font-family: var(--font-display); font-size: 2rem; font-weight: 400;
+  letter-spacing: 0.06em; color: var(--gold);
   text-shadow: 0 0 40px rgba(201,168,76,0.25);
 }
 .header-sub {
-  font-size: 0.85rem;
-  color: var(--text-dim);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-top: 4px;
+  font-size: 0.85rem; color: var(--text-dim);
+  letter-spacing: 0.12em; text-transform: uppercase; margin-top: 4px;
 }
 .header-actions {
   display: flex; justify-content: center; align-items: center; gap: 12px;
   margin-top: 16px; flex-wrap: wrap;
 }
-
 .lang-btn {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 5px 12px;
-  border-radius: var(--radius);
-  font-size: 0.78rem;
-  cursor: pointer;
-  transition: var(--transition);
-  letter-spacing: 0.04em;
-  font-family: var(--font-body);
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-dim); padding: 5px 12px; border-radius: var(--radius);
+  font-size: 0.78rem; cursor: pointer; transition: var(--transition);
+  letter-spacing: 0.04em; font-family: var(--font-body);
 }
 .lang-btn:hover { border-color: var(--gold-dim); color: var(--gold-dim); }
 .lang-btn.active { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); }
-
-.search-wrap {
-  position: relative; width: 280px; max-width: 100%;
-}
+.search-wrap { position: relative; width: 280px; max-width: 100%; }
 .search-wrap input {
-  width: 100%;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text);
-  padding: 7px 14px 7px 36px;
-  border-radius: var(--radius);
-  font-size: 0.82rem;
-  outline: none;
-  transition: var(--transition);
-  font-family: var(--font-body);
+  width: 100%; background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text); padding: 7px 14px 7px 36px; border-radius: var(--radius);
+  font-size: 0.82rem; outline: none; transition: var(--transition); font-family: var(--font-body);
 }
 .search-wrap input:focus { border-color: var(--gold); box-shadow: 0 0 16px rgba(201,168,76,0.1); }
 .search-wrap input::placeholder { color: var(--text-dim); }
@@ -156,151 +122,89 @@ body {
   position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
   color: var(--text-dim); font-size: 0.85rem; pointer-events: none;
 }
-
-/* ── Nav ── */
 .nav {
   display: flex; gap: 4px; flex-wrap: wrap; justify-content: center;
-  margin-bottom: 28px;
-  animation: fadeDown 0.8s ease-out 0.1s both;
+  margin-bottom: 28px; animation: fadeDown 0.8s ease-out 0.1s both;
 }
-.nav-btn {
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--text-dim);
-  padding: 8px 16px;
-  border-radius: var(--radius);
-  font-size: 0.82rem;
-  cursor: pointer;
-  transition: var(--transition);
-  font-family: var(--font-body);
-  letter-spacing: 0.03em;
+.nav-btn, .nav-link {
+  background: transparent; border: 1px solid transparent;
+  color: var(--text-dim); padding: 8px 16px; border-radius: var(--radius);
+  font-size: 0.82rem; cursor: pointer; transition: var(--transition);
+  font-family: var(--font-body); letter-spacing: 0.03em; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 4px;
 }
-.nav-btn:hover { color: var(--text-bright); border-color: var(--border); }
+.nav-btn:hover, .nav-link:hover { color: var(--text-bright); border-color: var(--border); }
 .nav-btn.active { background: rgba(201,168,76,0.12); border-color: var(--gold-dim); color: var(--gold-bright); }
-.nav-count {
-  font-size: 0.7rem; color: var(--text-dim); margin-left: 4px;
-  font-family: var(--font-mono);
-}
-
-/* ── Content ── */
+.nav-count { font-size: 0.7rem; color: var(--text-dim); font-family: var(--font-mono); }
 .content { min-height: 400px; }
-.view { animation: fadeUp 0.35s ease-out; display: none; }
-.view.active { display: block; }
-
-/* ── Loading ── */
 .loader {
-  position: fixed; inset: 0; z-index: 100;
-  background: var(--bg-deep);
+  position: fixed; inset: 0; z-index: 100; background: var(--bg-deep);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 .loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 .loader-ring {
-  width: 40px; height: 40px;
-  border: 2px solid var(--border);
-  border-top-color: var(--gold);
-  border-radius: 50%;
+  width: 40px; height: 40px; border: 2px solid var(--border);
+  border-top-color: var(--gold); border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
-.loader-text {
-  margin-top: 14px; color: var(--text-dim);
-  font-size: 0.82rem; letter-spacing: 0.08em;
-}
+.loader-text { margin-top: 14px; color: var(--text-dim); font-size: 0.82rem; letter-spacing: 0.08em; }
 .loader-status { font-size: 0.72rem; color: var(--text-dim); margin-top: 4px; }
-
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes fadeDown { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ── Stats bar ── */
-.stats-bar {
-  display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;
-  padding: 10px 0 20px;
-}
-.stat-item {
-  font-size: 0.75rem; color: var(--text-dim);
-  letter-spacing: 0.04em;
-}
+.stats-bar { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; padding: 10px 0 20px; }
+.stat-item { font-size: 0.75rem; color: var(--text-dim); letter-spacing: 0.04em; }
 .stat-val { color: var(--gold); font-family: var(--font-mono); }
 
-/* ── Dialogue line ── */
 .dialogue-list { display: flex; flex-direction: column; gap: 2px; }
 .dialogue-line {
-  padding: 10px 14px;
-  border-left: 2px solid transparent;
-  border-radius: 0 var(--radius) var(--radius) 0;
-  transition: var(--transition);
-  font-size: 0.88rem;
-  line-height: 1.7;
-  cursor: default;
+  padding: 10px 14px; border-left: 2px solid transparent;
+  border-radius: 0 var(--radius) var(--radius) 0; transition: var(--transition);
+  font-size: 0.88rem; line-height: 1.7; cursor: default;
 }
 .dialogue-line:hover { background: rgba(201,168,76,0.04); border-left-color: var(--gold-dim); }
-.dialogue-line .line-num {
-  font-family: var(--font-mono); font-size: 0.68rem;
-  color: var(--text-dim); margin-right: 10px; user-select: none;
-}
-.dialogue-line .line-speech {
-  display: inline-block; font-size: 0.7rem; color: var(--gold-dim);
-  background: rgba(201,168,76,0.08); padding: 1px 7px; border-radius: 3px;
-  margin-right: 8px; letter-spacing: 0.03em;
-}
-.dialogue-line .line-speech:empty { display: none; }
+.dialogue-line.highlight { background: rgba(201,168,76,0.1); border-left-color: var(--gold-bright); }
+.line-num { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim); margin-right: 10px; user-select: none; }
+.line-speech { display: inline-block; font-size: 0.7rem; color: var(--gold-dim); background: rgba(201,168,76,0.08); padding: 1px 7px; border-radius: 3px; margin-right: 8px; letter-spacing: 0.03em; }
+.line-speech:empty { display: none; }
 
-/* ── Pagination ── */
-.pagination {
-  display: flex; justify-content: center; align-items: center; gap: 8px;
-  margin-top: 20px; flex-wrap: wrap;
-}
+.pagination { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
 .page-btn {
   background: var(--bg-card); border: 1px solid var(--border);
   color: var(--text-dim); padding: 6px 14px; border-radius: var(--radius);
-  font-size: 0.78rem; cursor: pointer; transition: var(--transition);
-  font-family: var(--font-body);
+  font-size: 0.78rem; cursor: pointer; transition: var(--transition); font-family: var(--font-body);
 }
 .page-btn:hover { border-color: var(--gold-dim); color: var(--text); }
 .page-btn.active { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); }
 .page-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 .page-info { font-size: 0.78rem; color: var(--text-dim); }
 
-/* ── Card Grid ── */
-.card-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 14px;
-}
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
 .card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 18px 20px;
-  transition: var(--transition);
-  cursor: default;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 18px 20px; transition: var(--transition);
 }
-.card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--gold-dim);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+.card.clickable { cursor: pointer; }
+.card.clickable:hover {
+  background: var(--bg-card-hover); border-color: var(--gold-dim);
+  transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
+.card.highlight { background: rgba(201,168,76,0.12); border-color: var(--gold); }
 
 .char-card .char-name { font-family: var(--font-display); font-size: 1.1rem; color: var(--text-bright); letter-spacing: 0.03em; }
 .char-card .char-native { font-size: 0.9rem; color: var(--gold-dim); margin-top: 2px; }
-.char-card .char-id {
-  font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim);
-  margin-top: 8px; opacity: 0.7;
-}
+.char-card .char-id { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim); margin-top: 8px; opacity: 0.7; }
 
 .item-card .item-name { font-size: 0.95rem; color: var(--text-bright); font-weight: 500; }
 .item-card .item-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 8px; line-height: 1.6; }
 
 .loc-card .loc-name { font-size: 1rem; color: var(--text-bright); }
 .loc-card .loc-native { font-size: 0.82rem; color: var(--gold-dim); margin-top: 2px; }
-.loc-card .loc-faction {
-  font-size: 0.72rem; color: var(--accent-teal); margin-top: 6px;
-  letter-spacing: 0.04em;
-}
+.loc-card .loc-faction { font-size: 0.72rem; color: var(--accent-teal); margin-top: 6px; letter-spacing: 0.04em; }
 .loc-card .loc-desc { font-size: 0.78rem; color: var(--text-dim); margin-top: 8px; line-height: 1.6; }
 .loc-card .loc-meta { font-size: 0.7rem; color: var(--text-dim); margin-top: 6px; }
-
 .sub-loc-card { border-left: 2px solid var(--accent-teal); }
 
 .mail-card { border-left: 2px solid var(--gold-dim); }
@@ -309,109 +213,65 @@ body {
 .mail-card .mail-to { font-size: 0.72rem; color: var(--text-dim); }
 .mail-card .mail-body { font-size: 0.78rem; color: var(--text); margin-top: 10px; line-height: 1.7; white-space: pre-line; }
 
-/* ── Incident ── */
 .incident-list { display: flex; flex-direction: column; gap: 12px; }
 .incident-item {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 16px 20px;
-  transition: var(--transition);
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 16px 20px; transition: var(--transition);
 }
-.incident-item:hover { background: var(--bg-card-hover); }
-.incident-item.choice {
-  border-left: 3px solid var(--gold);
-}
-.incident-id {
-  font-family: var(--font-mono); font-size: 0.68rem;
-  color: var(--text-dim); margin-bottom: 8px;
-}
+.incident-item.clickable { cursor: pointer; }
+.incident-item.clickable:hover { background: var(--bg-card-hover); }
+.incident-item.choice { border-left: 3px solid var(--gold); }
+.incident-item.highlight { background: rgba(201,168,76,0.1); border-color: var(--gold); }
+.incident-id { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-dim); margin-bottom: 8px; }
 .incident-text { font-size: 0.84rem; line-height: 1.7; color: var(--text); }
 .incident-segments { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
 .incident-segment {
-  padding: 6px 10px; font-size: 0.82rem;
-  border-radius: var(--radius);
-  background: rgba(255,255,255,0.02);
-  border-left: 2px solid var(--border);
-  line-height: 1.7;
+  padding: 6px 10px; font-size: 0.82rem; border-radius: var(--radius);
+  background: rgba(255,255,255,0.02); border-left: 2px solid var(--border); line-height: 1.7;
 }
-.incident-avatars {
-  display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px;
-}
-.avatar-tag {
-  font-size: 0.66rem; padding: 2px 8px; border-radius: 3px;
-  background: rgba(76,168,160,0.12); color: var(--accent-teal);
-  font-family: var(--font-mono); letter-spacing: 0.02em;
-}
-.choice-badge {
-  display: inline-block; font-size: 0.7rem; padding: 2px 10px;
-  border-radius: 3px; background: rgba(201,168,76,0.15);
-  color: var(--gold-bright); margin-top: 8px; letter-spacing: 0.04em;
-}
+.incident-avatars { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.avatar-tag { font-size: 0.66rem; padding: 2px 8px; border-radius: 3px; background: rgba(76,168,160,0.12); color: var(--accent-teal); font-family: var(--font-mono); letter-spacing: 0.02em; }
+.choice-badge { display: inline-block; font-size: 0.7rem; padding: 2px 10px; border-radius: 3px; background: rgba(201,168,76,0.15); color: var(--gold-bright); margin-top: 8px; letter-spacing: 0.04em; }
 .choice-badge:empty { display: none; }
-.incident-effects {
-  display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px;
-}
-.effect-tag {
-  font-size: 0.64rem; padding: 1px 7px; border-radius: 2px;
-  background: rgba(168,76,76,0.12); color: var(--accent-red);
-  font-family: var(--font-mono);
-}
+.incident-effects { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.effect-tag { font-size: 0.64rem; padding: 1px 7px; border-radius: 2px; background: rgba(168,76,76,0.12); color: var(--accent-red); font-family: var(--font-mono); }
 
-/* ── Toggle Buttons ── */
-.toggle-row {
-  display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;
-}
+.toggle-row { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
 .toggle-btn {
   background: var(--bg-card); border: 1px solid var(--border);
   color: var(--text-dim); padding: 5px 12px; border-radius: var(--radius);
-  font-size: 0.76rem; cursor: pointer; transition: var(--transition);
-  font-family: var(--font-body);
+  font-size: 0.76rem; cursor: pointer; transition: var(--transition); font-family: var(--font-body);
 }
 .toggle-btn:hover { border-color: var(--gold-dim); color: var(--text); }
 .toggle-btn.active { background: rgba(201,168,76,0.12); border-color: var(--gold); color: var(--gold); }
 
-/* ── Section title ── */
 .section-title {
-  font-family: var(--font-display);
-  font-size: 1.15rem; color: var(--gold-dim);
-  letter-spacing: 0.04em; margin-bottom: 14px;
-  padding-bottom: 8px;
+  font-family: var(--font-display); font-size: 1.15rem; color: var(--gold-dim);
+  letter-spacing: 0.04em; margin-bottom: 14px; padding-bottom: 8px;
   border-bottom: 1px solid var(--border);
 }
 
-/* ── Search results ── */
 .search-result-group { margin-bottom: 24px; }
-.search-result-group .group-label {
-  font-family: var(--font-display); font-size: 0.9rem; color: var(--gold);
-  margin-bottom: 10px; letter-spacing: 0.04em;
-}
-.search-more {
-  font-size: 0.75rem; color: var(--text-dim); margin-top: 6px;
-  font-style: italic;
-}
+.search-result-group .group-label { font-family: var(--font-display); font-size: 0.9rem; color: var(--gold); margin-bottom: 10px; letter-spacing: 0.04em; }
+.search-more { font-size: 0.75rem; color: var(--text-dim); margin-top: 6px; font-style: italic; }
 
-/* ── Footer ── */
-.footer {
-  text-align: center; padding: 30px 0 10px;
-  font-size: 0.7rem; color: var(--text-dim);
-  letter-spacing: 0.06em;
-  border-top: 1px solid var(--border);
-  margin-top: 40px;
+.back-btn {
+  display: none; background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--gold-dim); padding: 6px 14px; border-radius: var(--radius);
+  font-size: 0.78rem; cursor: pointer; transition: var(--transition); font-family: var(--font-body);
+  margin-bottom: 14px;
 }
+.back-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+.back-btn.visible { display: inline-block; }
 
-/* ── No results ── */
-.empty-state {
-  text-align: center; padding: 40px 20px;
-  color: var(--text-dim); font-size: 0.88rem;
-}
+.footer { text-align: center; padding: 30px 0 10px; font-size: 0.7rem; color: var(--text-dim); letter-spacing: 0.06em; border-top: 1px solid var(--border); margin-top: 40px; }
+.empty-state { text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 0.88rem; }
 
-/* ── Responsive ── */
 @media (max-width: 768px) {
   .header-title { font-size: 1.45rem; }
   .card-grid { grid-template-columns: 1fr; }
   .nav { gap: 2px; }
-  .nav-btn { padding: 6px 10px; font-size: 0.75rem; }
+  .nav-btn, .nav-link { padding: 6px 10px; font-size: 0.75rem; }
   .search-wrap { width: 100%; }
   .header-actions { flex-direction: column; align-items: stretch; }
   .stats-bar { gap: 8px; }
@@ -446,20 +306,19 @@ body {
       </div>
       <div class="search-wrap">
         <span class="search-icon">&#9906;</span>
-        <input type="text" id="globalSearch" placeholder="Search across all archives...">
+        <input type="text" id="globalSearch" placeholder="搜索全部存档...">
       </div>
     </div>
   </header>
 
   <nav class="nav" id="nav">
-    <button class="nav-btn active" data-view="story">Story<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="characters">Characters<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="incidents">Incidents<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="items">Items<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="locations">Locations<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="messages">Messages<span class="nav-count"></span></button>
-    <button class="nav-btn" data-view="search">Search<span class="nav-count"></span></button>
-  <a href="flowchart.html" class="nav-btn">Flowchart</a>
+    <button class="nav-btn active" data-view="story" data-label="故事文本">Story<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="characters" data-label="角色档案">Characters<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="incidents" data-label="事件与选择">Incidents<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="items" data-label="物品资料">Items<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="locations" data-label="地点资料">Locations<span class="nav-count"></span></button>
+    <button class="nav-btn" data-view="messages" data-label="邮件消息">Messages<span class="nav-count"></span></button>
+    <a href="flowchart.html" class="nav-link">Flowchart</a>
   </nav>
 
   <div class="content" id="content"></div>
@@ -481,38 +340,32 @@ body {
   };
 
   let currentLang = 'EN';
-  let data = {
-    characters: null,
-    dialogues: null,
-    incidents: null,
-    items: null,
-    locations: null,
-    sublocations: null,
-    mails: null,
-    summary: null
-  };
+  let data = { characters: null, dialogues: null, incidents: null, items: null, locations: null, sublocations: null, mails: null, summary: null };
   let charMap = {};
+  let navigationSource = null;
+  let currentStoryPage = 0;
+  let dialogHighlight = null;
 
   const $ = s => document.querySelector(s);
   const $$ = s => document.querySelectorAll(s);
+  const loader = $('#loader');
+  const loaderStatus = $('#loaderStatus');
 
   function langKey(k) { return LANG_KEYS[currentLang][k] || LANG_KEYS['EN'][k]; }
-
   function charName(id) {
     const c = charMap[id];
     if (!c) return id;
     return c[langKey('name')] || c.name_EN;
   }
-
   function getAvatarName(avatarId) {
     const base = avatarId.replace(/_[A-Z].*$/, '');
     const c = charMap[base];
     return c ? charName(base) : base;
   }
-
-  // ── Loading ──
-  const loader = $('#loader');
-  const loaderStatus = $('#loaderStatus');
+  function escHtml(s) {
+    if (!s) return '';
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
 
   async function loadJSON(name) {
     const resp = await fetch('data/' + name + '.json');
@@ -532,54 +385,63 @@ body {
       { key: 'mails', name: 'mails' }
     ];
     loaderStatus.textContent = 'Connecting to archive nodes...';
-
     const results = await Promise.allSettled(files.map(async f => {
       loaderStatus.textContent = 'Loading ' + f.name + '...';
       const d = await loadJSON(f.name);
       return { key: f.key, data: d };
     }));
-
     for (const r of results) {
-      if (r.status === 'fulfilled') {
-        data[r.value.key] = r.value.data;
-      } else {
-        console.error(r.reason);
-      }
+      if (r.status === 'fulfilled') data[r.value.key] = r.value.data;
+      else console.error(r.reason);
     }
-
-    // Build char map
     if (data.characters) {
-      for (const [id, c] of Object.entries(data.characters)) {
-        charMap[id] = c;
-      }
+      for (const [id, c] of Object.entries(data.characters)) charMap[id] = c;
     }
-
     loader.classList.add('hidden');
     initUI();
   }
 
-  // ── UI Init ──
   function initUI() {
     updateNavCounts();
-    renderView('story');
+    navigateTo('story');
 
-    $('#globalSearch').addEventListener('input', function() {
+    const searchInput = $('#globalSearch');
+    let searchTimer = null;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(searchTimer);
       const v = this.value.trim();
       if (v.length >= 2) {
-        switchView('search');
-        renderSearch(v);
-      } else if ($('.nav-btn.active').dataset.view === 'search') {
-        switchView('story');
+        searchTimer = setTimeout(() => {
+          navigationSource = 'search';
+          activateNav('search');
+          renderSearch(v);
+        }, 250);
+      } else if (v.length === 0 && state.activeView === 'search') {
+        navigationSource = 'nav';
+        navigateTo(state.lastNonSearchView || 'story');
       }
     });
 
-    $('#globalSearch').addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' && this.value.trim().length >= 2) {
-        switchView('search');
-        renderSearch(this.value.trim());
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        this.value = '';
+        this.blur();
+        navigationSource = 'nav';
+        navigateTo(state.lastNonSearchView || 'story');
       }
     });
+
+    $$('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentLang = this.dataset.lang;
+        $$('.lang-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        refreshView();
+      });
+    });
   }
+
+  const state = { activeView: 'story', lastNonSearchView: 'story', activeFilter: null };
 
   function updateNavCounts() {
     const counts = {
@@ -590,75 +452,83 @@ body {
       locations: data.locations ? data.locations.length : 0,
       messages: data.mails ? data.mails.length : 0
     };
-$$('button.nav-btn').forEach(btn => {
+    $$('button.nav-btn').forEach(btn => {
       const v = btn.dataset.view;
       const span = btn.querySelector('.nav-count');
-      if (span && counts[v]) span.textContent = '(' + counts[v] + ')';
+      if (span && counts[v] !== undefined) span.textContent = '(' + counts[v] + ')';
     });
   }
 
-  // ── Navigation ──
-  $$('.nav-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      switchView(this.dataset.view);
-    });
-  });
-
-  $$('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      currentLang = this.dataset.lang;
-      $$('.lang-btn').forEach(b => b.classList.remove('active'));
-      this.classList.add('active');
-      const activeView = $('.nav-btn.active').dataset.view;
-      if (activeView === 'search') {
-        const q = $('#globalSearch').value.trim();
-        if (q.length >= 2) renderSearch(q);
-      } else {
-        renderView(activeView);
-      }
-    });
-  });
-
-  function switchView(view) {
-    $$('.nav-btn').forEach(b => b.classList.remove('active'));
-    const btn = document.querySelector('.nav-btn[data-view="' + view + '"]');
+  function activateNav(view) {
+    $$('button.nav-btn').forEach(b => b.classList.remove('active'));
+    const btn = document.querySelector('button.nav-btn[data-view="' + view + '"]');
     if (btn) btn.classList.add('active');
-    $('#globalSearch').value = '';
-    renderView(view);
   }
 
-  function renderView(view) {
-    const content = $('#content');
-    switch (view) {
-      case 'story': renderStory(content); break;
-      case 'characters': renderCharacters(content); break;
-      case 'incidents': renderIncidents(content); break;
-      case 'items': renderItems(content); break;
-      case 'locations': renderLocations(content); break;
-      case 'messages': renderMessages(content); break;
-      case 'search': content.innerHTML = '<div class="empty-state">Type in the search bar above to begin searching across all archives.</div>'; break;
+  function navigateTo(view, highlightTarget) {
+    if (view !== 'search') state.lastNonSearchView = view;
+    state.activeView = view;
+    state.activeFilter = null;
+    dialogHighlight = null;
+    currentStoryPage = 0;
+    if (view !== 'search') {
+      $('#globalSearch').value = '';
+      activateNav(view);
+    }
+    renderView(view, highlightTarget);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function refreshView() {
+    const v = state.activeView;
+    if (v === 'search') {
+      const q = $('#globalSearch').value.trim();
+      if (q.length >= 2) renderSearch(q);
+      else navigateTo(state.lastNonSearchView);
+    } else {
+      renderView(v, state.activeHighlight);
     }
   }
 
-  // ── Story ──
-  function renderStory(container) {
+  function renderView(view, highlightTarget) {
+    const container = $('#content');
+    switch (view) {
+      case 'story': renderStory(container, highlightTarget); break;
+      case 'characters': renderCharacters(container, highlightTarget); break;
+      case 'incidents': renderIncidents(container, highlightTarget); break;
+      case 'items': renderItems(container, highlightTarget); break;
+      case 'locations': renderLocations(container, highlightTarget); break;
+      case 'messages': renderMessages(container, highlightTarget); break;
+      case 'search': container.innerHTML = '<div class="empty-state">在搜索框中输入关键词开始搜索全部存档...</div>'; break;
+    }
+  }
+
+  function renderStory(container, highlightDialogUid) {
     if (!data.dialogues) { container.innerHTML = '<div class="empty-state">Failed to load dialogue data.</div>'; return; }
     const pageSize = 50;
-    let page = 0;
+    let page = currentStoryPage;
     const totalPages = Math.ceil(data.dialogues.length / pageSize);
 
+    if (highlightDialogUid) {
+      const idx = data.dialogues.findIndex(d => d.uid.substring(0, 8) === highlightDialogUid);
+      if (idx >= 0) page = Math.floor(idx / pageSize);
+    }
+
     function renderPage(p) {
-      page = p;
+      page = currentStoryPage = p;
       const start = p * pageSize;
       const slice = data.dialogues.slice(start, start + pageSize);
       const lk = langKey('text');
       const sk = langKey('speech');
 
-      let html = '<div class="section-title">Story Dialogues</div>';
+      let html = makeBackBtn();
+      html += '<div class="section-title">故事文本</div>';
       html += '<div class="dialogue-list">';
       slice.forEach((d, i) => {
         const num = start + i + 1;
-        html += '<div class="dialogue-line">';
+        const uid8 = d.uid.substring(0, 8);
+        const hl = highlightDialogUid && uid8 === highlightDialogUid ? ' highlight' : '';
+        html += '<div class="dialogue-line' + hl + '" id="dlg-' + uid8 + '">';
         html += '<span class="line-num">' + num + '</span>';
         html += '<span class="line-speech">' + (d[sk] || '') + '</span>';
         html += '<span>' + escHtml(d[lk] || d.text_EN || '') + '</span>';
@@ -674,7 +544,7 @@ $$('button.nav-btn').forEach(btn => {
         html += '<button class="page-btn' + (pg === page ? ' active' : '') + '" data-pg="' + pg + '">' + (pg + 1) + '</button>';
       }
       html += '<button class="page-btn" ' + (page >= totalPages - 1 ? 'disabled' : '') + ' data-pg="next">Next &rarr;</button>';
-      html += '<span class="page-info">' + (start + 1) + '-' + Math.min(start + pageSize, data.dialogues.length) + ' of ' + data.dialogues.length + '</span>';
+      html += '<span class="page-info">' + (start + 1) + '-' + Math.min(start + pageSize, data.dialogues.length) + ' / ' + data.dialogues.length + '</span>';
       html += '</div>';
 
       container.innerHTML = html;
@@ -691,21 +561,31 @@ $$('button.nav-btn').forEach(btn => {
           }
         });
       });
+
+      setupBackBtn(container);
+
+      if (highlightDialogUid) {
+        setTimeout(() => {
+          const el = document.getElementById('dlg-' + highlightDialogUid);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
     }
-    renderPage(0);
+    renderPage(page);
   }
 
-  // ── Characters ──
-  function renderCharacters(container) {
+  function renderCharacters(container, highlightId) {
     if (!data.characters) { container.innerHTML = '<div class="empty-state">Failed to load character data.</div>'; return; }
     const chars = Object.values(data.characters);
     const lk = langKey('name');
     const chsKey = 'name_CHS';
 
-    let html = '<div class="section-title">Characters (' + chars.length + ')</div>';
+    let html = makeBackBtn();
+    html += '<div class="section-title">角色档案 (' + chars.length + ')</div>';
     html += '<div class="card-grid">';
     chars.forEach(c => {
-      html += '<div class="card char-card">';
+      const hl = highlightId && c.id === highlightId ? ' highlight' : '';
+      html += '<div class="card char-card clickable' + hl + '" data-char-id="' + escHtml(c.id) + '" id="char-' + escHtml(c.id) + '">';
       html += '<div class="char-name">' + escHtml(c[lk] || c.name_EN) + '</div>';
       html += '<div class="char-native">' + escHtml(c[chsKey] || '') + '</div>';
       html += '<div class="char-id">ID: ' + escHtml(c.id) + '</div>';
@@ -713,31 +593,70 @@ $$('button.nav-btn').forEach(btn => {
     });
     html += '</div>';
     container.innerHTML = html;
+
+    container.querySelectorAll('.char-card.clickable').forEach(card => {
+      card.addEventListener('click', () => {
+        const charId = card.dataset.charId;
+        const matchedIncidents = data.incidents.filter(inc => {
+          const parsed = inc['parsed_' + (currentLang === 'CHT' ? 'CHS' : currentLang)];
+          if (!parsed || !parsed.avatars) return false;
+          return parsed.avatars.some(a => a.replace(/_[A-Z].*$/, '') === charId);
+        });
+        state.activeFilter = { type: 'character', id: charId };
+        state.activeHighlight = charId;
+        navigateTo('incidents', charId);
+      });
+    });
+
+    setupBackBtn(container);
+    if (highlightId) {
+      setTimeout(() => {
+        const el = document.getElementById('char-' + highlightId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
   }
 
-  // ── Incidents ──
-  function renderIncidents(container) {
+  function renderIncidents(container, highlightId) {
     if (!data.incidents) { container.innerHTML = '<div class="empty-state">Failed to load incident data.</div>'; return; }
 
-    let filterChoices = false;
-    const lk = langKey('text');
-    const ok = langKey('option');
-    const choices = data.incidents.filter(inc => inc.is_choice);
+    const filter = state.activeFilter;
+    const isCharFilter = filter && filter.type === 'character';
+    const charId = isCharFilter ? filter.id : null;
+    const charNameStr = isCharFilter ? charName(charId) : '';
 
     function renderList(onlyChoices) {
-      filterChoices = onlyChoices;
-      const list = onlyChoices ? choices : data.incidents;
+      let list = data.incidents;
+      if (onlyChoices) list = list.filter(inc => inc.is_choice);
+      if (isCharFilter) {
+        list = list.filter(inc => {
+          const parsed = inc['parsed_' + (currentLang === 'CHT' ? 'CHS' : currentLang)];
+          if (!parsed || !parsed.avatars) return false;
+          return parsed.avatars.some(a => a.replace(/_[A-Z].*$/, '') === charId);
+        });
+      }
 
-      let html = '<div class="toggle-row">';
-      html += '<button class="toggle-btn' + (!onlyChoices ? ' active' : '') + '" data-filter="all">All (' + data.incidents.length + ')</button>';
-      html += '<button class="toggle-btn' + (onlyChoices ? ' active' : '') + '" data-filter="choices">Choices Only (' + choices.length + ')</button>';
+      let html = makeBackBtn();
+      if (isCharFilter) {
+        html += '<div class="section-title">' + escHtml(charNameStr) + ' 相关事件 (' + list.length + ')</div>';
+      } else {
+        html += '<div class="section-title">事件与选择</div>';
+      }
+      html += '<div class="toggle-row">';
+      html += '<button class="toggle-btn' + (!onlyChoices ? ' active' : '') + '" data-filter="all">全部 (' + (isCharFilter ? list.length : data.incidents.length) + ')</button>';
+      html += '<button class="toggle-btn' + (onlyChoices ? ' active' : '') + '" data-filter="choices">仅选择 (' + data.incidents.filter(inc => inc.is_choice).length + ')</button>';
       html += '</div>';
       html += '<div class="incident-list">';
+
+      const lk = langKey('text');
+      const ok = langKey('option');
 
       list.forEach(inc => {
         const isChoice = inc.is_choice;
         const parsed = inc['parsed_' + (currentLang === 'CHT' ? 'CHS' : currentLang)];
-        html += '<div class="incident-item' + (isChoice ? ' choice' : '') + '">';
+        const hl = highlightId && inc.id === parseInt(highlightId) ? ' highlight' : '';
+
+        html += '<div class="incident-item' + (isChoice ? ' choice' : '') + hl + '" id="inc-' + inc.id + '">';
         html += '<div class="incident-id">Incident #' + inc.id + (isChoice ? ' &bull; CHOICE' : '') + '</div>';
 
         if (parsed && parsed.segments && parsed.segments.length > 0) {
@@ -750,16 +669,14 @@ $$('button.nav-btn').forEach(btn => {
             html += '</div>';
           });
           html += '</div>';
-
           if (parsed.avatars && parsed.avatars.length > 0) {
             const uniqueAvatars = [...new Set(parsed.avatars.map(a => a.replace(/_[A-Z].*$/, '')))];
             html += '<div class="incident-avatars">';
             uniqueAvatars.forEach(a => {
-              html += '<span class="avatar-tag">' + escHtml(charName(a)) + '</span>';
+              html += '<span class="avatar-tag clickable" data-char-id="' + escHtml(a) + '">' + escHtml(charName(a)) + '</span>';
             });
             html += '</div>';
           }
-
           if (parsed.effects && parsed.effects.length > 0) {
             const uniqueEffects = [...new Set(parsed.effects)];
             html += '<div class="incident-effects">';
@@ -771,11 +688,10 @@ $$('button.nav-btn').forEach(btn => {
         } else {
           html += '<div class="incident-text">' + escHtml(inc[lk] || inc.text_EN || '') + '</div>';
         }
-
         if (isChoice) {
           const optText = inc[ok] || '';
           if (optText && optText !== '-') {
-            html += '<div class="choice-badge">Choice: ' + escHtml(optText) + '</div>';
+            html += '<div class="choice-badge">选择: ' + escHtml(optText) + '</div>';
           }
         }
         html += '</div>';
@@ -790,43 +706,68 @@ $$('button.nav-btn').forEach(btn => {
           container.scrollIntoView({ behavior: 'smooth' });
         });
       });
+
+      container.querySelectorAll('.avatar-tag.clickable').forEach(tag => {
+        tag.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const cid = this.dataset.charId;
+          state.activeFilter = { type: 'character', id: cid };
+          state.activeHighlight = null;
+          renderList(onlyChoices);
+        });
+      });
+
+      setupBackBtn(container);
+      if (highlightId) {
+        setTimeout(() => {
+          const el = document.getElementById('inc-' + highlightId);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
     }
     renderList(false);
   }
 
-  // ── Items ──
-  function renderItems(container) {
+  function renderItems(container, highlightId) {
     if (!data.items) { container.innerHTML = '<div class="empty-state">Failed to load item data.</div>'; return; }
     const lk = langKey('name');
     const dk = langKey('desc');
-    const nk = 'name_' + (currentLang === 'JP' ? 'EN' : (currentLang === 'CHT' ? 'CHS' : currentLang));
 
-    let html = '<div class="section-title">Items (' + data.items.length + ')</div>';
+    let html = makeBackBtn();
+    html += '<div class="section-title">物品资料 (' + data.items.length + ')</div>';
     html += '<div class="card-grid">';
     data.items.forEach(item => {
       const desc = item[dk] || item.desc_EN || '';
-      if (desc === '-') return; // skip placeholder items
-      html += '<div class="card item-card">';
+      if (desc === '-') return;
+      const hl = highlightId && item.id === parseInt(highlightId) ? ' highlight' : '';
+      html += '<div class="card item-card' + hl + '" id="item-' + item.id + '">';
       html += '<div class="item-name">' + escHtml(item[lk] || item.name_EN) + '</div>';
       html += '<div class="item-desc">' + escHtml(desc.substring(0, 200) + (desc.length > 200 ? '...' : '')) + '</div>';
       html += '</div>';
     });
     html += '</div>';
     container.innerHTML = html;
+    setupBackBtn(container);
+    if (highlightId) {
+      setTimeout(() => {
+        const el = document.getElementById('item-' + highlightId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
   }
 
-  // ── Locations ──
-  function renderLocations(container) {
+  function renderLocations(container, highlightId) {
     if (!data.locations) { container.innerHTML = '<div class="empty-state">Failed to load location data.</div>'; return; }
     const lk = langKey('name');
     const dk = langKey('desc');
     const fk = langKey('faction');
-    const nk = langKey('name');
 
-    let html = '<div class="section-title">Locations (' + data.locations.length + ')</div>';
+    let html = makeBackBtn();
+    html += '<div class="section-title">地点资料 (' + data.locations.length + ')</div>';
     html += '<div class="card-grid">';
     data.locations.forEach(loc => {
-      html += '<div class="card loc-card">';
+      const hl = highlightId && loc.id === parseInt(highlightId) ? ' highlight' : '';
+      html += '<div class="card loc-card' + hl + '" id="loc-' + loc.id + '">';
       html += '<div class="loc-name">' + escHtml(loc[lk] || loc.name_EN) + '</div>';
       html += '<div class="loc-faction">' + escHtml(loc[fk] || loc.faction_EN || '') + '</div>';
       html += '<div class="loc-desc">' + escHtml((loc[dk] || loc.desc_EN || '').substring(0, 250)) + '</div>';
@@ -836,11 +777,11 @@ $$('button.nav-btn').forEach(btn => {
     html += '</div>';
 
     if (data.sublocations && data.sublocations.length > 0) {
-      html += '<div class="section-title" style="margin-top:28px;">Sublocations (' + data.sublocations.length + ')</div>';
+      html += '<div class="section-title" style="margin-top:28px;">子地点 (' + data.sublocations.length + ')</div>';
       html += '<div class="card-grid">';
       const ck = langKey('content');
       data.sublocations.forEach(sl => {
-        html += '<div class="card loc-card sub-loc-card">';
+        html += '<div class="card loc-card sub-loc-card" id="sloc-' + sl.id + '">';
         html += '<div class="loc-name">' + escHtml(sl[lk] || sl.name_EN) + '</div>';
         html += '<div class="loc-desc">' + escHtml((sl[ck] || sl.content_EN || '').substring(0, 300)) + '</div>';
         html += '</div>';
@@ -849,19 +790,27 @@ $$('button.nav-btn').forEach(btn => {
     }
 
     container.innerHTML = html;
+    setupBackBtn(container);
+    if (highlightId) {
+      setTimeout(() => {
+        const el = document.getElementById('loc-' + highlightId) || document.getElementById('sloc-' + highlightId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
   }
 
-  // ── Messages ──
-  function renderMessages(container) {
+  function renderMessages(container, highlightId) {
     if (!data.mails) { container.innerHTML = '<div class="empty-state">Failed to load mail data.</div>'; return; }
     const tk = langKey('title');
     const sk = langKey('sender');
     const ck = langKey('content');
 
-    let html = '<div class="section-title">Messages (' + data.mails.length + ')</div>';
+    let html = makeBackBtn();
+    html += '<div class="section-title">邮件消息 (' + data.mails.length + ')</div>';
     html += '<div class="card-grid">';
     data.mails.forEach(mail => {
-      html += '<div class="card mail-card">';
+      const hl = highlightId && mail.id === parseInt(highlightId) ? ' highlight' : '';
+      html += '<div class="card mail-card' + hl + '" id="mail-' + mail.id + '">';
       html += '<div class="mail-title">' + escHtml(mail[tk] || mail.title_EN) + '</div>';
       html += '<div class="mail-sender">From: ' + escHtml(mail[sk] || mail.sender_EN) + '</div>';
       html += '<div class="mail-to">To: ' + escHtml(mail.receiver_EN || '') + '</div>';
@@ -870,9 +819,15 @@ $$('button.nav-btn').forEach(btn => {
     });
     html += '</div>';
     container.innerHTML = html;
+    setupBackBtn(container);
+    if (highlightId) {
+      setTimeout(() => {
+        const el = document.getElementById('mail-' + highlightId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
   }
 
-  // ── Search ──
   function renderSearch(query) {
     const container = $('#content');
     const q = query.toLowerCase();
@@ -880,63 +835,59 @@ $$('button.nav-btn').forEach(btn => {
 
     let results = [];
 
-    // Characters
     if (data.characters) {
       const matches = [];
       for (const [id, c] of Object.entries(data.characters)) {
         if (c.name_EN.toLowerCase().includes(q) || c.name_CHS.includes(q) || c.name_CHT.includes(q) || c.id.toLowerCase().includes(q)) {
-          matches.push({ type: 'characters', label: 'Characters', id: c.id, name: charName(c.id), extra: c.name_CHS });
+          matches.push({ type: 'characters', id: c.id, name: charName(c.id), extra: c.name_CHS });
         }
       }
-      if (matches.length > 0) results.push({ type: 'characters', label: 'Characters', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'characters', label: '角色', matches, total: matches.length });
     }
 
-    // Dialogues
     if (data.dialogues) {
       const matches = [];
-      for (const d of data.dialogues) {
+      for (let idx = 0; idx < data.dialogues.length; idx++) {
+        const d = data.dialogues[idx];
         const txt = (d.text_EN + ' ' + d.text_CHS + ' ' + d.text_JP).toLowerCase();
         if (txt.includes(q)) {
-          matches.push({ id: d.uid.substring(0, 8), text: d[langKey('text')] || d.text_EN });
+          matches.push({ type: 'dialogues', id: d.uid.substring(0, 8), idx: idx, text: d[langKey('text')] || d.text_EN });
           if (matches.length >= maxPerCategory) break;
         }
       }
-      if (matches.length > 0) results.push({ type: 'dialogues', label: 'Dialogues', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'dialogues', label: '故事文本', matches, total: matches.length });
     }
 
-    // Incidents
     if (data.incidents) {
       const matches = [];
       for (const inc of data.incidents) {
         const txt = (inc.text_EN + ' ' + inc.text_CHS).toLowerCase();
         if (txt.includes(q)) {
-          matches.push({ id: inc.id, text: inc[langKey('text')] || inc.text_EN, isChoice: inc.is_choice });
+          matches.push({ type: 'incidents', id: inc.id, text: inc[langKey('text')] || inc.text_EN, isChoice: inc.is_choice });
           if (matches.length >= maxPerCategory) break;
         }
       }
-      if (matches.length > 0) results.push({ type: 'incidents', label: 'Incidents', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'incidents', label: '事件', matches, total: matches.length });
     }
 
-    // Items
     if (data.items) {
       const matches = [];
       for (const item of data.items) {
         const txt = (item.name_EN + ' ' + item.name_CHS + ' ' + item.desc_EN + ' ' + item.desc_CHS).toLowerCase();
         if (txt.includes(q)) {
-          matches.push({ id: item.id, name: item[langKey('name')] || item.name_EN, desc: item[langKey('desc')] || item.desc_EN });
+          matches.push({ type: 'items', id: item.id, name: item[langKey('name')] || item.name_EN, desc: item[langKey('desc')] || item.desc_EN });
           if (matches.length >= maxPerCategory) break;
         }
       }
-      if (matches.length > 0) results.push({ type: 'items', label: 'Items', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'items', label: '物品', matches, total: matches.length });
     }
 
-    // Locations + Sublocations
     if (data.locations) {
       const matches = [];
       for (const loc of data.locations) {
         const txt = (loc.name_EN + ' ' + loc.name_CHS + ' ' + loc.faction_EN + ' ' + loc.desc_EN).toLowerCase();
         if (txt.includes(q)) {
-          matches.push({ id: loc.id, name: loc[langKey('name')] || loc.name_EN, faction: loc[langKey('faction')] || loc.faction_EN });
+          matches.push({ type: 'locations', id: loc.id, name: loc[langKey('name')] || loc.name_EN, faction: loc[langKey('faction')] || loc.faction_EN });
           if (matches.length >= maxPerCategory) break;
         }
       }
@@ -944,86 +895,129 @@ $$('button.nav-btn').forEach(btn => {
         for (const sl of data.sublocations) {
           const txt = (sl.name_EN + ' ' + sl.name_CHS + ' ' + sl.content_EN).toLowerCase();
           if (txt.includes(q)) {
-            matches.push({ id: sl.id, name: sl[langKey('name')] || sl.name_EN });
+            matches.push({ type: 'locations', id: sl.id, name: sl[langKey('name')] || sl.name_EN });
             if (matches.length >= maxPerCategory) break;
           }
         }
       }
-      if (matches.length > 0) results.push({ type: 'locations', label: 'Locations', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'locations', label: '地点', matches, total: matches.length });
     }
 
-    // Mails
     if (data.mails) {
       const matches = [];
       for (const mail of data.mails) {
         const txt = (mail.title_EN + ' ' + mail.sender_EN + ' ' + mail.content_EN + ' ' + mail.title_CHS + ' ' + mail.content_CHS).toLowerCase();
         if (txt.includes(q)) {
-          matches.push({ id: mail.id, title: mail[langKey('title')] || mail.title_EN, sender: mail[langKey('sender')] || mail.sender_EN });
+          matches.push({ type: 'messages', id: mail.id, title: mail[langKey('title')] || mail.title_EN, sender: mail[langKey('sender')] || mail.sender_EN });
           if (matches.length >= maxPerCategory) break;
         }
       }
-      if (matches.length > 0) results.push({ type: 'mails', label: 'Messages', matches, total: matches.length });
+      if (matches.length > 0) results.push({ type: 'messages', label: '邮件消息', matches, total: matches.length });
     }
 
     if (results.length === 0) {
-      container.innerHTML = '<div class="empty-state">No results found for "' + escHtml(query) + '" across any archive.</div>';
+      container.innerHTML = '<div class="empty-state">未找到 "' + escHtml(query) + '" 的相关结果。</div>';
       return;
     }
+
+    const viewMap = {
+      characters: 'characters',
+      dialogues: 'story',
+      incidents: 'incidents',
+      items: 'items',
+      locations: 'locations',
+      messages: 'messages'
+    };
 
     let html = '';
     results.forEach(group => {
       html += '<div class="search-result-group">';
-      html += '<div class="group-label">' + group.label + ' (' + group.total + ' found)</div>';
+      html += '<div class="group-label">' + group.label + ' (' + group.total + ' 条结果)</div>';
 
       group.matches.forEach(m => {
+        const targetView = viewMap[group.type];
+        html += '<div class="search-hit" data-nav="' + targetView + '" data-highlight="' + m.id + '" style="cursor:pointer; ';
+        if (group.type === 'dialogues') html += 'margin-bottom:4px;';
+
         if (group.type === 'characters') {
-          html += '<div class="card char-card" style="margin-bottom:8px;">';
-          html += '<div class="char-name">' + escHtml(m.name) + '</div>';
-          html += '<div class="char-native">' + escHtml(m.extra) + '</div>';
-          html += '<div class="char-id">ID: ' + escHtml(m.id) + '</div>';
-          html += '</div>';
+          html += '"><div class="card char-card"><div class="char-name">' + escHtml(m.name) + '</div><div class="char-native">' + escHtml(m.extra) + '</div><div class="char-id">ID: ' + escHtml(m.id) + '</div></div>';
         } else if (group.type === 'dialogues') {
-          html += '<div class="dialogue-line" style="margin-bottom:4px;">';
-          html += '<span class="line-num">' + escHtml(m.id) + '</span>';
-          html += escHtml(m.text.substring(0, 200));
-          html += '</div>';
+          html += '"><div class="dialogue-line"><span class="line-num">#' + escHtml(m.id) + '</span>' + escHtml((m.text || '').substring(0, 200)) + '</div>';
         } else if (group.type === 'incidents') {
-          html += '<div class="incident-item' + (m.isChoice ? ' choice' : '') + '" style="margin-bottom:6px;">';
-          html += '<div class="incident-id">#' + m.id + (m.isChoice ? ' CHOICE' : '') + '</div>';
-          html += '<div class="incident-text">' + escHtml(m.text.substring(0, 250)) + '</div>';
-          html += '</div>';
+          html += '"><div class="incident-item' + (m.isChoice ? ' choice' : '') + '"><div class="incident-id">#' + m.id + (m.isChoice ? ' CHOICE' : '') + '</div><div class="incident-text">' + escHtml((m.text || '').substring(0, 250)) + '</div></div>';
         } else if (group.type === 'items') {
-          html += '<div class="card item-card" style="margin-bottom:8px;">';
-          html += '<div class="item-name">' + escHtml(m.name) + '</div>';
-          html += '<div class="item-desc">' + escHtml((m.desc || '').substring(0, 200)) + '</div>';
-          html += '</div>';
+          html += '"><div class="card item-card"><div class="item-name">' + escHtml(m.name) + '</div><div class="item-desc">' + escHtml((m.desc || '').substring(0, 200)) + '</div></div>';
         } else if (group.type === 'locations') {
-          html += '<div class="card loc-card" style="margin-bottom:8px;">';
-          html += '<div class="loc-name">' + escHtml(m.name) + '</div>';
-          if (m.faction) html += '<div class="loc-faction">' + escHtml(m.faction) + '</div>';
-          html += '</div>';
-        } else if (group.type === 'mails') {
-          html += '<div class="card mail-card" style="margin-bottom:8px;">';
-          html += '<div class="mail-title">' + escHtml(m.title) + '</div>';
-          html += '<div class="mail-sender">From: ' + escHtml(m.sender) + '</div>';
-          html += '</div>';
+          html += '"><div class="card loc-card"><div class="loc-name">' + escHtml(m.name) + '</div>' + (m.faction ? '<div class="loc-faction">' + escHtml(m.faction) + '</div>' : '') + '</div>';
+        } else if (group.type === 'messages') {
+          html += '"><div class="card mail-card"><div class="mail-title">' + escHtml(m.title) + '</div><div class="mail-sender">From: ' + escHtml(m.sender) + '</div></div>';
         }
+        html += '</div>';
       });
+
       if (group.total > maxPerCategory) {
-        html += '<div class="search-more">...and ' + (group.total - maxPerCategory) + ' more results. Refine your search for more specific results.</div>';
+        html += '<div class="search-more">...还有 ' + (group.total - maxPerCategory) + ' 条结果。尝试更精确的搜索词。</div>';
       }
       html += '</div>';
     });
 
     container.innerHTML = html;
+
+    container.querySelectorAll('.search-hit').forEach(hit => {
+      hit.addEventListener('click', function() {
+        const view = this.dataset.nav;
+        const hl = this.dataset.highlight;
+        const isCharFilter = this.querySelector('.char-card') !== null && (state.activeView === 'incidents' || view === 'characters');
+
+        state.activeHighlight = hl;
+        navigationSource = 'search';
+
+        if (view === 'story') {
+          state.activeFilter = null;
+          navigateTo('story', hl);
+        } else if (view === 'characters') {
+          state.activeFilter = { type: 'character', id: hl };
+          navigateTo('characters', hl);
+          state.activeHighlight = hl;
+        } else if (view === 'incidents') {
+          state.activeFilter = null;
+          navigateTo('incidents', hl);
+        } else {
+          state.activeFilter = null;
+          navigateTo(view, hl);
+        }
+      });
+    });
   }
 
-  function escHtml(s) {
-    if (!s) return '';
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  function makeBackBtn() {
+    if (state.activeFilter) {
+      return '<button class="back-btn visible" id="backBtn">&larr; 回到全部</button>';
+    }
+    return '<button class="back-btn" id="backBtn">&larr; 回到全部</button>';
   }
 
-  // ── Boot ──
+  function setupBackBtn(container) {
+    const btn = container.querySelector('#backBtn');
+    if (!btn) return;
+    if (state.activeFilter) btn.classList.add('visible');
+    btn.addEventListener('click', () => {
+      state.activeFilter = null;
+      state.activeHighlight = null;
+      refreshView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  $$('button.nav-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      navigationSource = 'nav';
+      state.activeFilter = null;
+      state.activeHighlight = null;
+      navigateTo(this.dataset.view);
+    });
+  });
+
   loadAll();
 
 })();
