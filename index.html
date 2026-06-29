@@ -459,6 +459,7 @@ body {
     <button class="nav-btn" data-view="locations">Locations<span class="nav-count"></span></button>
     <button class="nav-btn" data-view="messages">Messages<span class="nav-count"></span></button>
     <button class="nav-btn" data-view="search">Search<span class="nav-count"></span></button>
+  <a href="flowchart.html" class="nav-btn">Flowchart</a>
   </nav>
 
   <div class="content" id="content"></div>
@@ -589,7 +590,7 @@ body {
       locations: data.locations ? data.locations.length : 0,
       messages: data.mails ? data.mails.length : 0
     };
-    $$('.nav-btn').forEach(btn => {
+$$('button.nav-btn').forEach(btn => {
       const v = btn.dataset.view;
       const span = btn.querySelector('.nav-count');
       if (span && counts[v]) span.textContent = '(' + counts[v] + ')';
