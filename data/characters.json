@@ -1,0 +1,488 @@
+{
+  "Message": {
+    "id": "Message",
+    "name_EN": "Message",
+    "name_CHS": "信息",
+    "name_CHT": "訊息"
+  },
+  "Man": {
+    "id": "Man",
+    "name_EN": "Jun",
+    "name_CHS": "李莫",
+    "name_CHT": "李莫"
+  },
+  "ManYoung": {
+    "id": "ManYoung",
+    "name_EN": "Young Jun",
+    "name_CHS": "年幼李莫",
+    "name_CHT": "年幼李莫"
+  },
+  "ManElder": {
+    "id": "ManElder",
+    "name_EN": "Old Jun",
+    "name_CHS": "老年李莫",
+    "name_CHT": "老年李莫"
+  },
+  "Girl": {
+    "id": "Girl",
+    "name_EN": "Eda",
+    "name_CHS": "艾妲",
+    "name_CHT": "艾妲"
+  },
+  "GirlYoung": {
+    "id": "GirlYoung",
+    "name_EN": "Young Eda",
+    "name_CHS": "年幼艾妲",
+    "name_CHT": "年幼艾妲"
+  },
+  "GirlTeenage": {
+    "id": "GirlTeenage",
+    "name_EN": "Teenage Eda",
+    "name_CHS": "少女艾妲",
+    "name_CHT": "少女艾妲"
+  },
+  "Sister": {
+    "id": "Sister",
+    "name_EN": "Remi",
+    "name_CHS": "菈米亚",
+    "name_CHT": "菈米亞"
+  },
+  "SisterYoung": {
+    "id": "SisterYoung",
+    "name_EN": "Young Remi",
+    "name_CHS": "年幼菈米亚",
+    "name_CHT": "年幼菈米亞"
+  },
+  "Guard": {
+    "id": "Guard",
+    "name_EN": "Kay",
+    "name_CHS": "大魁",
+    "name_CHT": "大魁"
+  },
+  "Doctor": {
+    "id": "Doctor",
+    "name_EN": "Dr. Rushell",
+    "name_CHS": "罗素医生",
+    "name_CHT": "羅素醫生"
+  },
+  "RobberLeader": {
+    "id": "RobberLeader",
+    "name_EN": "Bones",
+    "name_CHS": "白牙",
+    "name_CHT": "白牙"
+  },
+  "Teacher": {
+    "id": "Teacher",
+    "name_EN": "Red",
+    "name_CHS": "红",
+    "name_CHT": "紅"
+  },
+  "Leader": {
+    "id": "Leader",
+    "name_EN": "Lee Clan Master",
+    "name_CHS": "鸢家主",
+    "name_CHT": "鳶家主"
+  },
+  "Assassin": {
+    "id": "Assassin",
+    "name_EN": "East Ocean Assassin",
+    "name_CHS": "瀛海刺客",
+    "name_CHT": "瀛海刺客"
+  },
+  "Businessman": {
+    "id": "Businessman",
+    "name_EN": "Lamar",
+    "name_CHS": "拉马",
+    "name_CHT": "拉馬"
+  },
+  "Computer": {
+    "id": "Computer",
+    "name_EN": "Red Chamber",
+    "name_CHS": "红楼",
+    "name_CHT": "紅樓"
+  },
+  "Computer_Kun": {
+    "id": "Computer_Kun",
+    "name_EN": "Ship AI",
+    "name_CHS": "飞船计算机",
+    "name_CHT": "太空船電腦"
+  },
+  "CabyMerchantA": {
+    "id": "CabyMerchantA",
+    "name_EN": "Capybarian Trader",
+    "name_CHS": "水豚商人",
+    "name_CHT": "水豚商人"
+  },
+  "Emperor": {
+    "id": "Emperor",
+    "name_EN": "Emperor of the East Ocean Lumen Alliance",
+    "name_CHS": "瀛海同盟王",
+    "name_CHT": "瀛海同盟王"
+  },
+  "Victim": {
+    "id": "Victim",
+    "name_EN": "Survivor",
+    "name_CHS": "遇难者",
+    "name_CHT": "遇難者"
+  },
+  "TowerElder": {
+    "id": "TowerElder",
+    "name_EN": "Witching Tower Elder",
+    "name_CHS": "巫塔长老",
+    "name_CHT": "巫塔長老"
+  },
+  "TowerStaff": {
+    "id": "TowerStaff",
+    "name_EN": "Witching Tower Priestess",
+    "name_CHS": "巫塔成员",
+    "name_CHT": "巫塔成員"
+  },
+  "PMUSoldierA": {
+    "id": "PMUSoldierA",
+    "name_EN": "United Mining Soldier",
+    "name_CHS": "矿联士兵",
+    "name_CHT": "礦聯士兵"
+  },
+  "PMUSoldierB": {
+    "id": "PMUSoldierB",
+    "name_EN": "United Mining Soldier",
+    "name_CHS": "矿联士兵",
+    "name_CHT": "礦聯士兵"
+  },
+  "PMUCitizenA": {
+    "id": "PMUCitizenA",
+    "name_EN": "United Mining Woman",
+    "name_CHS": "矿联妇人",
+    "name_CHT": "礦聯婦人"
+  },
+  "TowerPeerA": {
+    "id": "TowerPeerA",
+    "name_EN": "Girl",
+    "name_CHS": "小女孩",
+    "name_CHT": "小女孩"
+  },
+  "TowerPeerB": {
+    "id": "TowerPeerB",
+    "name_EN": "Girl",
+    "name_CHS": "小女孩",
+    "name_CHT": "小女孩"
+  },
+  "BelterManA": {
+    "id": "BelterManA",
+    "name_EN": "Asteroid Belt Local",
+    "name_CHS": "小行星带大叔",
+    "name_CHT": "小行星帶大叔"
+  },
+  "BelterManB": {
+    "id": "BelterManB",
+    "name_EN": "Asteroid Belt Local",
+    "name_CHS": "小行星带大叔",
+    "name_CHT": "小行星帶大叔"
+  },
+  "YingManA": {
+    "id": "YingManA",
+    "name_EN": "East Ocean Man",
+    "name_CHS": "瀛海大叔",
+    "name_CHT": "瀛海大叔"
+  },
+  "YingNobleA": {
+    "id": "YingNobleA",
+    "name_EN": "East Ocean Noble",
+    "name_CHS": "瀛海贵族",
+    "name_CHT": "瀛海貴族"
+  },
+  "YingNobleB": {
+    "id": "YingNobleB",
+    "name_EN": "East Ocean Noble",
+    "name_CHS": "瀛海贵族",
+    "name_CHT": "瀛海貴族"
+  },
+  "YingBoyA": {
+    "id": "YingBoyA",
+    "name_EN": "Boy",
+    "name_CHS": "孩子",
+    "name_CHT": "孩子"
+  },
+  "YingBoyB": {
+    "id": "YingBoyB",
+    "name_EN": "Boy",
+    "name_CHS": "孩子",
+    "name_CHT": "孩子"
+  },
+  "BelterRobberA": {
+    "id": "BelterRobberA",
+    "name_EN": "Pirate",
+    "name_CHS": "黑帮",
+    "name_CHT": "黑幫"
+  },
+  "BelterRobberB": {
+    "id": "BelterRobberB",
+    "name_EN": "Pirate",
+    "name_CHS": "黑帮",
+    "name_CHT": "黑幫"
+  },
+  "BelterRobberC": {
+    "id": "BelterRobberC",
+    "name_EN": "Pirate",
+    "name_CHS": "黑帮",
+    "name_CHT": "黑幫"
+  },
+  "MountMerchantA": {
+    "id": "MountMerchantA",
+    "name_EN": "Lumen Association Merchant",
+    "name_CHS": "龙脉协会商人",
+    "name_CHT": "龍脈協會商人"
+  },
+  "MountMerchantB": {
+    "id": "MountMerchantB",
+    "name_EN": "Lumen Association Merchant",
+    "name_CHS": "龙脉协会商人",
+    "name_CHT": "龍脈協會商人"
+  },
+  "BelterMerchantD": {
+    "id": "BelterMerchantD",
+    "name_EN": "Merchant",
+    "name_CHS": "商人",
+    "name_CHT": "商人"
+  },
+  "BelterMerchantB": {
+    "id": "BelterMerchantB",
+    "name_EN": "Merchant",
+    "name_CHS": "商人",
+    "name_CHT": "商人"
+  },
+  "BelterMerchantC": {
+    "id": "BelterMerchantC",
+    "name_EN": "Merchant",
+    "name_CHS": "商人",
+    "name_CHT": "商人"
+  },
+  "PMUComputer": {
+    "id": "PMUComputer",
+    "name_EN": "Terminal",
+    "name_CHS": "计算机",
+    "name_CHT": "電腦"
+  },
+  "Generic_Unknown": {
+    "id": "Generic_Unknown",
+    "name_EN": "???",
+    "name_CHS": "？ ？ ？",
+    "name_CHT": "？？？"
+  },
+  "NarratorTitleCard": {
+    "id": "NarratorTitleCard",
+    "name_EN": "Narrator",
+    "name_CHS": "旁白",
+    "name_CHT": "旁白"
+  },
+  "NarratorHistory": {
+    "id": "NarratorHistory",
+    "name_EN": "Narrator",
+    "name_CHS": "旁白",
+    "name_CHT": "旁白"
+  },
+  "BelterMerchantA": {
+    "id": "BelterMerchantA",
+    "name_EN": "Merchant",
+    "name_CHS": "商人",
+    "name_CHT": "商人"
+  },
+  "Turtledo": {
+    "id": "Turtledo",
+    "name_EN": "Chairman",
+    "name_CHS": "总理事",
+    "name_CHT": "總理事"
+  },
+  "Soul": {
+    "id": "Soul",
+    "name_EN": "Lumen Spirit",
+    "name_CHS": "汜灵魂",
+    "name_CHT": "汜靈魂"
+  },
+  "Mural": {
+    "id": "Mural",
+    "name_EN": "Myrian Inscription",
+    "name_CHS": "万道碑文",
+    "name_CHT": "萬道碑文"
+  },
+  "BelterVeteransA": {
+    "id": "BelterVeteransA",
+    "name_EN": "Asteroid Belt Veteran",
+    "name_CHS": "小行星带士兵",
+    "name_CHT": "小行星帶士兵"
+  },
+  "BelterGuerrilla": {
+    "id": "BelterGuerrilla",
+    "name_EN": "Asteroid Belt Guerrilla",
+    "name_CHS": "小行星带游击队",
+    "name_CHT": "小行星帶游擊隊"
+  },
+  "BelterCitizenB": {
+    "id": "BelterCitizenB",
+    "name_EN": "Asteroid Belt Resident",
+    "name_CHS": "小行星带市民",
+    "name_CHT": "小行星帶市民"
+  },
+  "BelterCitizenA": {
+    "id": "BelterCitizenA",
+    "name_EN": "Asteroid Belt Resident",
+    "name_CHS": "小行星带市民",
+    "name_CHT": "小行星帶市民"
+  },
+  "BelterScavengerA": {
+    "id": "BelterScavengerA",
+    "name_EN": "Asteroid Belt Scavenger",
+    "name_CHS": "小行星带拾荒人",
+    "name_CHT": "小行星帶拾荒人"
+  },
+  "BelterMissionaryA": {
+    "id": "BelterMissionaryA",
+    "name_EN": "Asteroid Belt Missionary",
+    "name_CHS": "小行星带信徒",
+    "name_CHT": "小行星帶信徒"
+  },
+  "BelterBarkeeper": {
+    "id": "BelterBarkeeper",
+    "name_EN": "Barkeeper",
+    "name_CHS": "酒吧老板",
+    "name_CHT": "酒吧老闆"
+  },
+  "BelterRefugees": {
+    "id": "BelterRefugees",
+    "name_EN": "Asteroid Belt Refugee",
+    "name_CHS": "小行星带难民",
+    "name_CHT": "小行星帶難民"
+  },
+  "MountTheTenA": {
+    "id": "MountTheTenA",
+    "name_EN": "Council President",
+    "name_CHS": "十人会会长",
+    "name_CHT": "十人會會長"
+  },
+  "MountTheTenC": {
+    "id": "MountTheTenC",
+    "name_EN": "Council Member",
+    "name_CHS": "十人会成员",
+    "name_CHT": "十人會成員"
+  },
+  "CabyMerchantB": {
+    "id": "CabyMerchantB",
+    "name_EN": "Capybarian Trader",
+    "name_CHS": "水豚商人",
+    "name_CHT": "水豚商人"
+  },
+  "MountTheTenB": {
+    "id": "MountTheTenB",
+    "name_EN": "Council Member",
+    "name_CHS": "十人会成员",
+    "name_CHT": "十人會成員"
+  },
+  "MountCitizenA": {
+    "id": "MountCitizenA",
+    "name_EN": "Mt. Aurora Resident",
+    "name_CHS": "朝山市民",
+    "name_CHT": "朝山市民"
+  },
+  "MountWorkerA": {
+    "id": "MountWorkerA",
+    "name_EN": "Mt. Aurora Worker",
+    "name_CHS": "朝山工人",
+    "name_CHT": "朝山工人"
+  },
+  "MountNobleA": {
+    "id": "MountNobleA",
+    "name_EN": "Mt. Aurora Noble",
+    "name_CHS": "朝山贵族",
+    "name_CHT": "朝山貴族"
+  },
+  "MountMerchantC": {
+    "id": "MountMerchantC",
+    "name_EN": "Lumen Association Merchant",
+    "name_CHS": "龙脉协会商人",
+    "name_CHT": "龍脈協會商人"
+  },
+  "MountCaveRunnerA": {
+    "id": "MountCaveRunnerA",
+    "name_EN": "Cave Runner",
+    "name_CHS": "龙脉探勘人",
+    "name_CHT": "龍脈探勘人"
+  },
+  "MountJournalist": {
+    "id": "MountJournalist",
+    "name_EN": "The Daily Lumen Journalist",
+    "name_CHS": "龙脉日报记者",
+    "name_CHT": "龍脈日報記者"
+  },
+  "PMUJournalist": {
+    "id": "PMUJournalist",
+    "name_EN": "Unity News Journalist",
+    "name_CHS": "统合新闻记者",
+    "name_CHT": "統合新聞記者"
+  },
+  "PMUOfficerB": {
+    "id": "PMUOfficerB",
+    "name_EN": "United Mining Officer",
+    "name_CHS": "矿联官员",
+    "name_CHT": "礦聯官員"
+  },
+  "PMUOfficerA": {
+    "id": "PMUOfficerA",
+    "name_EN": "United Mining Officer",
+    "name_CHS": "矿联官员",
+    "name_CHT": "礦聯官員"
+  },
+  "TowerWanderer": {
+    "id": "TowerWanderer",
+    "name_EN": "Drifting Witch",
+    "name_CHS": "流浪女巫",
+    "name_CHT": "流浪女巫"
+  },
+  "Emeth": {
+    "id": "Emeth",
+    "name_EN": "Emeth",
+    "name_CHS": "艾姆",
+    "name_CHT": "艾姆"
+  },
+  "YingBoyC": {
+    "id": "YingBoyC",
+    "name_EN": "Boy",
+    "name_CHS": "孩子",
+    "name_CHT": "孩子"
+  },
+  "Helius": {
+    "id": "Helius",
+    "name_EN": "Lumen Spirit",
+    "name_CHS": "汜灵魂",
+    "name_CHT": "汜靈魂"
+  },
+  "AncientSoul": {
+    "id": "AncientSoul",
+    "name_EN": "Lumen Spirit",
+    "name_CHS": "汜灵魂",
+    "name_CHT": "汜靈魂"
+  },
+  "MountProfessor": {
+    "id": "MountProfessor",
+    "name_EN": "Professor",
+    "name_CHS": "教授",
+    "name_CHT": "教授"
+  },
+  "MountStudent": {
+    "id": "MountStudent",
+    "name_EN": "Student",
+    "name_CHS": "学生",
+    "name_CHT": "學生"
+  },
+  "TowerWoman": {
+    "id": "TowerWoman",
+    "name_EN": "Woman",
+    "name_CHS": "妇人",
+    "name_CHT": "婦人"
+  },
+  "Terra": {
+    "id": "Terra",
+    "name_EN": "Lumen Spirit",
+    "name_CHS": "汜灵魂",
+    "name_CHT": "汜靈魂"
+  }
+}

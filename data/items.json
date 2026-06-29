@@ -1,0 +1,2832 @@
+[
+  {
+    "id": 1,
+    "name_EN": "United Mining Credits",
+    "name_CHS": "矿联信用点",
+    "name_CHT": "礦聯信用點",
+    "desc_EN": "Currency issued by United Mining. It became increasingly important in Thousand Peaks' economic system and infiltrated basically every aspect of daily life.",
+    "desc_CHS": "矿联发行的货币，在群山的经济体系逐渐占据重要角色，生活中很难避免。",
+    "shop_desc_EN": "Currency issued by United Mining. It became increasingly important in Thousand Peaks' economic system and infiltrated basically every aspect of daily life.",
+    "shop_desc_CHS": "矿联发行的货币，在群山的经济体系占据重要角色，生活中很难避免。"
+  },
+  {
+    "id": 2,
+    "name_EN": "Starsong Synthescepter",
+    "name_CHS": "龙鸣仿声器",
+    "name_CHT": "龍鳴仿聲器",
+    "desc_EN": "\"Raise thy scepter, and play the song of stars.\"\n\nEven to this day, the precepts passed down during my training as a cave runner remain clear in my mind.",
+    "desc_CHS": "拿好仿声器，于天地间重现龙的轰鸣。\n...\n直到今天，我依然记得作为瀛海同盟的探勘人，受训时所受的箴言。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 4,
+    "name_EN": "United Mining Tool Set",
+    "name_CHS": "矿联合金工具组",
+    "name_CHT": "礦聯合金工具組",
+    "desc_EN": "It was a long time before I found out that Remi was an orphan of the war. Initially, she was taken in by a United Mining foster family, but they refused to give her tools. \"Those aren't for girls,\" they would say.\n\nNot long after that, she ran off to live in the docks by herself. These tools reminded her of that time in her life.",
+    "desc_CHS": "我很久后才知道，菈米亚作为战争孤儿，先被矿业联合的家庭扶养，但对方不愿意买五金相关的工具给她。\n\n「女孩子，碰这会疼。」听完没多久，她就一人逃到码头住了下来，这工具组会让她想起那段往事。",
+    "shop_desc_EN": "United Mining's latest product, it's the perfect choice for a technician like you.\n\nSteel lumen alloy cast at 9000 degrees. The exterior is anti-rust treated, meticulously polished, and smooth as butter.\n\nIncludes the following tools: Claw Hammer, Hex Key, Different Sized Sockets ",
+    "shop_desc_CHS": "行星矿业联合全新出品，技师的最佳选择\n汜合金钢高温9000度锻造\n表面精细抛光，防锈处理，手感舒适\n内部配置：羊角锤、六角扳手、多尺寸套筒"
+  },
+  {
+    "id": 5,
+    "name_EN": "Base Lumium Coated Armor",
+    "name_CHS": "原始装甲",
+    "name_CHT": "原始裝甲",
+    "desc_EN": "-",
+    "desc_CHS": "装甲初始数据，游戏不显示",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 6,
+    "name_EN": "Lumium Coating",
+    "name_CHS": "汜气合成涂料",
+    "name_CHT": "汜氣合成塗料",
+    "desc_EN": "Temporarily coating a ship with refined lumium would greatly increase its resistance against attacks. During the war, the Ring Liberation Front had plenty of lumen, but were lacking military technology, so they'd apply coatings like this on their cobbled together ships.",
+    "desc_CHS": "用汜提炼的临时涂料，能有效地改善船舰的对冲击的抗性。\n当年持有龙脉，却没有军事技术力的星环自由战线，会用这种涂料来强化他们拼装的船只。",
+    "shop_desc_EN": "[Trash Mountain Recycled Product] \nManufactured by the R.L.F. in 8513\n\nWanna be an asteroid belt hero? Highly durable against attacks, takes effect in just half a standard hour, and effectively enhances vessel armor.",
+    "shop_desc_CHS": "[垃圾山回收二手品] \n本品项由星环自由战线于8513年制造\n\n向往当年小行星带的英雄？\n高耐冲击性、高耐磨损\n涂装仅需半标准时\n让你有效强化飞船防护能力"
+  },
+  {
+    "id": 8,
+    "name_EN": "Lumium Coated Armor I",
+    "name_CHS": "汜气涂料装甲 I",
+    "name_CHT": "汜氣塗料裝甲 I",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 9,
+    "name_EN": "Provisions Pack",
+    "name_CHS": "维生粮食组",
+    "name_CHT": "維生糧食組",
+    "desc_EN": "Special provisions made by Zhao Ghe Resources. The lumium additives increased endurance, concentration, and other physical attributes. After Zhao Ghe left Thousand Peaks, you could only find them among the ruins. ",
+    "desc_CHS": "朝歌汜气能源集团生产的特殊口粮，混合了独门的汜气添加剂，可以增加忍受力、专注力和体能表现。\n但随着朝歌在冲突后退出群山，如今只有废墟中可见。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 10,
+    "name_EN": "No Stat Boosting Items",
+    "name_CHS": "未持有强化道具",
+    "name_CHT": "未持有強化道具",
+    "desc_EN": "-",
+    "desc_CHS": "未持有特定检定道具时，基本的参数，不显示于collection",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 12,
+    "name_EN": "Communications Module",
+    "name_CHS": "红楼通讯阀",
+    "name_CHT": "紅樓通訊閥",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 13,
+    "name_EN": "Lumium Simulation Chip",
+    "name_CHS": "汜气模拟芯片",
+    "name_CHT": "汜氣模擬晶片",
+    "desc_EN": "\"This is what United Mining and Zhao Ghe were fighting over...\"\n\nThe doctor was the one who told me about this. During the war, United Mining was worried that lumium simulation technology would be used for military purposes, so they ordered her and Red to intercept Zhao Ghe's chip transport vessels.",
+    "desc_CHS": "「这芯片是矿联跟朝歌的战争主因...」\n医生跟我们提过这过往，当年矿联军方担心汜气模拟技术被拿去做军事利用，才会命她跟红拦截对方的芯片运输船。",
+    "shop_desc_EN": "Lumen Association Recycled (Good Condition)\n\nSalvaged from Lumen Association airspace debris. Please consult with a technician before purchasing.\n\n[Manufacturer: Zhao Ghe Resources]\n11th generation quantum chip that features a complex ecosystem generator. Simulated lumen environments are 98.76% accurate.",
+    "shop_desc_CHS": "龙脉协会回收品：七成新未整理\n本品项打捞自龙脉冲突残骸空域\n购买前请与技术人员确认\n\n[朝歌汜气能源集团制造]\n第11代量子芯片，可演算复杂生态网\n龙脉环境模拟测试高达 98.76% "
+  },
+  {
+    "id": 14,
+    "name_EN": "Exploration Kit Storage I",
+    "name_CHS": "探索设备格纳库 I",
+    "name_CHT": "探索設備格納庫 I",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 15,
+    "name_EN": "Military Reso-Scanner",
+    "name_CHS": "军用龙脉共振仪",
+    "name_CHT": "軍用龍脈共振儀",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 16,
+    "name_EN": "Red Reflections: Witches & War",
+    "name_CHS": "红芳女巫回忆录",
+    "name_CHT": "紅芳女巫回憶錄",
+    "desc_EN": "On the first page, in big letters it read:\n\n\"Myria neverlasting, serve none but the flower within.\"\n\nA book of reflections on the war, written by the United Mining war hero Red. It quickly became a classic among the new era witches, and is filled with a yearning for atonement.",
+    "desc_CHS": "第一页几个大字写着：\n\n「万道无常，花开唯心。」\n\n矿业联合战争英雄红，一手所撰写的战时回忆录，最终成为新生代女巫的经典，通篇充满赎罪的味道。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 17,
+    "name_EN": "Inscription: Helius to Sanctums",
+    "name_CHS": "乙皇告众道碑文",
+    "name_CHT": "乙皇告眾道碑文",
+    "desc_EN": "8 Orbis, 1 Circum, 17 Gradus\nPraesidio Composes Thus\n\nIn the hopes of reunion,\nI shall hide Terra among Excidium.\nAnd use flowers as form,\nto reforge her spirit.",
+    "desc_CHS": "万道龙守谱于\n八轮一天十七地\n\n为求再见之日，\n将藏后土于大荒，\n以花为身，重炼后土之魂。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 18,
+    "name_EN": "Black Hole Observatory Layout",
+    "name_CHS": "黑洞观测站空间图",
+    "name_CHT": "黑洞觀測站空間圖",
+    "desc_EN": "Left: Office Area\nRight: Telescope Control Room \nBelow: Computing Center",
+    "desc_CHS": "左：办公空间\n右：辐射望远镜控制室\n下：计算中心机房",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 19,
+    "name_EN": "Coordinates: Black Hole Observatory VII",
+    "name_CHS": "座标：第七黑洞观测站",
+    "name_CHT": "座標：第七黑洞觀測站",
+    "desc_EN": "Miniature Black Hole UA115\nKnown by Peakers as \"Excidium\"\n\nLocated on the outskirts of the Thousand Peaks' solar system, where there weren't any lumen astronomical bodies. In Myrian mythology, this is where Ignis sent those who had been banished.",
+    "desc_CHS": "超小型质量黑洞UA115，\n群山民间称为「大荒」。\n\n位于群山太阳系的外围，那里没有任何龙脉天体，是万道神话中被烛龙放逐之地。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 20,
+    "name_EN": "Coordinates: SOS Signal",
+    "name_CHS": "座标：落难者求救讯号",
+    "name_CHT": "座標：落難者求救訊號",
+    "desc_EN": "Sometimes I wonder if it would have been better if we never received this message.",
+    "desc_CHS": "有时我会认为，如果当初没有收到这个讯号，会不会对我们好一点。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 21,
+    "name_EN": "United Mining Smart Processor",
+    "name_CHS": "矿联智慧处理器",
+    "name_CHT": "礦聯智慧處理器",
+    "desc_EN": "Initially used as a microprocessor for automatic storage units, this technology was replaced after the war. Nowadays they can only be found in post-war ruins or secondhand shops... if you're lucky.\n\nSometimes I wondered if Remi had installed a few of these on Red Chamber's cameras.",
+    "desc_CHS": "被应用在自动格纳库的微型处理器，龙脉冲突后，相关技术被汰换，现在要找到只有战场废墟，或二手商店才能碰碰运气。\n\n我有时怀疑，菈米亚是不是在红楼的摄像头也装了这些。",
+    "shop_desc_EN": "[United Mining Certified Antique]\nSupplies are limited.\n\nManufactured by United Mining, the built-in neural network algorithmic core is easy to customize. Suited for most automated control systems, this processor makes vessel maintenance and management a breeze.",
+    "shop_desc_CHS": "[矿联认证中古货]\n数量有限，售完不补\n\n行星矿业联合制造\n内建类神经演算核心，程序编写容易\n适用各种自动控制系统\n减轻船舰维护与管理负担"
+  },
+  {
+    "id": 22,
+    "name_EN": "Coordinates: Mount Aurora",
+    "name_CHS": "座标：自由都市「朝山」",
+    "name_CHT": "座標：自由都市「朝山」",
+    "desc_EN": "After I returned home, I often wondered if things would have been different had I noticed that Eda was subconsciously avoiding Banshee.",
+    "desc_CHS": "回瀛海后我常回想，如果那时，我有注意到艾妲下意识的回避寻找黑龙，这一切会不会不一样。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 226,
+    "name_EN": "Inscription: Helius to Terra",
+    "name_CHS": "乙皇告后土碑文",
+    "name_CHT": "乙皇告后土碑文",
+    "desc_EN": "8 Orbis, 10 Circum, 2 Gradus\nPraesidio Composes Thus\n\nYou have left.\nI shall sing alone,\nto contain these chaotic flames,\nwaiting for an eternity for the flowers to bloom,\njust to see you again.",
+    "desc_CHS": "万道龙守谱于\n八轮十天二地\n\n汝已逝，孤将独自行歌，\n以控天火乱象，仅待万轮花开，\n与汝再见之时。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 227,
+    "name_EN": "Scrap Alloy Plate",
+    "name_CHS": "废弃合金板材",
+    "name_CHT": "廢棄合金板材",
+    "desc_EN": "Large plates of alloy weren't hard to find in the ruins of abandoned space stations. In Thousand Peaks, just about everything needed to be repaired, which meant it was pretty easy to find a buyer.",
+    "desc_CHS": "从冲突后的废弃空间站上找到的大片合金，在到处都有东西需要修补的群山，很容易找到买家。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 228,
+    "name_EN": "Forged Military Visa",
+    "name_CHS": "伪造红楼军用签证",
+    "name_CHT": "偽造紅樓軍用簽證",
+    "desc_EN": "Captain: Edalune Grant\nShip ID: HON20225-XO\nClass: QBC-OPUS-03 Lumen Seeking Vessel\nExpiration Date: N/A\nValid Region: Thousand Peaks",
+    "desc_CHS": "船长：艾妲拉姆・葛兰特\n船ID：HON20225-XO\n级别：QBC-OPUS-03 龙脉探测船\n\n有效日期：无限\n有效区域：群山全境",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 229,
+    "name_EN": "Coordinates: Trash Mountain\n",
+    "name_CHS": "座标：非法回收站「垃圾山」",
+    "name_CHT": "座標：非法回收站「垃圾山」",
+    "desc_EN": "Eda's speech device was an antique from the war. There weren't many places where you could find one, but she took good care of it. If I hadn't heard her voice suddenly cut out, I wouldn't have noticed that her throat was damaged.",
+    "desc_CHS": "艾妲的声音辅具是战时的古董，没有多少地方找得到，但她很仔细地维护，如果不是听到她突然声音发不出，我不会意识到她喉咙曾有受伤。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 230,
+    "name_EN": "Witch's Origami Flower",
+    "name_CHS": "女巫折纸花",
+    "name_CHT": "女巫摺紙花",
+    "desc_EN": "A white and blue origami flower with seeds folded inside of it. After Eda's master began professing unorthodox beliefs, this was how the exiled witches who followed her were able to identify each other.\n\nThey believed that so long as you listened to your soul, it would one day blossom.",
+    "desc_CHS": "一白一蓝的纸被折成花的形状，里面封着种子，是艾妲的师父「红」叛道后，那些愿意追随她信念的流亡女巫，彼此用来相识的信物。\n\n她们认为只要专心聆听自己，象征灵魂的种子终会发芽，成花绽放。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 231,
+    "name_EN": "Space Burial Casket",
+    "name_CHS": "宇宙葬舱体",
+    "name_CHT": "宇宙葬艙體",
+    "desc_EN": "\"Ignis above, may your spirit go in peace, and return as light as light.\"\n\nA prayer for the soul, written in Myrian runes, was elegantly arranged on the outside of the cabin. The inhabitants of the asteroids, using post-war wreckage, would piece together a cabin to use as a ship for the deceased's return to Ignis.",
+    "desc_CHS": "烛龙在上，\n愿灵魂归去无伤，归来如光。\n...\n舱体外侧，万道符文撰写的灵魂祷词优雅的排列。小行星的居民，会用战后的残骸拼凑出一个还堪用的舱体，作为他们回归烛龙的船。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "在群山的市场上，只要有门道，几乎什么东西都能找到收购者。"
+  },
+  {
+    "id": 232,
+    "name_EN": "Molten Lumenite",
+    "name_CHS": "燃烧汜晶原石",
+    "name_CHT": "燃燒汜晶原石",
+    "desc_EN": "When the resonating frequency of lumen is high enough, it will become highly active, giving it a reddish tint. If this causes a gas explosion, you'll see small bits of shattered lumenite like this.",
+    "desc_CHS": "汜这种能源，共鸣的频率过高时，高度活性后会转为红色，如果引发气爆，就会于现场看见这些粉碎的颗粒。",
+    "shop_desc_EN": "A lumen crystal found in the depths of caves that lies somewhere between a mineral and an artifact. Depending on its purity, it can be pretty valuable in the markets.",
+    "shop_desc_CHS": "龙脉深处的汜晶体，介于文物与矿物之间\n依据纯度，在市场有不同流通价格。"
+  },
+  {
+    "id": 233,
+    "name_EN": "A Tale of Failure",
+    "name_CHS": "经典失败的故事",
+    "name_CHT": "經典失敗的故事",
+    "desc_EN": "In Thousand Peaks, everyone loved hearing terrible memories. Perhaps it made their own misery seem more bearable.",
+    "desc_CHS": "在群山，大家总喜欢听些糟糕的回忆，让自己显得好过点。",
+    "shop_desc_EN": "In Thousand Peaks, even a failed excavation mission is seen as valuable intel that might make up for past losses.",
+    "shop_desc_CHS": "在群山，探勘失败的经验被视作一种情报，有时也弥足珍贵"
+  },
+  {
+    "id": 234,
+    "name_EN": "Memory of a Narrow Escape",
+    "name_CHS": "九死一生的回忆",
+    "name_CHT": "九死一生的回憶",
+    "desc_EN": "Not many people could survive these encounters, which made the memories that much more valuable.",
+    "desc_CHS": "很少人能在经历这些后还活下来，回忆变得弥足珍贵。",
+    "shop_desc_EN": "In Thousand Peaks, even a failed excavation mission is seen as valuable intel that might make up for past losses.",
+    "shop_desc_CHS": "在群山，探勘失败的经验被视作一种情报，有时也弥足珍贵"
+  },
+  {
+    "id": 235,
+    "name_EN": "Final Handheld Recorder",
+    "name_CHS": "最后的录音笔",
+    "name_CHT": "最後的錄音筆",
+    "desc_EN": "A recording by James Wong, a famous Myrian explorer:\n\n\"I hope that my words can be passed on... I've inhaled too much lumen and my consciousness is fading in and out...\n\nI suspect that Ignis is not a god, but a sun, abundant in lumen... Its solar flares are lumen's extradimensional thundering, carrying the potential to create lumen... or destroy it. This is how Myria was destroyed... Th-They... They're coming for me again...\"\n\n(Rest of recording unintelligible)",
+    "desc_CHS": "录音的来源是詹姆斯・王\n有名的万道探险家\n...\n希望有人把我的话传下去...吸食太多汜...我渐渐意识不清楚了...\n\n我怀疑烛龙不是神，只是蕴藏汜的太阳...它的闪焰是汜高维度的轰鸣，可以创造...与毁灭龙脉...这就是万道毁灭的...啊...我又看到...是它们...来找我...\n\n（以下声音无法辨识）",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 236,
+    "name_EN": "Scripture: Dark Excidium",
+    "name_CHS": "大荒暗经",
+    "name_CHT": "大荒暗經",
+    "desc_EN": "A text detailing Myria's god of the underworld, Excidium. A black hole deity, Excidium is the reflection of Ignis, the sun. Lord of the underworld and afterlife, he is cold and barren to all who enter. The text is full of warning, advising people towards the moral path.\n\nNot many Myrian believers worship this cruel deity, and those that do are usually people with dubious professions. People like assassins and excavators who destroy the shrines...\n",
+    "desc_CHS": "书中记载万道的阴间之神「大荒」，它是与恒星烛龙相对的黑洞之神，掌管万道的死后世界，对来者无情荒凉，通篇多少有警世，劝人向善的成分。\n\n面对如此冷酷之神，唯有少数万道信众会信仰，他们多半从事见不得光照的行业，像是杀手、或是破坏龙脉神殿的盗采者...",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 237,
+    "name_EN": "Scrap Electrical Components",
+    "name_CHS": "废弃电子组件",
+    "name_CHT": "廢棄電子組件",
+    "desc_EN": "You could find all sorts of old or broken electronic components in post-war ruins. In places where raw material was rare, they were a valuable product in the markets.",
+    "desc_CHS": "龙脉冲突后，废墟间多半有各种破旧电子组件，在某些原料稀少的地区成为珍贵的交易品。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins. Given their prevalence, they're pretty easy to sell.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见，具有一定的流通性，变卖很容易。"
+  },
+  {
+    "id": 238,
+    "name_EN": "Humanoid Lumenite Crystal",
+    "name_CHS": "冰蓝汜晶像",
+    "name_CHT": "冰藍汜晶像",
+    "desc_EN": "Sometimes runners would find lumen in the shape of what looked like a human figure. \n\nMyrian scholars suggest that the gods, who were formed of lumen, would leave these elegant crystals behind when they passed away.",
+    "desc_CHS": "探索时，有时会拾获人型的龙脉结晶体。\n\n万道的学者说，那是由龙脉成形的古老诸神，死后形成的瑰丽结晶。",
+    "shop_desc_EN": "A lumen crystal found in the depths of a cave that's both a mineral and an artifact. Depending on its purity, it could be pretty valuable in the markets.",
+    "shop_desc_CHS": "龙脉深处的汜晶体，介于文物与矿物之间\n依据纯度，在市场有不同流通价格。"
+  },
+  {
+    "id": 239,
+    "name_EN": "Navigator Accelerator",
+    "name_CHS": "宙域解析加速器",
+    "name_CHT": "宙域解析加速器",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 240,
+    "name_EN": "Myria Terra Hymnal",
+    "name_CHS": "万道后土歌本",
+    "name_CHT": "萬道后土歌本",
+    "desc_EN": "This songbook tells the myth of the Myrian deity Terra. It relays how she taught the gods to sing, and how the Sanctums sang to transform the planets, making the lands fertile and full of flowers. This was how the magnificent Myrian Empire was established. \n\nTerra was worshipped by the Witching Tower, but after its loss of influence following the war, these books became difficult to find.\n\nIt also appears to contain decipherments of Myrian inscriptions.",
+    "desc_CHS": "书中记载的是万道诸神「后土」的神话。\n\n描述后土教导歌法的善行，而众道如何透过歌法改造行星，让土地丰饶，花满山谷，打造壮丽的万道帝国。\n\n它是巫塔信奉之神明，但由于巫塔在龙脉冲突后势力不在，这些书很难找了。\n\n似乎记载着万道符文解译的方法。",
+    "shop_desc_EN": "Wartime Relic (Poor Condition)\n\nPages are seriously damaged. Ideal for a researcher of witch history or anyone that's interested. This shop sells and recycles wartime debris. Our products in no way represent that we have any affiliation with witches or Terra beliefs.\n",
+    "shop_desc_CHS": "战后废弃物（三成新）\n书页毁损严重\n寻有缘人，女巫历史研究者\n本商店仅提供废弃资源回收与出清，\n不代表与女巫，万道后土有任何联系。"
+  },
+  {
+    "id": 241,
+    "name_EN": "Praesidio Astrolabe",
+    "name_CHS": "龙守星盘",
+    "name_CHT": "龍守星盤",
+    "desc_EN": "Found in all caves, Praesidio is the tutelary deity that inhabits countless locations and takes millions of forms. The Ring Liberation Front, who swore to take back the asteroid belt, was unwavering in their belief.",
+    "desc_CHS": "寄宿于不同龙脉，龙守作为分身千百的土地神，对发愿夺回小行星带的星环自由战线，是无庸置疑的神明。",
+    "shop_desc_EN": "A common ceremonial item among the people of Thousand Peaks. Its price on the market mostly depends on the craftsmanship.",
+    "shop_desc_CHS": "群山民间常见的祭祀工艺品\n依据工艺品等级，在市场有不同流通价格"
+  },
+  {
+    "id": 242,
+    "name_EN": "Broken Synthescepter",
+    "name_CHS": "坏掉的仿声器",
+    "name_CHT": "壞掉的仿聲器",
+    "desc_EN": "A broken starsong synthescepter. The shattered lumen crystal reed used for resonance in the front was still pretty valuable on the market.",
+    "desc_CHS": "坏掉的龙鸣仿声器，由于前端有着碎裂的汜晶体用作共振的簧片，可以在市场换到不错的价格。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 243,
+    "name_EN": "Rumani Assassination Pact",
+    "name_CHS": "吉普赛暗杀密约",
+    "name_CHT": "吉普賽暗殺密約",
+    "desc_EN": "\"For the shared prosperity of United Mining and the Rumani Clan.\"\n\nA dagger was hidden in the contract supposedly written for a transfer of rights to a cave. This plan led to the demise of the once powerful Rumani Clan.",
+    "desc_CHS": "「愿吉普赛与矿业联合共存共荣」\n\n隐藏式的匕首被卷在龙脉矿场的交接合约中，是这行动导致了吉普赛家族的灭亡。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 244,
+    "name_EN": "Red's Picture",
+    "name_CHS": "红送给医生的照片",
+    "name_CHT": "紅送給醫生的照片",
+    "desc_EN": "On the back of the photo were a few words to the doctor, written by Red:\n\n\"The flowers have bloomed... so hang this over your operating table, will you? For my friend Dr. Rushell, I miss our days of flight.\"",
+    "desc_CHS": "照片背面只有几句话，\n是艾妲师父留给罗素的。\n\n花开了，你就把照片钉在你的手术台吧。\n给罗素吾友，怀念可以飞的日子。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 245,
+    "name_EN": "Praesidio Charm",
+    "name_CHS": "龙守吊饰",
+    "name_CHT": "龍守吊飾",
+    "desc_EN": "Countless runners have something like this hanging on them at all times. They pray to the guardians of asteroids, Praesidio, imploring these earth gods to open a path for them so that they may find a cave of riches.",
+    "desc_CHS": "不少龙脉探勘人身上都会有类似的吊饰，他们祈求小行星之神「龙守」为他们开路，找到丰沛的矿脉。",
+    "shop_desc_EN": "A common ceremonial item among the people of Thousand Peaks. Its price on the market mostly depends on the craftsmanship.",
+    "shop_desc_CHS": "群山民间常见的祭祀工艺品\n依据工艺品等级，在市场有不同流通价格"
+  },
+  {
+    "id": 246,
+    "name_EN": "Ignis Astrolabe",
+    "name_CHS": "烛龙啸星盘",
+    "name_CHT": "燭龍嘯星盤",
+    "desc_EN": "On the back were the words:\nMay Ignis shed light upon your good deeds.\n\nTo thank Ignis for the light he provides, Peakers used this to offer up prayers in their homes. Since it looks like a lumen relic, it's commonly used to trick outsiders searching for valuable artifacts, but it's really not worth much.",
+    "desc_CHS": "背后写着\n「愿烛龙光照，今日众善奉行。」\n...\n为了感念烛龙赐予的阳光，群山民间会于家中摆设祈福。\n由于貌似龙脉的文物，常被用来诈骗外地的文物搜集商，本身没有太多价值。",
+    "shop_desc_EN": "A common ceremonial item among the people of Thousand Peaks. Its price on the market mostly depends on the craftsmanship.",
+    "shop_desc_CHS": "群山民间常见的祭祀工艺品\n依据工艺品等级，在市场有不同流通价格"
+  },
+  {
+    "id": 247,
+    "name_EN": "Binarii Prayer Disc",
+    "name_CHS": "二向引魂盘",
+    "name_CHT": "二向引魂盤",
+    "desc_EN": "\"Neverlasting paths, what comes may not be what you ask, and what you ask may not come to pass.\"\n\nCarved on the base of this ancient disc were prayers addressed to the Myrian god of space and time, Binarii. Some people believe there are two Binarii gates in Thousand Peaks which pass through space and time. When one enters the gates, it is said they will see whatever they desire. Some scavengers would also hang these in their ships, praying to find valuable debris, or a way home when they got lost in space.",
+    "desc_CHS": "二向无常，遇而无往，无往而遇。\n...\n俊刻在圆盘上，是万道的时空神「二向」的祈福语，传说它们镇守时空之门，只要穿过，便能见到想要的人事物，有些拾荒船会挂上这引魂盘，祈祷二向能带领他们遇到好的残骸，或是迷路时可以回家。",
+    "shop_desc_EN": "A common ceremonial item among the people of Thousand Peaks. Its price on the market mostly depends on the craftsmanship.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 248,
+    "name_EN": "Emeth's Rocket",
+    "name_CHS": "艾姆的火箭",
+    "name_CHT": "艾姆的火箭",
+    "desc_EN": "A tiny little rocket. Emeth said that on his journey, a young man and woman had given it to him. On the bottom were a few words:\n\nHeavenly Earth, thanks to all the players for your continued support.\n\nSIGONO Manufacturing",
+    "desc_CHS": "那是一枚小小的火箭，艾姆说是旅途中，一对男女送给他的。\n下面只有几行字。\n\n地球在上，\n谢谢所有玩家一直以来的支持。\n\nSIGONO 联合工厂出品",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "在群山的市场上，只要有门道，几乎什么东西都能找到收购者。"
+  },
+  {
+    "id": 249,
+    "name_EN": "Rumani Hair Adornment",
+    "name_CHS": "吉普赛汜晶发饰",
+    "name_CHT": "吉普賽汜晶髮飾",
+    "desc_EN": "\"I've never been able to find the little princess, and the clan's royal bloodline stops with her. If you ever come across her, please give this to her for me. Tell her that even though her mother is known as a traitor, she will always love you. Your name is... Miranda Mers.\"\n\nA hair adornment given to us by Shiyaa that was proof of Rumani royalty.",
+    "desc_CHS": "我这辈子都找不到小公主了，我们族的血脉从此断绝...好心的船队，如果你们遇到她，请帮我把这给她。\n\n告诉她，她妈妈尽管被当成为叛徒，但她永远爱你，你的名字是「米兰达・默斯」\n\n席雅留给我们的发饰，那是吉普赛王族的证明。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 250,
+    "name_EN": "Shattered Myrian Inscription",
+    "name_CHS": "万道碎裂谱面",
+    "name_CHT": "萬道碎裂譜面",
+    "desc_EN": "Inscriptions used by the Myrians for musical resonance. The little fragments of lumenite within made them a popular item for trade among the people.",
+    "desc_CHS": "万道用于跟音乐共振的谱面，由于里面有着细碎的汜晶体，成为民间交易的常见标的。",
+    "shop_desc_EN": "A common relic found in Myrian shrines. It can be sold at a decent price.",
+    "shop_desc_CHS": "万道神殿深处常见古文物，可以于市场换到不错的价格。"
+  },
+  {
+    "id": 251,
+    "name_EN": "The Epic of Taiyang",
+    "name_CHS": "万道太乙史诗",
+    "name_CHT": "萬道太乙史詩",
+    "desc_EN": "A rare East Ocean epic that was hard to come by, even in the homeland.\n\nThe myth recounts how a flash of light beamed down from a distant star, striking East Ocean's sun, Taiyang, which was dim and without radiance. From that point forth, the great star emitted an ice-blue lumen light. \n\nTaiyang then descended from the heavens and created the East Ocean Empire, marking the beginning of East Ocean mythology.",
+    "desc_CHS": "连瀛海都很难找到的古神话诗歌。\n\n诗歌的内容描述，古代从遥远银河爆发的的一瞬闪光，经过亿年旅行后，击中了黯淡的主星太乙，从此太乙放出了冰蓝的汜气光芒，点亮了史诗神话。\n\n自此古神「太乙」降世，于瀛海建国，是为瀛海龙脉神话之始。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 252,
+    "name_EN": "Rabbit Hole Singer Information",
+    "name_CHS": "兔窟歌手的人事数据",
+    "name_CHT": "兔窟歌手的人事資料",
+    "desc_EN": "Plum Shalaa\n\n8512 war orphan. Adopted by the Witching Tower and served as a witch during the Lumen War. After the Witching Tower was disbanded, worked as a diviner and music teacher.\n\n- Divorced w/ 1 son\n- Lumen War Relief Foundation Lv. 1 Disability\n- Requires assistance walking",
+    "desc_CHS": "MEI（莎拉・梅）\n银河历 8512 年战后孤儿，由巫塔收养，成为女巫，于首次龙脉冲突时退役，巫塔遣散后曾任占卜师，音乐教师。\n\n离婚、育有一子\n持有龙脉遗族抚恤会一级伤残证\n行走不便需辅具",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 23,
+    "name_EN": "Pressurized Lumium Engine",
+    "name_CHS": "恒星增压汜气引擎",
+    "name_CHT": "恆星增壓汜氣引擎",
+    "desc_EN": "When we first found this, Remi smiled, something she rarely did. This was the Galactic Empire's fastest micro-engine system. Even though Red Chamber was an old ship, equipping this engine would make it one of the fastest small vessels in Thousand Peaks.",
+    "desc_CHS": "刚找到它时，菈米亚少见的笑了出来。\n那是统合体最快的小型引擎系统。即使是红楼这样的老船，如果成功安装，也会名列群山地区最快的小型舰艇。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 24,
+    "name_EN": "Hybrid Lumium Engine I",
+    "name_CHS": "汜气混合引擎 I",
+    "name_CHT": "汜氣混合引擎 I",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 25,
+    "name_EN": "Hybrid Lumium Engine II",
+    "name_CHS": "汜气混合引擎 II",
+    "name_CHT": "汜氣混合引擎 II",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 26,
+    "name_EN": "\"Melody of Starsong\" Design Draft",
+    "name_CHS": "龙脉长歌设计稿",
+    "name_CHT": "龍脈長歌設計稿",
+    "desc_EN": "Character Design Draft\nTerra: Played by former witch, Sonya\nHelius: Vacancy\nTen Peaks: Casting call\nServum: God not yet able to sing (Undecided)\nSanctum: God who can sing (Yusef)\n\nA manuscript left by Rodin, the famous writer. While searching for inspiration, he didn't hesitate to enter caves to look for source material.",
+    "desc_CHS": "角色设计草案\n后土：由前女巫，森宁担任\n乙皇：（演员从缺）\n十山：（需要演员征选）\n卒：尚未取得歌法的神明（未定）\n道：能行歌的神明（尤斯出演）\n...\n著名的作家-罗登遗落的手稿，为了创作，他不惜冒险进入龙脉取材。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 27,
+    "name_EN": "Bazil Carael",
+    "name_CHS": "苏禾",
+    "name_CHT": "蘇禾",
+    "desc_EN": "The blade-shaped crystal stamen made this a popular ceremonial import, used to pray for victory in battle. Even with the lack of floral life caused by overdevelopment, you could still see these in the halls of East Ocean.",
+    "desc_CHS": "由于花蕊的结晶似刀，常有人进口苏禾用于祭典，祈祷武运昌隆，甚至连开发过度、少有花卉的瀛海也能看到苏禾列于厅堂。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 28,
+    "name_EN": "Principles of the Ring Liberation Front 8531 Edition",
+    "name_CHS": "星环守则8531版",
+    "name_CHT": "星環守則8531版",
+    "desc_EN": "\"Endless lumen, light the way,\nthat the belt may rise again one day.\"\n\nThese principles guided the Ring Liberation Front's guerilla squad, a group of warriors who opposed United Mining. After the Lumen War, many of them became mercenaries or pirates.",
+    "desc_CHS": "龙脉常在，风水引路，小行星必将奋起\n...\n那是星环自由战线的游击队守则，他们是一群反对矿业联合的战士，龙脉冲突后，多数人成为雇佣军，甚至黑帮。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 29,
+    "name_EN": "Eco-Scanner",
+    "name_CHS": "生态扫描器",
+    "name_CHT": "生態掃描器",
+    "desc_EN": "Eda's knowledge of lumen plants far surpassed my imagination. Once she even asked me to take the eco-scanner and test her. It could identify hundreds of plants, but she'd just say:\n\n\"That's basic witch knowledge.\"",
+    "desc_CHS": "艾妲对于龙脉植物的认知远超乎我想像，曾经叫我拿着扫描器考她，尽管这能鉴定百种植物，但她只会微笑说：\n\n「这只是女巫的基本。」",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 30,
+    "name_EN": "Armor Plates",
+    "name_CHS": "装甲零组件",
+    "name_CHT": "裝甲零組件",
+    "desc_EN": "Most Peaker ships, including Red Chamber, didn't have the credits to spend on defense. Reactive armor that was easy to disassemble was a common choice for civilians.",
+    "desc_CHS": "包括红楼在内的群山民间船，多半没有预算用在船舰的防护上，简单快拆的反应装甲成了人们常见的选择。",
+    "shop_desc_EN": "United Mining SRA-12 Specifications\n\nReactive armor plates that self-destruct when hit to prevent damage. All models available. Select the model that's right for you.\n\n[Please replace after use]\nEasy to disassemble and replace. Can be installed by qualified technicians.",
+    "shop_desc_CHS": "矿联SRA-12通用规格。\n多种品项，请自行选购适合款式。\n模块化反应装甲，敌火来袭时自动爆破，抵销伤害。\n[使用后须更换新品。 ]\n拆装容易，替换方便，可以由合格技师安装船体外侧上。"
+  },
+  {
+    "id": 31,
+    "name_EN": "Potted Liilax",
+    "name_CHS": "楼壶菫",
+    "name_CHT": "樓壺菫",
+    "desc_EN": "\"Whenever the wind blows, the tiny bits of lumenite in the stamen crack and flitter away as the rest of the flower wilts.\"\n\nGiven that it's used as a farewell flower, the demand for it on the market is rather large. That's how Eda explained it to me.",
+    "desc_CHS": "「这种花风吹过时，花蕊中的微小汜晶体会碎裂飘落，然后就会凋零。」\n\n因为多半被用作送别的花，在市场上需求不少，艾妲是如此解释此花。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 32,
+    "name_EN": "Myrian Ignis Guild Membership",
+    "name_CHS": "万道烛龙商会证",
+    "name_CHT": "萬道燭龍商會證",
+    "desc_EN": "By the light of Ignis, Myria everlasting.\n\nA fair trader, and an honest neighbor.\n\nVIP ID 03212",
+    "desc_CHS": "烛龙在上，万道日常\n公平公正的做生意，童叟无欺的好邻居\nVIP ID 03212",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 33,
+    "name_EN": "Pirate Recorded Starsong",
+    "name_CHS": "黑帮录制的女巫龙鸣",
+    "name_CHT": "黑幫錄製的女巫龍鳴",
+    "desc_EN": "Starsongs... rumbles from the depths of asteroids. By analyzing them, one could glean the coordinates of lumen asteroids, making them highly coveted items in the marketplace. However, only the emissaries of Myrian gods, the witches, could record them.",
+    "desc_CHS": "龙脉深处的轰鸣，可以从中解析出龙脉的座标，成为市场上炙手可热的商品，但只有万道诸神的使者，女巫可以录制。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 34,
+    "name_EN": "Somber Starsong",
+    "name_CHS": "阴暗的龙鸣",
+    "name_CHT": "陰暗的龍鳴",
+    "desc_EN": "When Eda said, \"That's a good thing.\" I couldn't tell if she actually meant it...",
+    "desc_CHS": "该怎么说呢，当艾妲说幸好的时候，我不知道她是开心还难过。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 35,
+    "name_EN": "Deep Starsong",
+    "name_CHS": "低沉的龙鸣",
+    "name_CHT": "低沈的龍鳴",
+    "desc_EN": "Unlike Eda's voice, the starsong that came through the ground was deep and resounding, while the vibration of liquid that traveled into my hand felt ancient and full of sorrow. However, the sound quality was somewhat choppy...",
+    "desc_CHS": "与艾妲的声音不同，地脉的龙鸣低沉而悠远，水体的震动传到我手中，古老又哀伤，但声音却断断续续…",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 36,
+    "name_EN": "Digital Bounty Photo",
+    "name_CHS": "悬赏电子照片",
+    "name_CHT": "懸賞電子照片",
+    "desc_EN": "Kay reprimanded me for this endlessly. He would remind me that I had no idea how to keep things low-profile and that I was always screwing things up with my impulsive decisions. \"Not the qualities of a leader,\" he would say.",
+    "desc_CHS": "大魁因为这件事训诫我数回，说我永远不懂低调处理，冲动害事，愧为少主。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 37,
+    "name_EN": "Lumen Cave 06: Red Chamber Perfect Starsong",
+    "name_CHS": "龙脉06「红楼」完整龙鸣",
+    "name_CHT": "龍脈06「紅樓」完整龍鳴",
+    "desc_EN": "Banshee was different from the other shrines. This place wasn't built for transmutation. All that we found was an atmosphere of death and decay. This was where Myria came to an end.",
+    "desc_CHS": "黑龙跟以往所有的神殿都不同，这里不是兴建来风水引流，有的只有结束与死亡的气息，是万道的最终。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 38,
+    "name_EN": "Lumenite Shards",
+    "name_CHS": "粉碎汜晶原石",
+    "name_CHT": "粉碎汜晶原石",
+    "desc_EN": "The hard lumenite ore found in the depths of caves vary so much in purity and the sound frequencies it produces that it's difficult to use as industrial fuel. Instead, since lumen is worshipped by the people, it tends to be used for artistic or ceremonial purposes.",
+    "desc_CHS": "龙脉深处剥落的硬质汜矿，由于纯度与对声音频率不一，难以用作工业燃料，却因为民间对龙脉的崇拜，常被加工为各种工艺，或祭祀用品。",
+    "shop_desc_EN": "A lumen crystal found in the depths of caves that lies somewhere between a mineral and an artifact. Depending on its purity, it can be pretty valuable in the markets.",
+    "shop_desc_CHS": "龙脉深处的汜晶体，介于文物与矿物之间\n依据纯度，在市场有不同流通价格。"
+  },
+  {
+    "id": 39,
+    "name_EN": "Frail Starsong",
+    "name_CHS": "虚弱的龙鸣",
+    "name_CHT": "虛弱的龍鳴",
+    "desc_EN": "Audio from lumenide that was almost completely dried up. Even in the analysis the quality had disintegrated so much that it was hard to make out.",
+    "desc_CHS": "解析几乎干涸的汜水波动后的声音，音质碎裂而难以辨认。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 40,
+    "name_EN": "Shattered Starsong",
+    "name_CHS": "破碎的龙鸣",
+    "name_CHT": "破碎的龍鳴",
+    "desc_EN": "The resonance of the liquid called forth subtle whimpers. It was so gloomy that you couldn't help but feel a bit uneasy.",
+    "desc_CHS": "水的共振唤起一段细微的呜咽声，幽暗让人不安。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 41,
+    "name_EN": "Military Vocalizer",
+    "name_CHS": "军用发声器",
+    "name_CHT": "軍用發聲器",
+    "desc_EN": "A communication device hidden beneath Eda's hair, which also has the ability to adjust one's timbre. It was used to assist soldiers with injured throats.\n\nAfterward, I found out that Bones hadn't confiscated it partially out of sympathy and partially because of his confidence that no one would encroach on his territory.",
+    "desc_CHS": "装在艾妲身上的隐藏发信装置，也具备调节声线的功能，是喉咙伤残的士兵会使用的辅具。\n\n后来才知道，白牙没搜走艾妲的装置，有一半是因为同情，一半是没人敢动他地盘的自信。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 43,
+    "name_EN": "Myrian God Prime: Helius",
+    "name_CHS": "万道主神-乙皇",
+    "name_CHT": "萬道主神-乙皇",
+    "desc_EN": "In Myrian mythology, Helius was the remaining star stuff left over from Ignis' fiery creation of the world. Having inherited some of Ignis' power, he is second only to Ignis, the god of gods.",
+    "desc_CHS": "万道神话中，「乙皇」是太阳神烛龙烈焰创世后，余留的一团星火，是仅次烛龙的最高神。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 42,
+    "name_EN": "Coordinates: Ferry Point",
+    "name_CHS": "座标：轨道抛射台「渡头」",
+    "name_CHT": "座標：軌道拋射台「渡頭」",
+    "desc_EN": "After space burials were banned in Thousand Peaks, if you wanted to send something to an outer planetary system, you not only needed a permit, but also a precision launcher... Getting to East Ocean was even more difficult, given that it was tens of thousands of light-years away.",
+    "desc_CHS": "在宇宙葬被禁止的群山，如果要将小型物体送回外星系，除了要有官方许可外，更需要精确的轨道发射装置...更别提几万光年远的瀛海。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 44,
+    "name_EN": "Tumultuous Starsong",
+    "name_CHS": "汹涌的龙鸣",
+    "name_CHT": "洶湧的龍鳴",
+    "desc_EN": "Even though I was anxious to finish exploring before United Mining got here, I couldn't stop wondering when it was that Remi started hating me.",
+    "desc_CHS": "虽然那时很急着在矿联来前完成探索，但我却一直想着，菈米亚是什么时候开始讨厌我。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 45,
+    "name_EN": "Proud Starsong",
+    "name_CHS": "骄傲的龙鸣",
+    "name_CHT": "驕傲的龍鳴",
+    "desc_EN": "Could Eda's master really be in the depths of some shrine...? No matter how I thought about it, I wasn't very optimistic.",
+    "desc_CHS": "艾妲的师父会在神殿的深处吗···我怎么想都不乐观。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 46,
+    "name_EN": "Red Chamber's Fire Extinguisher",
+    "name_CHS": "红楼灭火器",
+    "name_CHT": "紅樓滅火器",
+    "desc_EN": "Afterward, Remi told me that she never thought she'd have to use this.",
+    "desc_CHS": "菈米亚后来跟我说，她从来没想到会有使用的一天。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 47,
+    "name_EN": "Menacing Starsong",
+    "name_CHS": "肃杀的龙鸣",
+    "name_CHT": "肅殺的龍鳴",
+    "desc_EN": "This sent shivers down my spine... Could this really be where Eda's master went missing?",
+    "desc_CHS": "龙鸣声让人不快...这里会是艾妲师父失踪的地方吗...",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 48,
+    "name_EN": "Myrian God: Excidium",
+    "name_CHS": "万道诸神-大荒",
+    "name_CHT": "萬道諸神-大荒",
+    "desc_EN": "A carving of the black hole deity Excidium. As god of the netherworld, he is the only Myrian god whose prayers may not be uttered in the main hall of the shrines.\n\nMyrian religion believes that when people die they return to Ignis. However, evildoers return to the black hole Excidium, a barren wasteland where no light can be found, abandoned by the gods.",
+    "desc_CHS": "神像上雕刻的是黑洞之神「大荒」，是万道唯一无法于主殿祭拜的阴间神。\n\n万道相信人死后会回归烛龙，但如果坏事做尽，死后就会回到黑洞大荒，那是被众神遗弃，无光的荒凉之境。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 55,
+    "name_EN": "Lira Cessami",
+    "name_CHS": "门兰芝",
+    "name_CHT": "門蘭芝",
+    "desc_EN": "Lumen plants are primarily used for medical purposes, most commonly in emergency military situations. A few even have the ability to repair cellular damage. It's no wonder that in Myrian mythology there are countless stories of the pursuit for immortal life.",
+    "desc_CHS": "龙脉植物多半用于医疗，被广泛运用在军事急救，极少数还具备细胞的修复力，难怪万道的神话中，总是有许多追求不老不死的故事流传。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 56,
+    "name_EN": "Heptic Irix",
+    "name_CHS": "七柱鸢尾",
+    "name_CHT": "七柱鳶尾",
+    "desc_EN": "A very unique variety of lumen irix that has seven buds. However, when it blossoms, only one will open and the other six will wither.\n\nAs she assessed the flower, Eda mentioned that East Ocean scholars believed this plant had a negative energy, and represented turmoil.",
+    "desc_CHS": "龙脉鸢尾的一种特化种，具有七株花苞，然而每次开花时却只有一株会绽放，其他六株则会枯萎。\n\n「你们瀛海的龙脉学者常说这种花具有邪性，暗示着动乱。」艾妲对花如此评价。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 57,
+    "name_EN": "Lumen Jinseng",
+    "name_CHS": "龙参",
+    "name_CHT": "龍參",
+    "desc_EN": "A common lumen plant hidden within the depths of caves, it's used to increase blood circulation. Still, I'm not sure why it's so expensive.\n\n\"Look it up yourself.\" Eda seemed reluctant to explain why.",
+    "desc_CHS": "隐藏在龙脉深处的常见植物，可以促进血液循环，不知为何拥有过高的售价。\n\n「自己找数据。」记得艾妲不太想说明。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 58,
+    "name_EN": "Withered Lumen Plant Leaf",
+    "name_CHS": "枯萎汜叶脉",
+    "name_CHT": "枯萎汜葉脈",
+    "desc_EN": "If a cave was improperly handled during excavation, the lumen would gradually dry up, causing the leaves of lumen plants to form crystals that were often used for religious purposes.",
+    "desc_CHS": "如果矿脉遭受盗采，汜水逐渐干涸的情况，会导致植物的叶脉结晶，形成的特殊晶体常被作为宗教用途。",
+    "shop_desc_EN": "Even when a lumen plant hasn't grown very well, due to their medicinal qualities, they're always worth something in the markets.",
+    "shop_desc_CHS": "尽管生长状况不佳，龙脉花卉因为其作为药材的特性，在市场上始终有着良好的流通性"
+  },
+  {
+    "id": 59,
+    "name_EN": "Mural: Lumen Empire",
+    "name_CHS": "万道图「群星龙脉帝国」",
+    "name_CHT": "萬道圖「群星龍脈帝國」",
+    "desc_EN": "4 Orbis, 7 Circum, 6 Gradus\nPraesidio Illustrates Thus\n\nThis mural depicts how Helius hoped to use the lumen from across the galaxy to fuel his empire. The center mural of Ignis represented Thousand Peaks, while the countless specks surrounding it represented lumen caves. Through two special gates, the caves would arrive at Thousand Peaks, and fly towards Ignis.",
+    "desc_CHS": "万道龙守制图于\n四轮七天六地\n\n图描述的，是乙皇希望将银河间的龙脉归己所有的帝国愿景。\n\n中央烛龙的雕刻象征群山，周遭无数的星点则是龙脉，它们透过两个特殊的门往来群山，飞向烛龙。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 60,
+    "name_EN": "Witch's Rose Leaf",
+    "name_CHS": "巫香叶",
+    "name_CHT": "巫香葉",
+    "desc_EN": "It was believed that the consciousness of Terra inhabited witch's rose. However, the lack of evidence led to the theory being dismissed. \n\n\"Any plant that grows in a lumen cave, may be connected to Terra's consciousness,\" Eda said. After all, in Myrian mythology, it was from Terra's song that life blossomed.",
+    "desc_CHS": "巫香曾被认为蕴藏神明后土的意识，却因为找不出证据而放弃。\n\n「只要是龙脉中生长的植物，都可能与后土的意识有所关连。」艾妲这么说，毕竟神话中，生命是因为它的歌而绽放。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 61,
+    "name_EN": "Salvaged Explosives",
+    "name_CHS": "废弃火药组",
+    "name_CHT": "廢棄火藥組",
+    "desc_EN": "Space junk commonly seen floating throughout abandoned ruins after the war. It was dangerous to transport, but given its range of uses, it was a very popular item among scavengers.",
+    "desc_CHS": "龙脉冲突后，废弃残骸区常见的宇宙垃圾。尽管运送危险，但因为其实用性，依然是炙手可热的拾荒品。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 62,
+    "name_EN": "Melody of Starsong (Act 3)",
+    "name_CHS": "龙脉长歌下部",
+    "name_CHT": "龍脈長歌下部",
+    "desc_EN": "At the end of the story, Helius slays the gods who killed Terra. He tried to resurrect her with lumen flowers, but Ignis, whose people were slain, furiously warned him that if Terra were resurrected, the fires of heaven would destroy Thousand Peaks. Helius disobeyed, hiding his lover's corpse in Excidium. His last words before sending his lover into the void were: \"When the flowers bloom, we shall meet in the next life.\"\n\nThe heavens erupted and Helius was blown away by wind storms, scattered among the stars.",
+    "desc_CHS": "故事最后，乙皇成功消灭了杀害后土的诸神，并试图用龙脉生长的花卉让后土复活，然而子民被杀，愤怒的烛龙却警告乙皇，若复活后土，会将群山用天火燃尽，乙皇不允，反将爱人的尸首藏于大荒，送离群山，他留下最后的话语，目送后土于虚空离去。\n\n「花开有时，来世再遇。」\n\n此后天火爆发，乙皇被风暴吹飞，从此消散于群星间。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 63,
+    "name_EN": "Myrian God: Binarii",
+    "name_CHS": "万道诸神-二向",
+    "name_CHT": "萬道諸神-二向",
+    "desc_EN": "Binarii is two gods whose head and tail are adjoined, never to meet, representing the neverending flow of space-time. Legend has it that the gates of Binarii reach beyond time and space, and those who pass through may be met with anyone from anywhere.\n\nTravelling Peakers would often utter the prayers of Binarii to each other before setting off on long journeys.",
+    "desc_CHS": "两个方向的神明首尾相连，永不交会，代表永不止息的时空流转，传说只要通过二向镇守的大门，就能超越时间与空间，与不同的人事物相遇。\n\n在群山的旅人间，旅人由于离别无常，常引用二向的话语作为祈福。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 64,
+    "name_EN": "Myrian God: Praesidio",
+    "name_CHS": "万道诸神-龙守",
+    "name_CHT": "萬道諸神-龍守",
+    "desc_EN": "The guardians of lumen asteroids. Carvings of these deities could be found on lumen valves. It's believed Praesidio is split into hundreds of forms, present wherever lumen can be found.\n\nBesides protecting lumen, they are responsible for recording history, and their accounts could be seen all over Myrian inscriptions.",
+    "desc_CHS": "守护龙脉的小行星之神，它们的雕刻镶嵌在各种汜水的阀门，分身上百，只要有龙脉，便无所不在。\n\n它们守护土地时也负责纪录该地的历史，万道碑文中，往往能见到它们的记述。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 65,
+    "name_EN": "Scripture: Splitting of the Ten Peaks (Part 1)",
+    "name_CHS": "十山天地开辟经上部",
+    "name_CHT": "十山天地開闢經上部",
+    "desc_EN": "Authored by the Lumen Association, based on archaeological data from Myrian ruins.\n\nThis text describes the late stages of the Myrian Empire, when Helius called upon Terra to sing for Myria's continued prosperity. Ignis was enraged by this, and he warned the gods that the wrath of heaven would befall them if they did not stop. Helius defied Ignis, however, and was dragged into war with the gods who took Ignis' side...",
+    "desc_CHS": "龙脉协会所著，内容多半来自于龙脉遗迹的考古数据。\n\n描述乙皇面对万道帝国晚期，为延万道国祚，令后土行歌引导龙脉，此举触怒了烛龙，它警告诸神，若不停止，将会有天罚降临，然而乙皇无视烛龙，与支持烛龙的神明陷入战争...",
+    "shop_desc_EN": "An accessible translation of the classic text \"Splitting of the Ten Peaks\", with over 300 hand-drawn illustrations to bring you into the world of Myria.\n\nThis version is a cooperation between the Lumen Association and Aurora Civil College, created to give readers a more visual sense of the text. With its small size, it's perfect for reading at home or taking it on the go.",
+    "shop_desc_CHS": "最浅白易读的天地开辟经新译本，近三百幅彩色手绘插图，带你进入万道的世界。\n本版特色：\n龙脉协会与朝山公民大学学者联合著作\n附精美手绘插图，让读经更具立体画面感。\n适中尺寸大小，不论在家阅读或外出聚会皆适宜。"
+  },
+  {
+    "id": 66,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Lumen intel given to us by what looked like a friendly capybara. Could I really trust this?",
+    "desc_CHS": "一个有点面善的水豚送我们的情报，这真的可靠吗？",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 67,
+    "name_EN": "Witch's Starsong of Ignis",
+    "name_CHS": "烛龙的女巫龙鸣",
+    "name_CHT": "燭龍的女巫龍鳴",
+    "desc_EN": "The sun of every planetary system has its own unique starsong.\n\nAt the time of our exile, Kay searched among the different stars and asked me to choose where we would go. The equipment used to record the starsong from Thousand Peaks was old, and the sound quality wasn't good, so I don't know why I cried the first time I heard it. That strong sense of longing was why I chose it as our destination.",
+    "desc_CHS": "不同行星系的太阳，都有自己的龙鸣声。\n\n当年为了找出逃亡的目的地，大魁搜集了不同太阳请我挑选，群山的录音因为设备老旧，声质不好，听到时我却不明所以的流泪，那股强烈的怀念，成为我来到群山的原因。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 68,
+    "name_EN": "United Mining Historical Drama \"Shining Stars\"",
+    "name_CHS": "矿联历史剧《星火闪耀》",
+    "name_CHT": "礦聯歷史劇《星火閃耀》",
+    "desc_EN": "\"Let their souls shine among the stars, so that we may raise the flag of United Mining in this barren land.\"\n\nA popular history series from several decades ago. It described the heroes of United Mining and how, over the course of several years, they colonized several planetary systems, squashing lumium-related superstitions for the glory of their god.",
+    "desc_CHS": "「愿灵魂闪耀于淬铁的星火之间，\n让蛮荒间升起矿联的旗帜。 」\n\n矿联十多年前流行过的历史影集，描述矿业联合的英雄，如何拓荒行星系，剿灭汜气有关的灵魂迷信，并荣耀他们的神。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "在群山的市场上，只要有门道，几乎什么东西都能找到收购者。"
+  },
+  {
+    "id": 69,
+    "name_EN": "Inscription: Terra to Sanctums ",
+    "name_CHS": "后土告众道碑文",
+    "name_CHT": "后土告眾道碑文",
+    "desc_EN": "4 Orbis, 1 Circum, 2 Gradus\nPraesidio Composes Thus\n\nTerra's Song Shrine is complete,\nthe gates to Binarii space-time are open.\nMy song shall guide lumen from afar,\nEntering the Binarii gates to Ignis,\nSo that he may ingest it,\nand thereby creating more in abundance. \nI shall channel his flames with my songs,\nasking only by the blessings of Helius,\nthat Myria may reign eternal.",
+    "desc_CHS": "万道龙守谱于\n四轮一天二地\n\n后土歌殿已成，二向门开，\n吾将行歌，引河外龙脉，\n穿二向，入烛龙之口，\n愿烛龙食之，龙脉丰之。\n\n吾将以歌驭烛龙之炎，\n只求乙皇赐福，万道常在。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 70,
+    "name_EN": "Song Pipes",
+    "name_CHS": "龙鸣箱",
+    "name_CHT": "龍鳴箱",
+    "desc_EN": "Archaeological research indicates that when the Myrian gods' cultivation proved ineffective, they relied on song pipes to enhance their voices. Only then were they able to enter the gates. This unique feature made it much easier for modern cave runners to open them.",
+    "desc_CHS": "考古的研究指出，万道的神明如果修为不足时，必须倚靠龙鸣箱强化歌声，才能进出龙门，这一特性大大降低了现代龙脉探勘的难度。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 71,
+    "name_EN": "\"Melody of Starsong\" Research Notes",
+    "name_CHS": "龙脉长歌研究日记",
+    "name_CHT": "龍脈長歌研究日記",
+    "desc_EN": "\"While gathering material, I have discovered a most peculiar thing. The Witching Tower records indicate that, every few decades, a witch whose powers are suddenly cut short will appear. Six peculiar marks will appear on her throat and she will slowly lose her ability to sing. What fascinating material...\"\n\nA manuscript left by Rodin, the famous writer. While searching for inspiration, he didn't hesitate to enter caves to look for source material.",
+    "desc_CHS": "取材日记节录\n取材过程中，我发现奇怪的现象，巫塔记载中，群山数十年就会有一位女巫突然无法唱歌，她喉咙会浮现六个点的奇妙胎记，之后就会慢慢丧失唱歌的能力，这会是个好题材...\n...\n著名的作家-罗登遗落的手稿，为了创作，他不惜冒险进入龙脉取材。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 72,
+    "name_EN": "Myrian Gate",
+    "name_CHS": "万道龙门",
+    "name_CHT": "萬道龍門",
+    "desc_EN": "Within the Myrian shrines, to separate the lower and higher deities, only the gods that could chant the inscriptions on the massive gates were allowed to come and go.",
+    "desc_CHS": "万道神殿中，为诸神分级的大门，唯有能正确唱诵龙门谱面的神明，才有在神殿中来去的权利。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 74,
+    "name_EN": "Advanced United Mining Electronic Components",
+    "name_CHS": "高级矿联电子元件",
+    "name_CHT": "高級礦聯電子元件",
+    "desc_EN": "Even as secondhand parts taken off wartime military vessels, the products sold in United Mining shops were always of the highest quality. So much so, that Remi would occasionally shop for these behind Eda's back.",
+    "desc_CHS": "仅管是从龙脉冲突退役的军船，拆解出来的二手货，但矿连商店销售的品质仍然优良，菈米亚甚至背着艾妲逛了好一阵子。",
+    "shop_desc_EN": "United Mining Certified Secondhand Product\nSupplies are limited.\n\nMilitary-grade electrical components by United Mining. Durable against electromagnetic pulse attacks. \n\n[Designed according to Phase II of the Lumen Mining Act Clarification Proceedings]\n[Dismantled from a retired military vessel]",
+    "shop_desc_CHS": "[矿联认证中古货]\n数量有限，售完不补\n\n行星矿业联合制造\n军规电子元件，可防范电磁脉冲攻击\n\n[本零件依据龙脉指定法二期精简计划]\n[由退役的军船拆卸]"
+  },
+  {
+    "id": 75,
+    "name_EN": "Advanced United Mining Sensor",
+    "name_CHS": "高级矿联感应器",
+    "name_CHT": "高級礦聯感應器",
+    "desc_EN": "An advanced sensor taken off a retired military vessel. Given that we were buying military technology from the same United Mining that had taken her master away, Eda had mixed feelings about the purchase.",
+    "desc_CHS": "那是从退役军船拆下的高阶感应元件。购买时，艾妲的心情其实很复杂，毕竟是跟带走她师父的矿联购买军备。",
+    "shop_desc_EN": "United Mining Certified Antique\nSupplies are limited.\n\nSmart sensors that provide precision measurements for pressure, humidity, electromagnets, and more. 16 sets of customizable, military specification sensors.\n\n[Designed according to Phase II of the Lumen Mining Act Clarification Proceedings]\n[Dismantled from a retired military vessel]",
+    "shop_desc_CHS": "[矿联认证中古货]\n数量有限，售完不补\n\n行星矿业联合制造\n智能感应，精确测量压力、温湿、电磁...\n十六组军规可客制感应元件\n\n[本零件依据龙脉指定法二期精简计划]\n[由退役的军船拆卸]"
+  },
+  {
+    "id": 77,
+    "name_EN": "Base Exploration Kit Storage",
+    "name_CHS": "原始格纳库",
+    "name_CHT": "原始格納庫",
+    "desc_EN": "-",
+    "desc_CHS": "格纳库初始数据，游戏不显示",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 78,
+    "name_EN": "Lumen Alloy Armor",
+    "name_CHS": "汜合金装甲",
+    "name_CHT": "汜合金裝甲",
+    "desc_EN": "Produced by the Rumani Clan, who placed a very high value on diplomatic relations. Most of these were used on their unique, high-speed vessels. After they were defeated, their technology was taken by United Mining, and the defective units were sold on the market for a high price.",
+    "desc_CHS": "由重视外交的吉普赛家族所制造，多半用于他们特殊的高速飞艇，吉普赛败退后，技术由矿联吸收，而废弃的瑕疵品则被转到市场高价出售。",
+    "shop_desc_EN": "United Mining Certified Antique\nSupplies are limited.\n\nHighly treated lumen plates with a lumen alloy density of 5.73%. Multi-layered composite armor that's easy to dismantle and install.\n\n[Designed according to Phase II of the Lumen Mining Act Clarification Proceedings]\n[Salvaged from Rumani Clan airspace]",
+    "shop_desc_CHS": "[矿联认证中古货]\n数量有限，售完不补\n\n特级汜金属加工，汜合金密度 5.73%\n高级多层次复合装甲，易于拆卸安装\n\n[本零件依据龙脉指定法二期精简计划]\n[由吉普赛家族的残骸空域打捞]"
+  },
+  {
+    "id": 79,
+    "name_EN": "Damaged Lumen Metal Plate",
+    "name_CHS": "破损汜金属板",
+    "name_CHT": "破損汜金屬板",
+    "desc_EN": "A lumen metal plate created by fusing a small amount of lumium into steel. Its ability to block off lumium induced hallucinations made it a commonly seen material around the caves.",
+    "desc_CHS": "将少量汜气加入钢材制成的汜金属，由于可以阻隔汜气产生的幻觉，在龙脉矿场常见这些临时压铸的板材。",
+    "shop_desc_EN": "Lumen Association Recycled (Like New)\n\nSalvaged from a Lumen Association cave.\n\nWith a lumen alloy density of 0.34%, it can be used to enhance armor and is perfect for cave exploration modifications.",
+    "shop_desc_CHS": "龙脉协会回收品：九成新未整理\n本品项由龙脉矿场回收\n\n汜合金密度 0.34%\n可用于强化装甲，探索龙脉必备改造零件"
+  },
+  {
+    "id": 80,
+    "name_EN": "Broken Communications Module",
+    "name_CHS": "损坏的通讯模组",
+    "name_CHT": "損壞的通訊模組",
+    "desc_EN": "After the war, the airspace in Thousand Peaks was full of unidentifiable electromagnetic waves, sent out by communication modules scattered throughout space, making space travel full of unpredictable risks.",
+    "desc_CHS": "龙脉冲突后，因为这些散落的模组发出的讯号，让群山的空域充满无法辨识的电磁波，航行变得异常危险。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 81,
+    "name_EN": "Precision Environment Simulator",
+    "name_CHS": "精密环控系统",
+    "name_CHT": "精密環控系統",
+    "desc_EN": "\"Now the flowers will definitely grow a bit better...\"\n\nI still remember Eda smiling when she saw the environmental control system. If I remember correctly, it could simulate the environment needed for lumen plants to grow. Given that Red Chamber had a greenhouse, it was a crucial piece of equipment.",
+    "desc_CHS": "「这样花又可以长得更好些呢...」\n我还记得艾妲看到环控系统的微笑，这似乎可用来模拟龙脉花卉的生长环境，对具备温室的红楼，是不可多得的重要配件。",
+    "shop_desc_EN": "Lumen Association Recycled (Like New)\n\nSalvaged from battleground airspace debris. Please consult with a technician before purchasing.\n\n[Manufacturer: Zhao Ghe Resources]\nJust what you need to keep lumen plants alive. Nearly 100 simulation settings. Precision control of humidity, lumium flow rate, temperature and more.",
+    "shop_desc_CHS": "龙脉协会回收品：九成新未整理\n本品项打捞自龙脉冲突残骸空域\n购买前请与技术人员确认\n\n[朝歌汜气能源集团制造]\n活体龙脉植物保存必备\n近百组模拟条件\n可精确控制、湿度、汜气流量等环境因素"
+  },
+  {
+    "id": 82,
+    "name_EN": "United Mining Reactor",
+    "name_CHS": "矿联能源反应炉",
+    "name_CHT": "礦聯能源反應爐",
+    "desc_EN": "A reactor produced by United Mining that could very effectively transform lumen into usable energy.\n\nAfter the war, they became popular among scavengers, sometimes even leading to conflicts over territory.",
+    "desc_CHS": "矿业联合自产的反应炉，能以高效率进行汜的能源转换。\n\n龙脉冲突后成为拾荒人的抢手货，甚至有因为它而发生的地盘冲突。",
+    "shop_desc_EN": "Dismantled from a United Mining Sentry Station\n\nSuitable for United Mining vessels. Can be installed on hybrid lumium engines.\n\n[Reprocessed by Shiratsuka Parts]\n[We hope this part was destined for you]",
+    "shop_desc_CHS": "矿业联合哨站拆解品\n适合矿联船系\n可安装于混合汜气动力引擎\n\n[本品项为白冢零件打捞重制品]\n[愿零件与你有美好的相遇]"
+  },
+  {
+    "id": 83,
+    "name_EN": "Spare Ship Part",
+    "name_CHS": "船舰零组件",
+    "name_CHT": "船艦零組件",
+    "desc_EN": "After the war, abandoned ship parts leftover from the battles became an important resource for revitalizing Thousand Peaks. On some of the parts, you could even see the Ring Liberation Front's production label.",
+    "desc_CHS": "龙脉冲突后，战场遗留了大量的废弃船零件，成为群山人复兴的重要资产，某些零件上，甚至看得到星环自由战线的出品的标签。",
+    "shop_desc_EN": "[Trash Mountain Recycled Product] \nManufactured by the R.L.F. in 8515\n\nNever fear getting snatched by United Mining again! Anti-rust and anti-rot treatments make it easy to keep clean. Please check for a Trash Mountain seal of authenticity before purchasing.",
+    "shop_desc_CHS": "[垃圾山回收二手品] \n本品项由星环自由战线于8515年制造\n\n让你飞船再也不用畏惧矿联的追捕\n防锈防腐，不易脏污\n购买前请确认垃圾山雷雕认证"
+  },
+  {
+    "id": 84,
+    "name_EN": "Refined Lumen Metal Plate",
+    "name_CHS": "精炼汜金属板",
+    "name_CHT": "精煉汜金屬板",
+    "desc_EN": "Lumen alloys would not only enhance a ship's armor, they could also be used for storing lumium. You would see massive cylinders made of these lumen plates at the more technologically advanced caves.",
+    "desc_CHS": "汜的合金不仅可以提升装甲强度，也能作为装载汜气的容器，只要是高级的龙脉矿场，常能看到汜金属板拼装的大型汽缸。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 85,
+    "name_EN": "Signal Modifier II",
+    "name_CHS": "讯号变造装置 II",
+    "name_CHT": "訊號變造裝置 II",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 86,
+    "name_EN": "Thousand Peaks Research Expedition Notes 02",
+    "name_CHS": "群山研究团笔记02",
+    "name_CHT": "群山研究團筆記02",
+    "desc_EN": "Thousand Peaks Civil College often sent out expedition parties, and their notes could occasionally be found within the caves.\n\n\"Summary of the 4th Research Expedition:\nThose with abnormal concentrations of lumen in their blood can sense the vibrations of lumen. Since these vibrations may come from a different space-time, the lumen may contain emotional frequencies from those continuums. As a result, those extra sensitive to lumen may experience a variety of emotions. This phenomenon is known as 'resonance', though some refer to it as 'hearing the voice of spirits'.\"",
+    "desc_CHS": "群山公民大学常送出探险队，龙脉中不时会找到遗落的笔记\n...\n第四次研究团探险摘要\n血液中拥有异常浓度汜的人，能够感应汜的震动，由于汜的震动不一定来自于同个时空，可能是某个时空片段中，具有感情的频率，因此感受到震动的人，也会感受到不同的情绪。\n这种现象，被称为「龙脉共振」，也有人称为「听到灵魂的声音」",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 87,
+    "name_EN": "Base Hybrid Lumium Engine",
+    "name_CHS": "原始汜气混合引擎",
+    "name_CHT": "原始汜氣混合引擎",
+    "desc_EN": "-",
+    "desc_CHS": "油量值初始数据，游戏不显示",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 88,
+    "name_EN": "Chronology of Myria Terra",
+    "name_CHS": "万道后土年表",
+    "name_CHT": "萬道后土年表",
+    "desc_EN": "8 Orbis, 1 Circum, 12 Gradus\nPraesidio Records the Great Works of Terra\n\n1 Orbis: Helius blesses Terra\n2 Orbis: Terra preaches song, and the Servums become Sanctums\n3 Orbis: Terra sings to the Sanctums, extending their life.\n......\n\nThis chronology memorializes Terra, how she channeled the lumen, and sang for the gods.",
+    "desc_CHS": "万道龙守谱后土伟业于\n八轮一天二十地\n\nㄧ轮：乙皇封后土\n二轮：后土授歌，众卒成道\n三轮：后土为众道行歌，诸神续命\n…\n年表似乎是纪念亡故的后土，内容是它如何引导龙脉，行歌的纪录。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 89,
+    "name_EN": "Osman's Research Notes",
+    "name_CHS": "奥斯曼的研究稿",
+    "name_CHT": "奧斯曼的研究稿",
+    "desc_EN": "Osman was a famous black hole scholar who spent his whole life trying to debunk the myths of Myria for the glory of United Mining. \n\n\"Worship of the black hole Excidium and its status as a deity appeared late in Myrian history. This so-called 'god', from my perspective, arose out of some taboo surrounding the black hole. In order to ensure that people did not approach it, Excidium was created...\"",
+    "desc_CHS": "奥斯曼是矿联有名的黑洞学者，一生努力破解万道的迷信，荣耀矿联。\n...\n黑洞「大荒」这天体信仰，作为诸神在万道历史中出现得很晚。\n\n这些群山人以为自己信仰了神明，在我看来，绝对是古代黑洞附近有什么禁忌，不想让人靠近才会为大荒立神...",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 90,
+    "name_EN": "Gentle Witch's Starsong",
+    "name_CHS": "温柔的女巫龙鸣",
+    "name_CHT": "溫柔的女巫龍鳴",
+    "desc_EN": "Even though Eda said that her throat was damaged and she couldn't sing well, her voice rang out like the sorrows of heaven, almost as if she experienced the pain herself.",
+    "desc_CHS": "虽然艾妲说自己喉咙受伤，唱歌不好听，但却仿佛唱出了神明的哀愁，宛如自己亲身经验的痛苦。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 91,
+    "name_EN": "Old Reso-Scanner",
+    "name_CHS": "老式龙脉共振仪",
+    "name_CHT": "老式龍脈共振儀",
+    "desc_EN": "-",
+    "desc_CHS": "共振仪初始数据，游戏不显示",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 92,
+    "name_EN": "\"Origins of Myria\" Conference Notes",
+    "name_CHS": "万道起源研讨",
+    "name_CHT": "萬道起源研討",
+    "desc_EN": "Excerpts from this conference indicate that the Myrian gods who existed in ancient times may have been higher dimensional conscious beings that were formed by a mixture of lumen and other minerals. It is surmised that they used some form of song to activate their internal lumen in order to survive.\n\nWithout song, they would most likely turn back into their mineral form, and their consciousness would return to the flow of lumen, dispersed among the void.",
+    "desc_CHS": "研讨会指出，古代银河中的万道诸神，可能是汜与矿物混合后，产生的高维意识体，并用「歌」，让体内的汜活化，进而生存。\n\n反之无歌的情况，它们可能就会变回矿物，曾有的意识则会回归汜的流动，消散于虚空。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 93,
+    "name_EN": "Key Directions: Doctor's Intel",
+    "name_CHS": "重要方位：医生的情报",
+    "name_CHT": "重要方位：醫生的情報",
+    "desc_EN": "Sometimes I thought that even if Eda never joined the Lumen Association, no matter how many times the doctor yelled at her, she'd still help out Eda out whenever she needed it. ",
+    "desc_CHS": "我觉得，就算一辈子不加入龙脉协会，医生也会边骂着艾妲，边提供她各种协助。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 94,
+    "name_EN": "Military Vocalizer Battery",
+    "name_CHS": "军用发声器电池",
+    "name_CHT": "軍用發聲器電池",
+    "desc_EN": "Eda's voice aid was old, but she never even considered getting a new one. One time I asked her why, and she said it was because the most important person in her life gave it to her.",
+    "desc_CHS": "尽管辅具已经老旧，但艾妲没有想更换的想法，当时我问过为什么，她只回我，这是很重要的人送她的。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 103,
+    "name_EN": "Exploration Kit Storage II",
+    "name_CHS": "探索设备格纳库 II",
+    "name_CHT": "探索設備格納庫 II",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 104,
+    "name_EN": "Six Peaks Ring",
+    "name_CHS": "万道六山戒",
+    "name_CHT": "萬道六山戒",
+    "desc_EN": "The doctor gave this to us before we left Aurora. On the ring was a carving of the six planets that had disappeared long ago. They symbolized the Six Peaks that revolted against Helius during the holy war.\n\nThis ring was used by those in the Lumen Association carrying out secret orders.",
+    "desc_CHS": "离开朝山前，医生交付的信物，戒指的雕刻是消失的六大行星，象征着古代战争时，与乙皇发动叛乱的六山诸神。\n\n那是龙脉协会用于交换密令的戒指。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 105,
+    "name_EN": "Lumium Coated Armor III",
+    "name_CHS": "汜气涂料装甲 II",
+    "name_CHT": "汜氣塗料裝甲 II",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 106,
+    "name_EN": "Signal Modifier III",
+    "name_CHS": "讯号变造装置 III",
+    "name_CHT": "訊號變造裝置 III",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 107,
+    "name_EN": "Red Chamber Crew ID: 004 Jun",
+    "name_CHS": "红楼识别证-004 李莫",
+    "name_CHT": "紅樓識別證-004 李莫",
+    "desc_EN": "Crew Member 004\nMailbox: jun@redchamber.ship\n\nThe ID card I used after I became an official crew member. I'm so grateful for Eda. She took me in when I had nothing.",
+    "desc_CHS": "船员编号 004\n船员信箱：leemuo@redchamber.ship\n\n成为正式船员后，使用的身份识别卡。\n当时我很感谢艾妲，是她收留了一无所有的我。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 108,
+    "name_EN": "Eda's Class Notes",
+    "name_CHS": "艾妲的演说笔记",
+    "name_CHT": "艾妲的演說筆記",
+    "desc_EN": "\"Myria neverlasting, serve none but the flower within,\" she said.\n\n\"The soul takes the form of a flower. Look not beyond yourselves, but tend to its every need.\"\n\nWhen the class was over, Eda gave all the children a bag of seeds.",
+    "desc_CHS": "「万道无常，花开唯心。」她这么说。\n\n「灵魂是花的形状，与其追求外在，不如拯救自己内心深处的花。」\n\n课堂最后，艾妲送了一袋花卉的种子给孩子们。\n\n",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 109,
+    "name_EN": "Myrian God Prime: Terra",
+    "name_CHS": "万道主神-后土",
+    "name_CHT": "萬道主神-后土",
+    "desc_EN": "The goddess of music and wielder of lumen energy. Besides the Ten Peaks, she was the first god to receive the gift of song from Helius. Her voice channeled the flow of lumen, bringing life to the land. Wherever she went, flowers bloomed.",
+    "desc_CHS": "后土是掌握龙脉能量的歌神，是除了十山诸神外，乙皇第一位授与歌法的神明，她的歌声能引导龙脉的流动，为土地带来生命，行经之处往往为花所覆盖。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 110,
+    "name_EN": "Common Lumen Coin",
+    "name_CHS": "通用汜金币",
+    "name_CHT": "通用汜金幣",
+    "desc_EN": "\"By the light of Ignis, may your fortunes shine upon us, and cast away the darkness.\"\n\nIn areas outside of United Minings' jurisdiction, Many Peakers refused to use their currency. Instead, they used coins produced by the Myrian Ignis Guild, which were forged with trace amounts of lumen alloy.",
+    "desc_CHS": "「烛龙赐福，愿您出手如光，远离黑暗。」\n\n矿联的势力范围外，许多群山人排斥使用矿联的货币信用点，仍在使用这由万道烛龙商会发行，混合了微量汜合金铸造的金币。",
+    "shop_desc_EN": "A common currency found around the asteroids, produced with trace amounts of lumen alloy to ensure value and prevent forgery.\n\nEven though they're prohibited by United Mining, you can find a merchant who's willing to exchange them for credits at any space station.",
+    "shop_desc_CHS": "小行星普遍使用的货币，混合了微量汜合金以便保值和防伪。\n尽管被矿联禁用，任何空间站都能找到愿意兑换成信用点的商家。"
+  },
+  {
+    "id": 111,
+    "name_EN": "Space Shanty \"The Front\"",
+    "name_CHS": "星环自由船歌",
+    "name_CHT": "星環自由船歌",
+    "desc_EN": "A tragic song recounting the loss of the Ring Liberation Front. Full of sadness, anger, and rebellious lament, it was also the war cry for anti-United Mining sentiment.",
+    "desc_CHS": "悲愤中带着狂野的叛乱气息，这首歌是哀悼星环自由战线的悲歌，也是曾经反叛矿联的战曲。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 112,
+    "name_EN": "Cave Lord Golden Disc",
+    "name_CHS": "洞窟王金盘",
+    "name_CHT": "洞窟王金盤",
+    "desc_EN": "Cave Lord: Jun Lee\n\"May Praesidio ensure your journeys are forever smooth.\"\n\n\"How ridiculous!\" Eda laughed as she looked at the golden disc with my name on it. Even though she didn't want me to participate, I still remember her giving it her all as she cheered me on.",
+    "desc_CHS": "洞窟王：李莫\n龙守保佑探勘无往不利\n...\n龙门谱面的金色圆盘镶着我的名字\n「笨死了这什么...」艾妲看到时笑了出来，她虽然不赞成我做这种事，但我依然记得她在场外拼命加油的样子。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "在群山的市场上，只要有门道，几乎什么东西都能找到收购者。"
+  },
+  {
+    "id": 114,
+    "name_EN": "Pulse Beam Focuser",
+    "name_CHS": "脉冲集束器",
+    "name_CHT": "脈衝集束器",
+    "desc_EN": "I heard Remi say that this was initially developed by the Eiffel League for transmitting signals to guide ships. However, in the post-war world, its high pulsation output was used to modify ship communication systems and enhance electronic warfare capabilities.",
+    "desc_CHS": "听菈米亚说，这最早是艾菲尔同盟发送讯号，用来引导船只的设备，其强大的脉冲功率，在冲突后的今天却被用来改造通讯系统，强化电子作战的能力。",
+    "shop_desc_EN": "Manufacturer: Eiffel League \n(Dismantled Part - Like New)\n\nAdjustable power output. Can be used for communication and electronic warfare. \n\n[Reprocessed by Shiratsuka Parts]\n[We hope this part was destined for you]",
+    "shop_desc_CHS": "艾菲尔同盟原厂制造，拆卸后整理九成新\n可调整功率，用于通讯或电子作战\n\n[本品项为白冢零件打捞重制品]\n[愿零件与你有美好的相遇]"
+  },
+  {
+    "id": 115,
+    "name_EN": "Storage Unit",
+    "name_CHS": "仓储配件",
+    "name_CHT": "倉儲配件",
+    "desc_EN": "From what I remember as a child, these were the same storage systems that unloaded our belongings from the ship when the clan master brought my mother and I back to the home of the Lee clan.",
+    "desc_CHS": "记得我还小时，那时母亲还在，家主接我们前往鸢家，后院停泊的飞船自动卸货，使用的就是这些模组化的仓储配件。",
+    "shop_desc_EN": "Manufacturer: East Ocean Alliance (Brand-New Antique)\n\nMade from the finest materials, this storage unit boasts heavylifting capabilities like you've never seen before. Can be used to upgrade hangars. Suitable for standard civilian vessels.\n\n[Reprocessed by Shiratsuka Parts]\n[We hope this part was destined for you]",
+    "shop_desc_CHS": "瀛海龙脉同盟制造，全新中古货\n真材实料，强悍承重\n可用于改良格纳库，适用一般民间船型\n\n[本品项为白冢零件打捞重制品]\n[愿零件与你有美好的相遇]"
+  },
+  {
+    "id": 116,
+    "name_EN": "Control System Unit",
+    "name_CHS": "控制器组件",
+    "name_CHT": "控制器組件",
+    "desc_EN": "No matter how many times Kay taught me, I was never good at installing electronics. Every time I had to dismantle an East Ocean control system, I couldn't help but get lost in those memories.",
+    "desc_CHS": "尽管大魁教过我不少次，但我依然不擅长电子配装，当年我在拆卸这些瀛海产的控制器组件时，常会陷入回忆。",
+    "shop_desc_EN": "Manufacturer: East Ocean Lumen Alliance (Brand-New Antique)\n\nAuto-identification, low electricity use, and long-distance monitoring functions. Used for upgrading vessel control systems and electronic warfare.\n\n[Reprocessed by Shiratsuka Parts]\n[We hope this part was destined for you]",
+    "shop_desc_CHS": "瀛海龙脉同盟制造，全新中古货\n自动识别，低耗电率，远程监控\n可用于改进船舰控制系统，电子作战必备\n\n[本品项为白冢零件打捞重制品]\n[愿零件与你有美好的相遇]"
+  },
+  {
+    "id": 117,
+    "name_EN": "Signal Modifier I",
+    "name_CHS": "讯号变造装置 I",
+    "name_CHT": "訊號變造裝置 I",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 118,
+    "name_EN": "Pyoria Flish",
+    "name_CHS": "茯苓闪",
+    "name_CHT": "茯苓閃",
+    "desc_EN": "\"This flower's often used to pray for peace or to grieve for those who have passed.\"\n\nEda said that in Myrian illustrations, wherever there was war, symbols of this flower could be seen.",
+    "desc_CHS": "「常被用于祈祷和平，有时候也会用来悼念亡者。」\n\n艾妲说万道神话的绘图中，只要有战争出现的地方，多会看见这花的图腾。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 119,
+    "name_EN": "Snowy Sunherb",
+    "name_CHS": "白葵",
+    "name_CHT": "白葵",
+    "desc_EN": "\"It's said that the gods would inhale lumen to extend their lives. That's backed by science, you know.\"\n\nEda told me how the lumen plants found in Thousand Peaks were used for a variety of medical purposes.",
+    "desc_CHS": "「万道神话中，诸神透过吸食汜而延命，其实是很科学的。」\n\n艾妲跟我解释，龙脉植物在群山，是如何被运用在各种医疗。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 120,
+    "name_EN": "Withered Lumen Plant Stamen",
+    "name_CHS": "枯萎汜花蕊",
+    "name_CHT": "枯萎汜花蕊",
+    "desc_EN": "After being destroyed by exposure to extreme heat, crystallized stamen like this one would eventually shatter. Even without being able to make out what type of plant it was, the belief that lumen could regenerate cells ensured that it would go for a pretty credit on the market.",
+    "desc_CHS": "由于被高热破坏，这类干燥而结晶的花蕊碎裂，已难辨识原有的花种，却因为龙脉促进细胞再生的传言，混着贩售依然有不少买家。",
+    "shop_desc_EN": "Even when a lumen plant hasn't grown very well, due to their medicinal qualities, they're always worth something in the markets.",
+    "shop_desc_CHS": "尽管生长状况不佳，龙脉花卉因为其作为药材的特性，在市场上始终有着良好的流通性"
+  },
+  {
+    "id": 121,
+    "name_EN": "Black Olfacturum",
+    "name_CHS": "黑牡芳",
+    "name_CHT": "黑牡芳",
+    "desc_EN": "\"For the space burials of Peaker soldiers, they would use these flowers. My master didn't like the sight of them.\"\n\nThat's how Eda first introduced this flower to me, before telling me she hated them too.",
+    "desc_CHS": "「群山军人葬礼时，会使用的黑色花卉，师父不太喜欢。」\n\n记得艾妲是这么介绍，她讨厌这花。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 122,
+    "name_EN": "Botanical Trade Map",
+    "name_CHS": "花卉贸易路线图",
+    "name_CHT": "花卉貿易路線圖",
+    "desc_EN": "This map recorded the route of Red Chamber's plant trade. From the distant home of Eda and her master, it passed through three transport stations starting from the New Iran Solar System, all the way to Thousand Peaks. This multi-thousand light-year trade route took half a standard year for every round trip. Red Chamber was basically their second home.",
+    "desc_CHS": "记载着红楼花卉贸易的路线图，从遥远艾妲与师父的家，新伊朗行星系一路经过三个传送港，直到群山的万光年贸易，一趟可能要花半个标准年，红楼就像她们的第二个家。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 123,
+    "name_EN": "Shattered Terra Mural",
+    "name_CHS": "破损的后土神像",
+    "name_CHT": "破損的后土神像",
+    "desc_EN": "A mural depicting Terra, the god of song and wielder of lumen energy. Shattered by an unknown force, it reminded me of the Witching Tower's demise after the Lumen War, and their firm belief in Myria Terra.",
+    "desc_CHS": "主掌龙脉能量的歌神后土，神像为不知名的力量劈裂，让我想到信仰万道后土的巫塔，在龙脉冲突后的下场。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 124,
+    "name_EN": "Fragrant White",
+    "name_CHS": "魂芳白",
+    "name_CHT": "魂芳白",
+    "desc_EN": "This was the primary flora cultivated in Eda and her master's hometown. Its ground-up petals could be used as a throat remedy. I only found out later that this was where Eda's name came from.",
+    "desc_CHS": "艾妲与师父于家乡主要培育的作物，捣碎的花瓣可以用于治疗喉咙，我后来才知道，艾妲的名字跟这花有关。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 125,
+    "name_EN": "Fortuna Pipe",
+    "name_CHS": "贵人龙烟",
+    "name_CHT": "貴人龍煙",
+    "desc_EN": "Fortuna Entertainment was probably the most well-known entertainment entity around. Their main operation was dealing lumen herbs, and they had small factories scattered around the belt. Taoyuan was nothing more than a side business.\n\nI've heard that smoking a stick of their lumen herbs increases vitality and is a cure-all for a range of illnesses.",
+    "desc_CHS": "在小行星带富有盛名的贵人娱乐集团，真正经营的是龙脉药草生意，小行星带各处都有他们下线的小工厂，桃源乡只是他们的副业。\n\n这种利用龙脉的植物做成的卷烟，听说有强精补气，免疫调节的功用。",
+    "shop_desc_EN": "A common item found in Thousand Peaks' asteroid belt. Given their prevalence, they're pretty easy to sell.",
+    "shop_desc_CHS": "群山小行星带随处可见的交易品，具有一定的流通性，变卖很容易。"
+  },
+  {
+    "id": 126,
+    "name_EN": "Peaker's Starshine",
+    "name_CHS": "群山私酿烈酒",
+    "name_CHT": "群山私釀烈酒",
+    "desc_EN": "The alcohol of Thousand Peaks, unlike that of East Ocean, is pungent and strong, brimming with the smell of minerals and gunpowder. Kay always said that when I became the clan master, I had to give him some land for winemaking.",
+    "desc_CHS": "跟瀛海的酒不同，群山的酒精刺鼻而强烈，充满矿物与硝烟的味道，大魁总说等我成为家主后，要给他个封地酿酒。",
+    "shop_desc_EN": "A common item found in Thousand Peaks' asteroid belt. Given their prevalence, they're pretty easy to sell.",
+    "shop_desc_CHS": "群山小行星带随处可见的交易品，具有一定的流通性，变卖很容易。"
+  },
+  {
+    "id": 127,
+    "name_EN": "Low-Quality Hybrid Lumium",
+    "name_CHS": "劣质混合汜气",
+    "name_CHT": "劣質混合汜氣",
+    "desc_EN": "Ignis is Myria's god of creation, and when the flames of his creation faded, they became a blue crystalline essence which could be refined into a liquid or gas. United Mining used it as an industrial fuel, and it is known by its common name, lumen.",
+    "desc_CHS": "「汜」音同似，万道的创世神，恒星「烛龙」的火焰熄灭后，形成的蓝色晶体，提炼后可为液体或气体，是矿联人的工业燃料，世人俗称的龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 128,
+    "name_EN": "The Daily Lumen Media Pass",
+    "name_CHS": "龙脉日报媒体证",
+    "name_CHT": "龍脈日報媒體證",
+    "desc_EN": "I remember the mixture of emotions on Eda's face when we were told to head for Ironwind. It was clear that she really didn't like United Mining.",
+    "desc_CHS": "我还记得艾妲听到要前往铁岚城的港口时，脸上的复杂表情，她不喜欢矿联。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 129,
+    "name_EN": "Wispy Witch's Starsong",
+    "name_CHS": "沙哑的女巫龙鸣",
+    "name_CHT": "沙啞的女巫龍鳴",
+    "desc_EN": "A sample of Eda's voice from when we first met. It was faint, as if it had been damaged. But her voice... it was so beautiful that I'll never forget it.",
+    "desc_CHS": "第一次遇到艾妲时，直接对她歌声采样的声音，她的歌声有点沙哑，像是受了伤，但很好听，我永远不会忘记。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 131,
+    "name_EN": "Key Directions: Black Market Cave",
+    "name_CHS": "重要方位：黑市的龙脉",
+    "name_CHT": "重要方位：黑市的龍脈",
+    "desc_EN": "If Kay knew that I got on my knees for him, he'd be so upset. But he just meant that much to me.",
+    "desc_CHS": "如果被大魁知道我为了他下跪，他一定会揍我，但他对我而言，就是这么重要。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 132,
+    "name_EN": "Scripture: Ignis' Genesis",
+    "name_CHS": "烛龙创世经",
+    "name_CHT": "燭龍創世經",
+    "desc_EN": "This text records the well-known Myrian myth of Ignis, the ancient god of creation. \n\nIgnis descended in a blazing inferno, and a flaming explosion formed ten fireballs, which became the ten planets. The flames faded and were reduced to an ice-blue essence, which then turned into lumen. The lumen was in constant flux, and eventually became the gods of Myria. This was the beginning of Ignis' creation of the world.",
+    "desc_CHS": "书中记载的是群山耳熟能详，古老的创世神「烛龙」的龙脉神话。\n\n随烈炎降世的烛龙，爆发的火焰化为十个火团，成为行星十山。\n\n火焰熄灭后化为冰蓝的魂魄，则成为龙脉，龙脉流转不停，最终化为了万道诸神，是为烛龙创世之始。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 133,
+    "name_EN": "Myrian God Prime: Ignis",
+    "name_CHS": "万道主神-烛龙",
+    "name_CHT": "萬道主神-燭龍",
+    "desc_EN": "According to myth, the Myrian Empire was annihilated by Ignis' fiery wrath because of Helius' excessive use of lumen to extend the lives of the gods.\n\nIgnis was the omnipotent god of gods in Myrian myth. He was also the sun, the source of lumen energy, and the final resting place for all life.",
+    "desc_CHS": "神话中，烛龙愤怒的火焰毁灭了万道帝国，只因乙皇为了让诸神为了延续生命，过度运用了龙脉的能量。\n\n烛龙是万道的全知全能神，也是太阳，是龙脉的能量源头，更是生命的归乡。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 135,
+    "name_EN": "Excidium Explained 1st Edition",
+    "name_CHS": "「大荒解密」初版",
+    "name_CHT": "「大荒解密」初版",
+    "desc_EN": "Osman was a famous black hole scholar who spent his whole life trying to debunk the myths of Myria, for the glory of United Mining. \n\n\"The first time I noticed Excidium was when I was researching the event horizon of the black hole. I would see large numbers of coffins full of lumen flowers heading toward the center... \n\nIt was only after interviewing some people that I realized these were offerings to Excidium. Having sinned against Ignis, they feared they would be sent to Exidium and hoped to be forgiven and granted a chance at rebirth.\"",
+    "desc_CHS": "奥斯曼是矿联有名的黑洞学者，一生努力破解万道的迷信，荣耀矿联。\n...\n最早注意到大荒，是因为在边境调查时，发现有许多抛往大荒的奇妙空棺材，里面放满龙脉的花卉。\n\n我找了些万道居民访谈后，才知道这些都是送给大荒的供品，他们因为得罪烛龙，深怕被打入大荒，故透过供品祈祷大荒轻判，来世还有复活机会...",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 136,
+    "name_EN": "Myrian Gods: The Ten Peaks",
+    "name_CHS": "万道十山诸神",
+    "name_CHT": "萬道十山諸神",
+    "desc_EN": "In Myrian mythology, there were ten planetary gods, known as the Four Peaks of Heaven and the Six Peaks of Earth. But now, there are only four observable planets in Thousand Peaks, and most of them are mired in electromagnetic storms, making it difficult to harvest their resources.",
+    "desc_CHS": "万道神话中有十个行星神，分为天上部的四山，以及地上部的六山，如今群山在可观测的领域中，却仅存四座行星，且多为电磁风暴覆盖，能源难以开采。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 134,
+    "name_EN": "Key Directions: Benzel's Thirdhand Intel",
+    "name_CHS": "重要方位：斑鸠的三手情报",
+    "name_CHT": "重要方位：斑鳩的三手情報",
+    "desc_EN": "A set of coordinates that Benzel gave to us... I mean Remi. Given that it came from the black market, we didn't have much hope for it. After all, who knows how many hands it had passed through.",
+    "desc_CHS": "斑鸠送给我们…不，是送给菈米亚的座标，大家那时对抱什么期望，毕竟是从黑市流通出来，不知道转了几手的商品。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 137,
+    "name_EN": "Key Directions: Banshee",
+    "name_CHS": "重要方位：黑龙",
+    "name_CHT": "重要方位：黑龍",
+    "desc_EN": "All I remember is you holding me... Nothing else mattered.",
+    "desc_CHS": "那时我只记得你抱着我，\n剩下什么都忘了。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 270,
+    "name_EN": "Restrained Starsong",
+    "name_CHS": "制约的龙鸣",
+    "name_CHT": "制約的龍鳴",
+    "desc_EN": "It was as if you were being stared down by guardians. The lumen in here gave off the sense of overwhelming oppression.",
+    "desc_CHS": "仿佛有诸多守卫看着自己一样，这里的龙鸣充满压迫的感受。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 138,
+    "name_EN": "Hyper Travel Instructions",
+    "name_CHS": "加速调整步骤",
+    "name_CHT": "加速調整步驟",
+    "desc_EN": "I still remember the startled look on Eda's face when Kay scribbled the instructions on the piece of paper I handed to her. She never would have thought that the Oceaner guardian who stood beside her was a seasoned Lumen War veteran.",
+    "desc_CHS": "我还记得，大魁将操作步骤列出给女巫的时候，艾妲一脸错愕的表情，她没想到，路边的瀛海亲卫，竟然是参加过龙脉冲突的老手。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 139,
+    "name_EN": "United Mining Bio-Detection Chip",
+    "name_CHS": "矿联生物探测芯片",
+    "name_CHT": "礦聯生物探測晶片",
+    "desc_EN": "Red left this chip behind. It was able to restore Red Chamber's scanning power to what it was during the war.\n\nThinking back on it, I feel so foolish... At the time, I had no idea what Eda was really looking for.",
+    "desc_CHS": "红留下来的芯片，可以让红楼的探测仪回到战争时期的水准。\n\n现在想想觉得自己很傻，直到那时，都没能察觉艾妲真正寻找的龙脉是什么。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 140,
+    "name_EN": "Coordinates: Silk Oasis",
+    "name_CHS": "座标：非法卫星「丝洲」",
+    "name_CHT": "座標：非法衛星「絲洲」",
+    "desc_EN": "I was really grateful to Benzel, but I was young, and it was hard for me to accept that as an exile, I couldn't handle everything myself.",
+    "desc_CHS": "很感谢斑鸠，但年少的我却很难接受，自己会这样到处流亡。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 141,
+    "name_EN": "Coordinates: Guifang",
+    "name_CHS": "座标：后冲突军人之家「鬼方」",
+    "name_CHT": "座標：後衝突軍人之家「鬼方」",
+    "desc_EN": "Dr. Rushell was always nagging us about something, but sometimes... I really miss her. ",
+    "desc_CHS": "罗素医生就是唠叨了点，但我有时候蛮想念她的。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 280,
+    "name_EN": "Key Directions: Registered Cave",
+    "name_CHS": "重要方位：协会登记的龙脉",
+    "name_CHT": "重要方位：協會登記的龍脈",
+    "desc_EN": "Eda said that during the years they spent searching for her master, the doctor always watched out for them.",
+    "desc_CHS": "听艾妲说，她们寻找师父这几年间，都是医生在照顾。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 143,
+    "name_EN": "Expired Military Visa",
+    "name_CHS": "过期的红楼军用签证",
+    "name_CHT": "過期的紅樓軍用簽證",
+    "desc_EN": "Captain: Red Grant\nShip ID: HON20225-XO\nClass: QBC-OPUS-03 Lumen Seeking Vessel\nExpiration Date: N/A. Expires upon discharge\nValid Region: Thousand Peaks",
+    "desc_CHS": "船长：红・葛兰特\n船ID：HON20225-XO\n级别：QBC-OPUS-03 龙脉探测船\n\n有效日期：随葛兰特服役结束自动解除\n有效区域：群山全境",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 144,
+    "name_EN": "United Military Provisions",
+    "name_CHS": "矿联军用口粮",
+    "name_CHT": "礦聯軍用口糧",
+    "desc_EN": "Military-grade provisions commonly seen during the war. Kay once suggested that the main reason United Mining won the war may not have been because of the witches, but because of their superior food logistics.",
+    "desc_CHS": "战争时期常见的军用口粮，大魁曾分析指出，矿业联合胜利的核心或许不是女巫，而是强而有力的粮食后勤。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins. Given their prevalence, they're pretty easy to sell.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见，具有一定的流通性，变卖很容易。"
+  },
+  {
+    "id": 145,
+    "name_EN": "Remi's Intercepted Communication Records",
+    "name_CHS": "菈米亚撷取的对话记录",
+    "name_CHT": "菈米亞擷取的對話記錄",
+    "desc_EN": "Subject: Jun ｜ Eda\nTime: 8535/0910/40231\nRef: 434HT: 8834JC\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\nEda: I'll stop by later.\nJun: If you come over too often, Remi is going to get mad sooner or later.",
+    "desc_CHS": "通话者：李莫｜艾妲\n时间：8535\\0910\\40231\n通话代号：434HT：8834JC\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n艾妲：晚点我会过去\n李莫：太常过来，迟早菈米亚会生气的",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 146,
+    "name_EN": "Red's Uniform",
+    "name_CHS": "艾妲师父的制服",
+    "name_CHT": "艾妲師傅的制服",
+    "desc_EN": "The mark of Red Chamber is a flower, which Eda said represented the new era witches. Her master believed that the shape of our souls took the form of a flower, and instead of resorting to violence to achieve peace, witches should tend to the flower within.",
+    "desc_CHS": "红楼的标记是个花卉图腾。\n艾妲说，这是新生代女巫的标记，师父认为人内心的灵魂是花的形状，而女巫与其为了追求和平而杀戮，不如拯救自己内心深处的花。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 147,
+    "name_EN": "Remi's Uniform",
+    "name_CHS": "菈米亚的制服",
+    "name_CHT": "菈米亞的制服",
+    "desc_EN": "Remi's uniform was rather small, and it wasn't until later that I realized that Eda had stitched it together one thread at a time. It was I who had stepped into their lives.",
+    "desc_CHS": "菈米亚的制服比较小件，我后来才知道这是艾妲一针针完成的制服。\n是我介入了她们两人的生活。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 148,
+    "name_EN": "Flower Seeds: Sunny Red",
+    "name_CHS": "花卉种子：日红",
+    "name_CHT": "花卉種子：日紅",
+    "desc_EN": "Product: Sunny Red\nScientific name: Jee Lun \nLocation: East Ocean Import\n\nTolerant to dry and wet climates. Flowering season is brief, favors nutritive-packed soil and is difficult to flower.",
+    "desc_CHS": "品名：日红\n学名：莫里海英\n产地：瀛海进口\n耐旱耐湿，然花季短促，重视土壤混合营养浓度，不容易开花。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 149,
+    "name_EN": "Flower Seeds: Blue Orphan",
+    "name_CHS": "花卉种子：孤城",
+    "name_CHT": "花卉種子：孤城",
+    "desc_EN": "Product: Blue Orphan\nScientific name: Iemr Nairod\nLocation: Thousand Peaks\n\nGrowth period is 70-80 Standard Days. It has a thick stalk and is unsuitable for most environments. If the environment is too humid, the root system will rot.",
+    "desc_CHS": "品名：孤城\n学名：多伦亜米兰\n产地：群山原生种\n生长期约70-80标准日，植珠厚实，可生长环境少，栽培环境若过于潮湿，会导致根体腐坏。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 150,
+    "name_EN": "Flower Seeds: Fragrant White",
+    "name_CHS": "花卉种子：魂芳白",
+    "name_CHT": "花卉種子：魂芳白",
+    "desc_EN": "Scientific name: Eda Lune \nLocation: United Mining New Iran\n\nFragile and difficult to care for. Its sweet fragrance makes it a popular flower.\n\nFloriography: Please forgive me.",
+    "desc_CHS": "学名：艾妲拉姆\n产地：行星矿业联合新伊朗\n娇贵，栽培不易，花香浓烈为人喜爱。\n花语：请原谅我",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 151,
+    "name_EN": "Honorable Runners Award",
+    "name_CHS": "荣誉探勘人证明",
+    "name_CHT": "榮譽探勘人證明",
+    "desc_EN": "Among all the memories of my journey, this was the most meaningless.\n\nGiven all the invaluable ruins that the Red Chamber Crew has uncovered in Thousand Peaks, we hereby confer its crew with this award and a level 1 excavation permit to thank them for their contributions.\n\nEda, Remi, Jun\n\n8534, Galactic Calendar",
+    "desc_CHS": "记忆中，我觉得最没有意义的东西。\n...\n红楼船队为群山多次发掘重大遗迹，贡献无数，特颁此状，以资感谢，并授予一级探勘人证明。\n艾妲、菈米亚、李莫\n受勋于银河历8534年。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 152,
+    "name_EN": "East Ocean Blade: Qianli",
+    "name_CHS": "瀛海刃「千里」",
+    "name_CHT": "鳶海刃「千里」",
+    "desc_EN": "Even after all these years, Kay didn't leave much behind. But carefully tucked away in a box was the blade I gave him when I became the family heir. It represented that he was the head of security and essentially part of our family.",
+    "desc_CHS": "随我流亡的大魁没有留下太多东西，只有这被小心的收于盒中，那是我成为少主后赐予他的短刃，代表了亲卫之首，仅次于家人。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 153,
+    "name_EN": "Remi's ID",
+    "name_CHS": "菈米亚的身份证",
+    "name_CHT": "菈米亞的身份證",
+    "desc_EN": "Remi Dorian\nParents: _____\nPlace of Birth: Thousand Peaks\n\nAs a victim of human trafficking, the place that was supposed to record Remi's parents was left blank. She said her full name was: \n\"Cozy Remi Chocolate, manufactured by the Dorian Corp.\"\n\nSome soldier had given her chocolates, and she thought the name sounded nice.",
+    "desc_CHS": "菈米亚・多伦多\n父母：＿＿＿＿\n出生地：群山\n\n做为被人口贩子转卖的小孩，菈米亚父母栏是空白的，至于名字，她说全名是：\n菈米亚快适巧克力｜制造商：多伦多公司\n是一个军人送她的干粮，她觉得好听。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 154,
+    "name_EN": "Forged Customs Slip",
+    "name_CHS": "假的海关出货水单",
+    "name_CHT": "假的海關出貨水單",
+    "desc_EN": "Exporter: Ironwind Traders Guild\nProducts: Lumen fennel, witch's rose, lumenite powder\n\nA fake export slip made by Remi. It wasn't until later on that I found out Remi used to work as a technician for a smuggler called Toran. She said he was a terrible person, but that he taught her a lot.",
+    "desc_CHS": "出口单位：铁岚城商业公会\n货物名称：龙茴香、巫香瑰、粉碎汜晶石\n\n菈米亚伪造的出货水单，好久以后她才告诉我，她的童年是跟一个叫图罗的人跑走私船，她那时就是机械船师，她说对方是个烂人，但教了她很多。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 155,
+    "name_EN": "Lumen Cave 819: Rodin Perfect Starsong",
+    "name_CHS": "龙脉819「罗登」完整龙鸣",
+    "name_CHT": "龍脈819「羅登」完整龍鳴",
+    "desc_EN": "The ripples of the lumenide gave off brilliant ice-blue rays of light, proof that the cave was of immense value.",
+    "desc_CHS": "汜水的涟漪散发耀眼的冰蓝光芒，那是具有高价开采价值的证明。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 156,
+    "name_EN": "Fractured Starsong",
+    "name_CHS": "断裂的龙鸣",
+    "name_CHT": "斷裂的龍鳴",
+    "desc_EN": "A fractured and degraded starsong... likely caused by mining activity. It didn't matter how anxious I was, everywhere I went, someone had already gotten to the lumen.",
+    "desc_CHS": "破碎而断裂的龙鸣声，应该是矿脉爆炸造成的，尽管我很急，但当时我怎么找，都是别人探勘过的龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 157,
+    "name_EN": "Loose Pages from a Terra Hymnal 2",
+    "name_CHS": "后土歌本残页2",
+    "name_CHT": "后土歌本殘頁2",
+    "desc_EN": "The bookmark fashioned from lumenite seemed to react to Eda. The text was from the final pages of a Terra Hymnal. \n\nIt described how Terra sang for an eternity into the void to keep Myria alive. She used her song to channel the flow of lumen from across the stars and prolong the lives of the gods.\n\nIt also appeared to contain decipherments of Myrian inscriptions.",
+    "desc_CHS": "汜晶做的书签，似乎跟艾妲互相感应，内文是后土歌本的最后几页。\n\n描述后土如何在无尽的岁月之中，为求万道不死，于虚空持续歌唱，用歌声导引群星间的龙脉，为诸神延续生命。\n\n似乎记载着万道符文解译的方法。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 158,
+    "name_EN": "Lumen Cave 04: Red Chamber Perfect Starsong",
+    "name_CHS": "龙脉04「红楼」完整龙鸣",
+    "name_CHT": "龍脈04「紅樓」完整龍鳴",
+    "desc_EN": "Sample of a perfect starsong, both in terms of its radiance and audio quality. However, by then my focus was on helping Eda find her master. Everything else didn't matter that much.",
+    "desc_CHS": "不论音质还是光芒，都堪称完美的龙鸣样本，但对那时的我而言，寻找矿脉除了协助艾妲找到师父外，其余都是附加了。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 159,
+    "name_EN": "Lumen Cave 05: Red Chamber Perfect Starsong",
+    "name_CHS": "龙脉05「红楼」完整龙鸣",
+    "name_CHT": "龍脈05「紅樓」完整龍鳴",
+    "desc_EN": "Although I was there to find Eda's master, I was unable to forget that vivid memory of being struck by the burning blue flames.",
+    "desc_CHS": "虽然那时在寻找艾妲的师父，但我却忘不了那炽热、记忆中熊熊燃烧的蓝焰。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 160,
+    "name_EN": "Peculiar Charm",
+    "name_CHS": "奇怪的徽章",
+    "name_CHT": "奇怪的徽章",
+    "desc_EN": "Even though Oceaners were known to go where the lumen was, and for many generations settled in other solar systems, at the time I didn't understand what this charm really represented.",
+    "desc_CHS": "追逐龙脉的瀛海，世代有人旅居各方星系，但那时我还不知道，这徽章的意义。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 161,
+    "name_EN": "Black Hole Observation Log",
+    "name_CHS": "黑洞观测站检查表",
+    "name_CHT": "黑洞觀測站檢查表",
+    "desc_EN": "Black Hole Observation Log 8536/02/22\n\nThe black hole is as black as the coffee in my cup. Sir, the coffee's all gone, so my brain's not working anymore. But it's fine. When the supply ship arrives today, I'll just jump on board and get the hell outta here.\n\nResults: Nothing unusual\nAnalyst: John",
+    "desc_CHS": "黑洞观测站检查表\n8536/02/22\n\n黑洞宛如我手中的咖啡般漆黑。\n长官，咖啡喝完了，我什么都记不住了。\n但没关系，今天补给船来时一并送我回去就好。\n\n结果：无异常\n检查人员：约翰",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 162,
+    "name_EN": "Inscription: Helius to Six Peaks",
+    "name_CHS": "乙皇告六山碑文",
+    "name_CHT": "乙皇告六山碑文",
+    "desc_EN": "6 Orbis, 10 Circum, 5 Gradus\nPraesidio Composes Thus\n\nThe blazing skies and lumenic chaos,\nare occurrances of nature's accord.\nThe burden belongs not to Terra,\nnor is it my responsibility.\nShe shall continue to sing,\nfor the longevity of the kingdom.",
+    "desc_CHS": "万道龙守谱于\n六轮十天五地\n\n天火频繁，群脉乱象乃自然之象，\n非吾之责，亦非后土之责，\n后土当继续行歌，以求国祚长久。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 163,
+    "name_EN": "Melody of Starsong (Act 2)",
+    "name_CHS": "龙脉长歌中部",
+    "name_CHT": "龍脈長歌中部",
+    "desc_EN": "In the second act, Terra's song created an everlasting flow of lumen, granting the Sanctums immortality. This violated the laws of Ignis, and in fear of divine retribution, six gods rebelled, sacrificing Terra to Ignis and sparking the holy war.\n\nAfter the performance ended, I heard Eda murmuring the final words Terra spoke to Helius before she was killed.\n\"Should we find each other in the next life, let us live on a planet of our own. I will plant flowers among the valleys, and sing for you into old age and death.\"\n\nTo be honest, I remember my time with Eda more than the details of the story.",
+    "desc_CHS": "故事中部，由于后土的歌声使龙脉不灭，众道不死，破坏了烛龙的法则，恐惧天罚的六位诸神叛变，杀后土而献烛龙，引爆天地战争。\n\n我记得艾妲看完后，\n始终呢喃着后土死前，对乙皇的话语：\n「若来世再遇，就找一个无人的行星生活，我会将花种满山谷，为你而歌，老死方休。」\n\n而我只记得艾妲的侧脸。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 164,
+    "name_EN": "Backup Surveillance Footage",
+    "name_CHS": "摄像头备份记录",
+    "name_CHT": "監視器備份記錄",
+    "desc_EN": "Black Hole Imaging Backup\nDate: 8536/03/11\n\nLevel 2 Confidential Military Information. Do not read if you do not have the requisite authorization.",
+    "desc_CHS": "黑洞显像纪录备份\n时间：8536/03/11\n\n二级军事机密数据，无授权请勿查阅。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 165,
+    "name_EN": "Coffee Stained Note",
+    "name_CHS": "有咖啡渣的便笺",
+    "name_CHT": "有咖啡渣的便箋",
+    "desc_EN": "Password Hint's Hint\nUnited Mining Calendar: YYYY/MM/DD\n\nI usually don't look at the year or the month. Coffee only comes once a month anyway.",
+    "desc_CHS": "密码提示的提示\n矿业联合纪年法：年 / 月 / 日\n\n我通常不看年份也不看月份，毕竟咖啡每月只来一次。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 167,
+    "name_EN": "Orkise: Ironwind's Luxury Supper Club",
+    "name_CHS": "「ORKISE」藏身巷弄的铁岚城私宅料理",
+    "name_CHT": "「ORKISE」藏身巷弄的鐵嵐城私宅料理",
+    "desc_EN": "\"Only your true love would take you here.\n- Peaks Top 100 gave it 4.5 stars!\n\nNo menu, a private wine collection, and a suite with a view that gazed beyond the galaxy. It was more than just delicious dishes, it was an unforgettable experience with a loved one.\"\n\nEven though it was ridiculously expensive, Orkise was still one of the most popular date locations for Peaker couples.",
+    "desc_CHS": "只有最爱你的人，才愿意带你来这里\n~群山100四星半推荐~\n\n尽管价格惊人，ORKISE依然是群山情人约会首选TOP 10，经典无菜单料理，私藏的酒窖，以及一览外银河星群的别致雅房，让你满足口腹之余，更与最爱享受一生难忘的时光。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 168,
+    "name_EN": "Coordinates: Ironwind",
+    "name_CHS": "座标：群山首府「铁岚城」",
+    "name_CHT": "座標：群山首府「鐵嵐城」",
+    "desc_EN": "Due to the mission's requirements, the doctor wanted us to attend a press meeting at the Lumen War Memorial. She didn't tell us who we'd be meeting, just that they'd find us when we got there.",
+    "desc_CHS": "依照任务要求，医生希望我们参加冲突纪念馆的一场媒体会，没有指出对象，只说委托人当场会找我们。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 169,
+    "name_EN": "Communication Encryption Chip",
+    "name_CHS": "加密通讯芯片",
+    "name_CHT": "加密通訊晶片",
+    "desc_EN": "Because of this chip, I saw Eda agitated in a way I'd never seen before. She was always so calm. I never thought she'd get that furious when her master was brought up.",
+    "desc_CHS": "这芯片让我第一次看到艾妲冲动的样子，我没想到平时冷静的她，提到师父可以愤怒成这样。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 170,
+    "name_EN": "United Provision Container",
+    "name_CHS": "矿联粮食货柜组",
+    "name_CHT": "礦聯糧食貨櫃組",
+    "desc_EN": "Manufacturer: United Provision Farm\nExpiration Date: 8540 Galactic Calendar\n\nContents: Stellar Beer, Molecular Organic Vegetables, Pure Ironwind Water, Synthetic Meat, Artificial Eggs, Comprehensive Spice Set, Protein Bar",
+    "desc_CHS": "制造：矿联粮食农场\n保存期限：银河历8540年\n\n内含：\n星火啤酒、分子有机蔬菜、\b铁岚城清净水、生态合成肉、人工蛋、综合香料组、便携式蛋白棒。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 171,
+    "name_EN": "Thousand Peaks Research Expedition Notes 01",
+    "name_CHS": "群山研究团笔记01",
+    "name_CHT": "群山研究團筆記01",
+    "desc_EN": "Thousand Peaks Civil College often sent out expedition parties, and their notes could occasionally be found within the caves.\n\n\"Summary of the 3rd Research Expedition:\nLumen is a multidimensional energy. It flows through space-time but is difficult to stabilize. However, it has been found to react to emotion, and the most common method for stabilizing it within three-dimensional space is through its resonance with song, which causes it to take on gaseous, liquid or solid form.\"",
+    "desc_CHS": "群山公民大学常送出探险队，龙脉中不时会找到遗落的笔记\n...\n第三次研究团探险摘要\n汜是一种多维的能量，在时空中流动难以固定，却会对情绪起反应，常见的做法是透过歌声与它共振，就能将它固定在三维的时空，此时汜会以气体、液体或是固体的方式出现，成为我们俗称的龙脉。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 172,
+    "name_EN": "Scrap Metal Parts",
+    "name_CHS": "废弃五金零件",
+    "name_CHT": "廢棄五金零件",
+    "desc_EN": "This may be just a pile of scrap metal, but the Peakers could always find a way to turn rubble into treasure.",
+    "desc_CHS": "虽然不过就是些杂乱的金属碎块，但是在群山总是有人能找到方式，让这些废弃物发挥价值。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 173,
+    "name_EN": "Lumen Seeds",
+    "name_CHS": "龙脉杂生种子",
+    "name_CHT": "龍脈雜生種子",
+    "desc_EN": "A bunch of cheap seeds lumped together. Still, there was always someone who would buy them.",
+    "desc_CHS": "多种价格较低的龙脉花卉种子被混在了一块，尽管如此，市场上依然有不少买家。",
+    "shop_desc_EN": "Even when a lumen plant hasn't grown very well, due to their medicinal qualities, they're always worth something in the markets.",
+    "shop_desc_CHS": "尽管生长状况不佳，龙脉花卉因为其作为药材的特性，在市场上始终有着良好的流通性"
+  },
+  {
+    "id": 174,
+    "name_EN": "Lumen Fennel",
+    "name_CHS": "龙茴香",
+    "name_CHT": "龍茴香",
+    "desc_EN": "\"Burning this will create a dense blue smoke, which the Myrian believers think can be used to communicate with Ignis.\"\n\nEda told me that places you find this plant would often have an air of sadness",
+    "desc_CHS": "「烧灼会产生迷离的蓝雾，万道信众认为，这是用于跟烛龙沟通的灵烟。」\n\n有它的地方，多少会带点悲伤，艾妲是如此解释。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 175,
+    "name_EN": "Congealed Cattail",
+    "name_CHS": "蒲生凝",
+    "name_CHT": "蒲生凝",
+    "desc_EN": "\"To become more sensitive to lumen, witches would drink lumenide with a little bit of congealed cattail.\"\n\nHowever, the amount had to be controlled. If you drank too much, you'd get lost in the flow of lumen and start hallucinating.",
+    "desc_CHS": "「为了训练汜的感应能力，女巫会生饮浸泡小量蒲生凝的汜水。」\n\n但用量要控制，因为浓度稍有不对，就会让人迷失在汜的流动中，看见幻觉。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 176,
+    "name_EN": "Witch's Rose",
+    "name_CHS": "巫香瑰",
+    "name_CHT": "巫香瑰",
+    "desc_EN": "This medicine has been banned for a long time. Eda saw countless children in the Witching Tower overuse the substance, which made them unable to distinguish between reality and illusion, forever lost in Myrian space-time.",
+    "desc_CHS": "被长期禁用的药材，艾妲亲眼看过，巫塔的小孩为了训练而过度使用，导致无法分清现实，迷失在万道的时空。",
+    "shop_desc_EN": "In Thousand Peaks, lumen plants are commonly traded items that have a wide range of medical and biochemical uses.",
+    "shop_desc_CHS": "在群山，龙脉花卉通常是拿来交易的大宗商品，被广泛应用在医疗与生化方面。"
+  },
+  {
+    "id": 177,
+    "name_EN": "Exploration Kits",
+    "name_CHS": "探索设备组",
+    "name_CHT": "探索設備組",
+    "desc_EN": "The first time I saw this I was shocked. In East Ocean, you'd have to buy all these tools separately, but here they'd put them all into one convenient exploration kit. Only in Thousand Peaks, where almost everybody was a runner, could you find stuff like this.",
+    "desc_CHS": "当时我吓了一跳，在瀛海得分批购买的各种道具，一次都被打包在这探索设备中，唯有全民龙脉探勘的群山，才买得到这种组件。",
+    "shop_desc_EN": "Peakers call this a scavenger's best friend. The perfect choice for excavation.\n\nRelease Date: 8533 (Luma Caverna)\nContents: Lumium light, disposable robot, EM compass, synthetic fiber bag, dynamite\nMeasurements: 2490ｘ1500ｘ610 mm\nWeight: 2350g",
+    "shop_desc_CHS": "群山拾荒人们最可靠的伙伴，前往废弃地区的最佳选择。\n龙洞化工 8533 年出品\n内容物：简便型汜气灯、抛弃式机器人、电磁指南针、高强度合成纤维收纳袋、安全炸药\n尺寸：2490ｘ1500ｘ610 mm\n重量：2350g"
+  },
+  {
+    "id": 178,
+    "name_EN": "Automated Greenhouse I",
+    "name_CHS": "自动温室 I",
+    "name_CHT": "自動溫室 I",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 179,
+    "name_EN": "Automated Greenhouse II",
+    "name_CHS": "自动温室 II",
+    "name_CHT": "自動溫室 II",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 180,
+    "name_EN": "Custom Encryption Module",
+    "name_CHS": "特殊加密通讯阀",
+    "name_CHT": "特殊加密通訊閥",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 181,
+    "name_EN": "Exploration Kit Storage III",
+    "name_CHS": "探索设备格纳库 III",
+    "name_CHT": "探索設備格納庫 III",
+    "desc_EN": "-",
+    "desc_CHS": "因为是合成品项，不会有collection desc.",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 182,
+    "name_EN": "Sentry Records: 8525-07",
+    "name_CHS": "哨站纪录-8525-07",
+    "name_CHT": "哨站紀錄-8525-07",
+    "desc_EN": "\"...We need backup... the Ring Liberation Front has broken through our entrance... By the glory of the united... open the d-damn door...\"\n\nThe screen kept looping the same footage. It was the last thing recorded before the sentry station was taken out.",
+    "desc_CHS": "「...需要支援...星环自由战线已经突破了本登入口...天佑矿业联合...该死的星火你们开门啊...」\n\n屏幕上重复播放的影像，是哨站陷落前的记录影像。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "情报商们乐意在市场上收购各种档案，没人知道这些看似无用的数据，何时会发挥奇效。"
+  },
+  {
+    "id": 183,
+    "name_EN": "Group Photo in a Field of Flowers",
+    "name_CHS": "三人的花海合照",
+    "name_CHT": "三人的花海合照",
+    "desc_EN": "Eda told me that her master spent a lot of time and effort to find a plot of land where she could grow and cultivate lumen plants. After she left the Witching Tower, she grew up surrounded by flowers.",
+    "desc_CHS": "听艾妲说，师父花了很多力气，终于找到了一亩可以栽种龙脉植物的地方，于是自从离开巫塔后，她就在花海里长大。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 184,
+    "name_EN": "-",
+    "name_CHS": "收下引魂盘后的Flag",
+    "name_CHT": "收下引魂盤後的Flag",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 185,
+    "name_EN": "Mural: Holy Suffering",
+    "name_CHS": "万道图「诸神苦难」",
+    "name_CHT": "萬道圖「諸神苦難」",
+    "desc_EN": "1 Orbis, 0 Circum, 0 Gradus\nPraesidio Composes Thus\n\nThis mural depicts the myth of how Ignis' ice-blue essence was transformed into lumen after his flames had faded. The lumen flowed without end, eventually giving birth to the Myrian gods. However, their inability to control the energy of Ignis within them meant that at any moment, they might be engulfed in flames of suffering.",
+    "desc_CHS": "万道龙守制图于\n首轮无天无地\n\n图描述的，是神话中的烛龙的火焰熄灭后，冰蓝的魂魄成为「龙脉」，而流转不停的龙脉则化为万道诸神，却因为无法驾驭烛龙的能量，随时都会被吞噬燃烧，陷入苦难。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 186,
+    "name_EN": "Expired Account Records",
+    "name_CHS": "过期交易帐号",
+    "name_CHT": "過期交易帳號",
+    "desc_EN": "After the war, it wasn't too hard to find some outdated industry intel in the abandoned areas. Even outdated info could earn some credits if it was analyzed and organized the right way.",
+    "desc_CHS": "龙脉冲突后，废墟间常有机会取得一些过期的商业数据。\n整理后通常可以换到不错的价格。",
+    "shop_desc_EN": "Due to the rise of the post-war scavenging industry, this is a common find in the ruins.",
+    "shop_desc_CHS": "龙脉冲突后由于拾荒业兴起，废墟中挖掘的交易品随手可见。"
+  },
+  {
+    "id": 187,
+    "name_EN": "Mural: Helius Descends",
+    "name_CHS": "万道图「乙皇降世」",
+    "name_CHT": "萬道圖「乙皇降世」",
+    "desc_EN": "1 Orbis, 5 Circum, 3 Gradus\nPraesidio Illustrates Thus\n\nThis mural depicts how Helius drifted with Ignis for aeons, and when he heard that the gods were constantly tormented by their inner flames, he decided to help them use the lumen's energy and descended from the heavens.",
+    "desc_CHS": "万道龙守制图于\n首轮五天三地\n\n图描述的，是随侍烛龙漂泊亿万年的乙皇，听闻诸神为体内火焰所苦，于心不忍，决心告知如何善用龙脉的能量，因而降世。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 188,
+    "name_EN": "Taiyang Lumenite Disc",
+    "name_CHS": "太乙汜晶盘",
+    "name_CHT": "太乙汜晶盤",
+    "desc_EN": "\"By Taiyang's mercy, let the lumen guide your way.\"\n\nWherever there was an East Ocean cave, you would find lumenite discs gifted by the emperor. My family shrine had one as well, and my mother said on the day that I was born, a rare solar flare storm occurred. Countless space stations were rendered unable to function, but many barren caves began to produce lumen, creating a prosperous year for East Ocean.\n\nChildren born that year were said to bring good luck, and were gifted this disc by the emperor.",
+    "desc_CHS": "「太乙垂怜，龙脉总有活路。」\n只要是瀛海的龙脉矿场，都会有瀛海王赠与的汜晶盘。\n\n然而家里的神坛也有一个。\n母亲说过，我出生那天极光闪现，恒星太乙发生罕见的恒星闪焰，尽管瘫痪了不少空间站，数个荒废的龙脉矿场却发生共振，汜的产量回升，成为瀛海的丰收年。\n\n当年诞生的婴孩被认为带来好运，受到瀛海王馈赠此物。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 189,
+    "name_EN": "Negotiation Transcript Between East Ocean and United Mining",
+    "name_CHS": "瀛海与矿联谈判逐字稿",
+    "name_CHT": "瀛海與礦聯談判逐字稿",
+    "desc_EN": "\"By giving up the rights to this transport station, you are ensuring a prosperous future for both United Mining and East Ocean here in Thousand Peaks.\"\n\nA recording of deals made concerning the East Ocean transport station, which was critical during the war. But in the end, we were betrayed by United Mining. Now, the people of East Ocean refuse to bring it up out of shame.",
+    "desc_CHS": "如果愿意让出传送港的所有权，矿业联合愿意与瀛海于群山共存共荣。\n...\n纪录中涉及到战争时关键的瀛海传送港谈判，但矿联最后的背叛，让瀛海上下将这交易视为耻辱，不愿提起。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 190,
+    "name_EN": "Mural: Terra in Prayer",
+    "name_CHS": "万道图「后土天地祈祷」",
+    "name_CHT": "萬道圖「后土天地祈禱」",
+    "desc_EN": "6 Orbis, 10 Circum, 20 Gradus\nPraesidio Illustrates Thus\n\nThis mural depicts the later years of the Myrian Empire, when Terra's song caused heaven and earth to split, with the Peaks of Heaven rising up in support of Helius, and the Peaks of Earth rising up to support Ignis. Though her song ultimately sparked the holy war, all Terra wanted was peace.",
+    "desc_CHS": "万道龙守制图于\n六轮十天二十地\n\n图描述的，是万道帝国后期，天地因后土之歌，分裂为支持乙皇的天上部，与支持烛龙的地上部，两方掀起天地战争，而后土只望群星间和平共处。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 191,
+    "name_EN": "Mural: Servums to Sanctums",
+    "name_CHS": "万道图「众卒成道」",
+    "name_CHT": "萬道圖「眾卒成道」",
+    "desc_EN": "3 Orbis, 1 Circum, 2 Gradus\nPraesidio Illustrates Thus\n\nThe mural depicts the first god to be granted song, Terra. Following Helius' commands, she instructed the Servums in holy song, which turned them into choirs of Sanctums. This marked the beginning of Myria and its mighty lumen Empire.",
+    "desc_CHS": "万道龙守制图于\n三轮一天二地\n\n图描述的，\n是首位被赐予歌法的神明「后土」。\n\n后土依乙皇之命，将导引龙脉的歌法赐予十山诸神以外的众卒，使之成为能歌的「道」，是为万道起源，龙脉帝国之始。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 192,
+    "name_EN": "Mural: Helius' Conferments\n",
+    "name_CHS": "万道图「乙皇分封十山」",
+    "name_CHT": "萬道圖「乙皇分封十山」",
+    "desc_EN": "1 Orbis, 7 Circum, 6 Gradus\nPraesidio Illustrates Thus\n\nThis mural depicts how Helius descended to save the gods from the suffering caused by their internal flames. He chose ten gods to care for the ten planets, who became known as the Ten Peaks. Helius then commanded the deities to find lumen and erect temples wherever they went, which led to the flourishing of Thousand Peaks.",
+    "desc_CHS": "万道龙守制图于\n一轮七天六地\n\n图描述的，是乙皇降世拯救众生于火焰之苦后，挑选了十位左右手，分封群山十大行星，统称十山诸神，并令诸神广寻龙脉，四处立殿，终于造就群山龙脉的盛状。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 193,
+    "name_EN": "Research on Helius and Taiyang",
+    "name_CHS": "乙皇与太乙研究",
+    "name_CHT": "乙皇與太乙研究",
+    "desc_EN": "Even though East Ocean history is only over a hundred years old, a small number of people believe that it has a direct connection to Myria.\n\nThey believe that Taiyang is a fragment of Helius' soul which drifted throughout East Ocean for millennia, turning into the winds among stars, then seeping into the lumen and eventually the consciousness of mankind. More than a hundred years ago, those people became the East Ocean nobles.",
+    "desc_CHS": "瀛海历史只有一百多年，却被少数人认为才是万道的正统。\n\n他们认为太乙是乙皇灵魂的碎片，千代万代在瀛海流转幻化，化为行星间的风，终成龙脉，最终成人，并于百多年前，成为今日的瀛海贵族。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 196,
+    "name_EN": "Trash Mountain Collector's Wrench",
+    "name_CHS": "垃圾山典藏扳手",
+    "name_CHT": "垃圾山典藏扳手",
+    "desc_EN": "\"Why'd you buy me this?\"\n\nI still remember the awkward look on Remi's face when I gave her this wrench, almost as if she didn't want to admit that she kind of liked it.",
+    "desc_CHS": "「买这给我做什么。」我还记得菈米亚收到扳手时，露出的别扭表情。",
+    "shop_desc_EN": "Made by Trash Mountain\n10 Years of Peace: Collector's Edition\nLight and adjustable, multi-angle wrench.\n\nSuitable for: Signal Terminals, Concentric Connectors, Spaceship Structures, Various Casters",
+    "shop_desc_CHS": "垃圾山出品\n龙脉冲突后10年纪念款\n轻量可动式，多角度活动扳手\n适用范围：\n讯号接头、同轴连接器、飞船机构、各式轮脚。"
+  },
+  {
+    "id": 197,
+    "name_EN": "Mural: Channeling the Lumen",
+    "name_CHS": "万道图「群山龙脉导引」",
+    "name_CHT": "萬道圖「群山龍脈導引」",
+    "desc_EN": "3 Orbis, 1 Circum, 2 Gradus\nPraesidio Illustrates Thus\n\nThis mural depicts a massive map of the stars, showing how Terra used song to channel the lumen. The distributed points are supposedly an arrangement of lumen caves in Thousand Peaks aeons ago. It has been hypothesized that it was a way to use the stars to transmutate lumen on a large scale.",
+    "desc_CHS": "万道龙守制图于\n三轮六天十地\n\n图描述的是神明后土透过歌声，引导龙脉的庞大星图，分布的点被认为群山龙脉万年前的排列，被推测是一种利用行星排列，导引汜的大型风水活动。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 198,
+    "name_EN": "Excavation Arms Shipping Container",
+    "name_CHS": "龙脉挖掘手臂货柜",
+    "name_CHT": "龍脈挖掘手臂貨櫃",
+    "desc_EN": "\"Prothesis Energy... Life revitalized.\"\n\nFrom the big letters on the shipping container, you could tell it was filled with parts for prostheses. \n\nAfter the war, given the number of Peakers that relied on bionic prostheses, these specialized prosthetic arms used for lumen excavation and scavenging were a popular commodity on the market.",
+    "desc_CHS": "「义体动力，重获新生。」\n货柜的封条写着红色的大字，是龙脉冲突后的义体零组件。\n\n冲突后，由于大量的群山居民需要依靠义体维生，这种特化的龙脉与拾荒用手臂，成为热门的抢手货。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 199,
+    "name_EN": "Myrian Valve",
+    "name_CHS": "龙阀",
+    "name_CHT": "龍閥",
+    "desc_EN": "The inscriptions on Myrian valves are like small Myrian gates. They're used to direct the flow of lumen, and the whole contraption they're a part of are known as lumen transmutation engines.",
+    "desc_CHS": "龙阀的谱面宛若小型的龙门，万道利用它导引汜的流动，相关的装置被现代人称为「龙脉风水机关」。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 200,
+    "name_EN": "Myria Taiyang Amulet",
+    "name_CHS": "万道太乙护符",
+    "name_CHT": "萬道太乙護符",
+    "desc_EN": "\"By Taiyang's mercy, may the radiance of East Ocean greet your return.\"\n\nWhether it's Myria Taiyang, Myria Ignis, or Myria Helius, the Myrian faith believes that the source of all energy is lumen and that it arises from the stars. As such, the light from the star of the solar system in which you were born will always be your soul's divine homeland.",
+    "desc_CHS": "「太乙垂怜，魂归瀛海日照。」\n\n不论是万道太乙、万道烛龙，或是万道乙皇都一样，万道认为一切能量源于龙脉，而龙脉的源头便是太阳，依据每个人出生的星系，恒星的光便是你灵魂的神乡。",
+    "shop_desc_EN": "Secondhand Artifact Clearance\n9th East Ocean Clan Amulet\n\nA ceremonial item imprinted with East Ocean's god prime, Taiyang. East Ocean surrendered in the early days of war and their space station was destroyed by United Mining. The decline of the once prosperous East Ocean is reflected in the amulet's cracks and burns. Its value goes without saying.",
+    "shop_desc_CHS": "二手文物限量出清\n瀛海第九家族护符\n此符印有瀛海主神，太乙，为祭祀用品。\n龙脉冲突初，瀛海投降，空间站遭矿业联合毁灭，此护符同遭掷损，火烧留痕，道尽瀛海盛衰，其价值不言而喻。"
+  },
+  {
+    "id": 201,
+    "name_EN": "Inscription: Helius to Sanctums",
+    "name_CHS": "乙皇告众道碑文",
+    "name_CHT": "乙皇告眾道碑文",
+    "desc_EN": "9 Orbis, 7 Circum, 10 Gradus\nPraesidio Composes Thus\n\nI cannot prevent the flames of Ignis,\nLet thy Sanctums go in peace, \nand return as light as light.\n\nTerra has been buried. \nOh, that it may be sufficient! \nMay we meet again.\n\nThe large inscriptions, full of tragedy and sorrow, records the final words of Helius.",
+    "desc_CHS": "万道龙守谱于\n九轮七天十地\n\n孤无能阻止烛龙之炎，\n愿众道归去无伤，归来如光，\n后土已葬，孤愿足矣，来世再遇。\n...\n巨大谱面的符文，解析后却略微悲伤，那是神明乙皇的绝命词。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 210,
+    "name_EN": "98 Hybrid Lumium",
+    "name_CHS": "98级混合汜气",
+    "name_CHT": "98級混合汜氣",
+    "desc_EN": "As the largest holder of lumium reserves, United Mining caves regularly produced 98 Hybrid Lumium. It was the most common type of fuel in Thousand Peaks, and was distributed just about everywhere.",
+    "desc_CHS": "掌握了汜气蕴藏的矿业联合，矿场定期出产的98级汜气，是群山民间流通最大的燃料种类，几乎各地都有流通。",
+    "shop_desc_EN": "Manufacturer: United Mining (Ironwind Certified)\n\nCherish the environment. Use 98 Hybrid Lumium.\n\n[Lumium is a highly flammable chemical. Handle with care]",
+    "shop_desc_CHS": "行星矿业联合装运制造\n矿联汜气加工厂检验合格标志\n使用98混合汜气，为环境尽一份心\n[汜气为高度易燃化学原料，请使用者确保安全。 ]"
+  },
+  {
+    "id": 212,
+    "name_EN": "Lee Clan Family Tree",
+    "name_CHS": "鸢家族史",
+    "name_CHT": "鳶家族史",
+    "desc_EN": "A genealogy of the Lee clan, which records several Taiyang solar flare storms that occurred over the generations and the children that were born during them.\n\nSince I was born during one of these storms, my mother had great hopes for me, and believed that the soul of Taiyang was within me. But after my mother died, no one else ever brought it up.",
+    "desc_CHS": "里面是瀛海鸢的族谱，记载了鸢家历史中，十几次太乙周期性的恒星闪焰，以及其间诞生的孩子。\n\n我因为出生在闪焰当日，母亲一直对我寄予厚望，认为太乙的灵魂常在我心，但自从母亲过世后，就没有任何人跟我提过这件事了。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 213,
+    "name_EN": "Eda's Starsongs",
+    "name_CHS": "艾妲的声音组",
+    "name_CHT": "艾妲的聲音組",
+    "desc_EN": "Source: Lumen Cave 745\nRecorder: Jun Lee\nSource: Lumen Ziggurat\nRecorder: Jun Lee\n\nAt the time, for the convenience of cave running, I took care to look after the starsongs that Eda had recorded. To this day, I still miss the sound of her voice.",
+    "desc_CHS": "音源所属-小行星龙脉745\n录制者 李莫\n音源所属-万道风引所\n录制者 李莫\n...\n当时为了探勘方便，艾妲录制的女巫龙鸣被我细心地保存。直到今天，我依然很想念她的歌声。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 214,
+    "name_EN": "Map of Our Adventures",
+    "name_CHS": "我与艾妲的探险图",
+    "name_CHT": "我與艾妲的探險圖",
+    "desc_EN": "In those few years with Eda, we marked out all the caves we had explored on this star map. By Taiyang's mercy, I thank lumen every day for bringing me to her.\n\nNot a day passes that I don't miss the time we spent together.",
+    "desc_CHS": "那几年间与艾妲一起，我们将探索过的龙脉，陆续从星图间点出，太乙垂怜，感谢龙脉让我与女巫相伴。\n\n直到今天，我依然很怀念那些时光。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 215,
+    "name_EN": "Scripture: Splitting of the Ten Peaks (Part 2)",
+    "name_CHS": "十山天地开辟经下部",
+    "name_CHT": "十山天地開闢經下部",
+    "desc_EN": "Authored by the Lumen Association, based on archaeological data from Myrian ruins.\n\nAt the end of the holy war, it was Helius who reigned victorious, and by his own hand he slayed the six gods who had supported Ignis. Enraged, Ignis descended with heavenly wrath and dispersed the gods among the stars with fiery winds.\n\nThis is where Myrian myth ends, but the Peakers believed that the souls of these gods were fused with the stars, mixed into the earth, eventually giving birth to humanity.",
+    "desc_CHS": "龙脉协会所著，内容多半来自于龙脉遗迹的考古数据。\n\n天地战争最后，乙皇胜出，并亲手摧毁了支持烛龙的六山诸神，烛龙愤而降世，天火喷发，诸神随火焰之风吹飞，消散于遥远的星辰间。\n\n万道相关的神话到此结束，但群山人都相信，这些散落于群星间的诸神，它们的灵魂镶嵌于星群间，与土混合，最终成人，是为人类之始。",
+    "shop_desc_EN": "Border Patrol Confiscated Item \nBanned Item Clearance\nSecondhand Book (Good Condition)\nCover art by the well-known Myrian artist, Toola.\n",
+    "shop_desc_CHS": "边境巡逻局船舰查扣品项\n违禁品出清\n二手书七成新\n本书封面由知名万道艺术家，图拉先生设计。"
+  },
+  {
+    "id": 216,
+    "name_EN": "Lumen Research Military Report",
+    "name_CHS": "龙脉军事研究报告",
+    "name_CHT": "龍脈軍事研究報告",
+    "desc_EN": "Military report on the research of Lumen\n\n\"Although the findings are only speculative, the investigation team has long researched lumen's gravitational effects. They conjecture that lumen may influence gravitational fields. If this has something to do with the disappearance of six planets from Thousand Peaks, it would be a big step forward for the military.\"",
+    "desc_CHS": "汜的军事研究报告\n...\n虽然只是推测，但调查团研究龙脉的重力已久，推测「汜」会对重力场产生影响，如果这跟过往群山消失的六个行星有关，不排除是军事上一大进步。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 217,
+    "name_EN": "Broken Television",
+    "name_CHS": "坏掉的电视",
+    "name_CHT": "壞掉的電視",
+    "desc_EN": "The screen kept looping the same choppy footage.\n\n\"Welcome to... Unity News Channel 79... glorious citizens of United Mining. Today the Galactic Empire has made yet another b-breakthrough... in the research of lumen...\"",
+    "desc_CHS": "屏幕重复播放着断断续续的内容\n\n「欢迎收看...频道79号统合电视台...伟大的矿业联合人民们，近日统合体于龙脉的调查又跨出崭新的发展...」",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 218,
+    "name_EN": "Transmutation Chamber",
+    "name_CHS": "风转箱",
+    "name_CHT": "風轉箱",
+    "desc_EN": "\"Water winds the wind, and wind will birth a starsong.\"\n\nLumen is particularly stable and is not affected by increased heat. However, it does react to certain frequencies, which converts it from liquid to gas, while emitting a resounding bellow. This peculiar process is known as \"transmutation\", and the sound is referred to as a \"starsong\".",
+    "desc_CHS": "「水生而风动，风动而龙鸣。」\n\n「汜」异常安定，加热也不会变化，却会对特定声音的频率反应，由液体质变为气体，并发出怒吼般的声响，这种异常的过程被称为「风转」，也被称为「龙鸣」。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 219,
+    "name_EN": "Plant Identification Field Guide",
+    "name_CHS": "龙脉花卉图鉴",
+    "name_CHT": "龍脈花卉圖鑑",
+    "desc_EN": "At the time, I didn't understand why Red Chamber had a greenhouse, or where Eda's passion for flowers came from.",
+    "desc_CHS": "当时我不太懂，为什么红楼会有温室，而为什么艾妲对花卉的热情，又如此多。",
+    "shop_desc_EN": "Includes 270 commonly seen lumen plants. Highly recommended by the Lumen Association.\n\nBesides visuals and plant descriptions, it also provides various common and medical uses. Great for experienced and novice users alike.",
+    "shop_desc_CHS": "收录270种龙脉常见花卉植物\n龙脉协会诚心推荐\n除了说明植物形态特征外，并提供应用方法及药用等信息，是本兼具观赏与实用的图鉴。"
+  },
+  {
+    "id": 220,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Official lumen intel sold by the Lumen Association. Without an excavation permit, it was difficult to purchase.",
+    "desc_CHS": "龙脉协会贩售的方位，没有探勘人的证照，还不得轻易购买。",
+    "shop_desc_EN": "Source: Lumen Association\n\nLumen information that has been thoroughly verified. Buyers must present their Lumen Association ID.",
+    "shop_desc_CHS": "情报提供者：龙脉协会\n经证明后可靠消息，购买者请出具探勘人证明"
+  },
+  {
+    "id": 221,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Lumen intel that came from The Daily Lumen. No one knew what kind of cave we'd find...",
+    "desc_CHS": "来自龙脉日报的情报，不知道会找到什么样的龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 222,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Official lumen intel sold by the Lumen Association. Without an excavation permit, it was difficult to purchase.",
+    "desc_CHS": "龙脉协会贩售的方位，没有探勘人的证照，还不得轻易购买。",
+    "shop_desc_EN": "Source: Lumen Association\n\nLumen information that has been thoroughly verified. Buyers must present their Lumen Association ID.",
+    "shop_desc_CHS": "情报提供者：龙脉协会\n经证明后可靠消息，购买者请出具探勘人证明"
+  },
+  {
+    "id": 224,
+    "name_EN": "Copy of Witch's Starsong",
+    "name_CHS": "大魁拷贝的女巫龙鸣",
+    "name_CHT": "大魁拷貝的女巫龍鳴",
+    "desc_EN": "A starsong that had been copied countless times. It was so degraded the audio could hardly be made out. This sound seduced countless runners into the same perilous situation, but it was also what brought Eda and I together.",
+    "desc_CHS": "拷贝了不知道多少次，龙鸣声破碎而难以辨识，是这个声音诱导了无数探勘人受害，但也是让我遇到艾妲的声音。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 225,
+    "name_EN": "Inscription: Helius to Sanctums",
+    "name_CHS": "乙皇告众道碑文",
+    "name_CHT": "乙皇告眾道碑文",
+    "desc_EN": "8 Orbis, 7 Circum, 24 Gradus\nPraesidio Composes Thus\n\nYou have cut her throat, and defiled her corpse. Have ye forgotten that it was Terra's song which gave you eternal life? You shall pay for your grave sins in the pits of Excidium and none shall find her for hundreds of millions of years.\n\nI will always remember this chilling inscription, right next to the mural of Excidium.",
+    "desc_CHS": "万道龙守谱于\n八轮七天二十四地\n\n汝等毁其尸首，割其喉，徒忘后土之歌照应生命百万，滔天恶罪，当葬大荒。后土将永远安葬，亿万年无人可寻。\n...\n我永远记得，大荒像旁边的万道碑文。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 334,
+    "name_EN": "Inscription: Six Peaks to Helius",
+    "name_CHS": "六山告乙皇碑文",
+    "name_CHT": "六山告乙皇碑文",
+    "desc_EN": "5 Orbis, 2 Circum, 1 Gradus\nPraesidio Composes Thus\n\nThe lumen are in turmoil, \nand the heavens blaze without end. \nBeg Helius to stop Terra's song, \nso that Ignis' fury might be quelled.",
+    "desc_CHS": "万道龙守谱于\n五轮二天一地\n\n天火不止，群脉动荡，\n请乙皇令后土止歌，\n以熄烛龙之怒。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 253,
+    "name_EN": "Grandiose Witch's Starsong",
+    "name_CHS": "壮阔的女巫龙鸣",
+    "name_CHT": "壯闊的女巫龍鳴",
+    "desc_EN": "Although Eda said her throat was damaged, and that she struggled with certain vocal techniques, this starsong was unlike the one I recorded when we first met. It was... grandiose, and bright. As if she was conjuring myths through an ancient hymn.",
+    "desc_CHS": "尽管艾妲说她喉咙受伤，不能完整换气，与我第一次遇到她时的声音不同，这次壮阔而明亮，仿佛唱出古老的神话。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 254,
+    "name_EN": "Murky Witch's Starsong",
+    "name_CHS": "幽暗的女巫龙鸣",
+    "name_CHT": "幽暗的女巫龍鳴",
+    "desc_EN": "The recording was murky, like a flurry of mixed emotions. It made me think of the Silk Oasis, where the surrounding areas were full of pirates and middlemen traders. It was almost like the stories of space came alive when Eda sang.",
+    "desc_CHS": "录制的声音混乱，思绪纷杂，让人联想到到丝洲附近，到处是海盗以及中间套利的交易人船队，艾妲是如此唱出了空域间的故事。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 255,
+    "name_EN": "Sorrowful Witch's Starsong",
+    "name_CHS": "悲伤的女巫龙鸣",
+    "name_CHT": "悲傷的女巫龍鳴",
+    "desc_EN": "This time, Eda's voice sounded like the depths of a secluded valley. The murmurs of her voice trickled like a tragic brooklet.",
+    "desc_CHS": "艾妲这次的声音宛若走过低谷的丘壑，低语如涓滴细流，有点悲伤。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 256,
+    "name_EN": "Brilliant Witch's Starsong",
+    "name_CHS": "灵光的女巫龙鸣",
+    "name_CHT": "靈光的女巫龍鳴",
+    "desc_EN": "Eda's voice wandered about in the darkness, lacking in confidence, as if she was suppressing something.",
+    "desc_CHS": "艾妲那时的声音在幽暗中徘徊，始终没什么自信，仿佛压抑着什么。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 257,
+    "name_EN": "Proud Witch's Starsong",
+    "name_CHS": "骄傲的女巫龙鸣",
+    "name_CHT": "驕傲的女巫龍鳴",
+    "desc_EN": "As the years went by, Eda's singing progressed at an astonishing rate. Soon, she was able to imitate any starsong that she heard.",
+    "desc_CHS": "旅行几年来，艾妲的歌进步神速，渐渐的能模仿所有听见的龙鸣。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 258,
+    "name_EN": "Menacing Witch's Starsong",
+    "name_CHS": "肃杀的女巫龙鸣",
+    "name_CHT": "肅殺的女巫龍鳴",
+    "desc_EN": "Her voice... it was like an unstable signal, hurried and unsettling.",
+    "desc_CHS": "艾妲的歌声变得像不稳定的讯号，\n更急促...更不安。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 259,
+    "name_EN": "Abyssal Witch's Starsong",
+    "name_CHS": "深渊的女巫龙鸣",
+    "name_CHT": "深淵的女巫龍鳴",
+    "desc_EN": "The song seemed to rise up out of the abyss, embodying a grief like I'd never heard before.",
+    "desc_CHS": "歌声宛如从黑暗中升起，无比忧伤。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 260,
+    "name_EN": "Painful Witch's Starsong",
+    "name_CHS": "痛苦的女巫龙鸣",
+    "name_CHT": "痛苦的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 261,
+    "name_EN": "Mythical Witch's Starsong",
+    "name_CHS": "神话的女巫龙鸣",
+    "name_CHT": "神話的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 262,
+    "name_EN": "Turbulent Witch's Starsong",
+    "name_CHS": "动乱的女巫龙鸣",
+    "name_CHT": "動亂的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 263,
+    "name_EN": "Faint Witch's Starsong",
+    "name_CHS": "微弱的女巫龙鸣",
+    "name_CHT": "微弱的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 264,
+    "name_EN": "Wonderful Witch's Starsong",
+    "name_CHS": "美好的女巫龙鸣",
+    "name_CHT": "美好的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 265,
+    "name_EN": "Woeful Witch's Starsong",
+    "name_CHS": "忧伤的女巫龙鸣",
+    "name_CHT": "憂傷的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 266,
+    "name_EN": "Distant Witch's Starsong",
+    "name_CHS": "遥远的女巫龙鸣",
+    "name_CHT": "遙遠的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 267,
+    "name_EN": "Repressive Witch's Starsong",
+    "name_CHS": "压迫的女巫龙鸣",
+    "name_CHT": "壓迫的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 282,
+    "name_EN": "Mysterious Witch's Starsong",
+    "name_CHS": "神秘的女巫龙鸣",
+    "name_CHT": "神秘的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 283,
+    "name_EN": "Directions: Ironwind Lumium Map",
+    "name_CHS": "方位：铁岚城汜气分布图",
+    "name_CHT": "方位：鐵嵐城汜氣分布圖",
+    "desc_EN": "Official lumen intel sold by United Mining. Most of the caves had already been wiped clean. They only put these up for purchase to make it appear like excavation was open to everyone.",
+    "desc_CHS": "矿业联合官方销售的方位，多半是已被挖掘殆尽的龙脉，矿联时不时会将这些情报释出于民间，保有一种开放性的假象。",
+    "shop_desc_EN": "United Mining Lumen Intel Department\n\nBuyers must have one of the following permits:\nLumen Association ID | Veteran ID | Ironwind Honorary Citizen ID",
+    "shop_desc_CHS": "矿业联合龙脉情报部出品\n购买者须持有三者其一证件\n龙脉协会证明｜退伍军人证明｜铁岚城荣誉市民证"
+  },
+  {
+    "id": 284,
+    "name_EN": "Directions: Unknown Lumen Cave",
+    "name_CHS": "方位：不知名龙脉",
+    "name_CHT": "方位：不知名龍脈",
+    "desc_EN": "Lumen intel bought on the black market usually just led to caves that had already been explored, and there was always the risk of being ambushed by pirates.",
+    "desc_CHS": "黑市贩售的方位，通常只会找到一些开放探勘的二手龙脉，还有盗贼袭击的风险。",
+    "shop_desc_EN": "Source: Unknown\n\nSecondhand lumen intel. Unfortunately, we are unable to provide refunds. Buyer beware.",
+    "shop_desc_CHS": "情报来源：不明\n龙脉二手情报。\n本商店恕不退款，请购买者风险自负。"
+  },
+  {
+    "id": 285,
+    "name_EN": "Directions: Ironwind Lumium Map",
+    "name_CHS": "方位：铁岚城汜气分布图",
+    "name_CHT": "方位：鐵嵐城汜氣分布圖",
+    "desc_EN": "Official lumen intel sold by United Mining. Most of the caves had already been wiped clean. They only put these up for purchase to make it appear like excavation was open to everyone.",
+    "desc_CHS": "矿业联合官方销售的方位，多半是已被挖掘殆尽的龙脉，矿联时不时会将这些情报释出于民间，保有一种开放性的假象。",
+    "shop_desc_EN": "United Mining Lumen Intel Department\n\nBuyers must have one of the following permits:\nLumen Association ID | Veteran ID | Ironwind Honorary Citizen ID",
+    "shop_desc_CHS": "矿业联合龙脉情报部出品\n购买者须持有三者其一证件\n龙脉协会证明｜退伍军人证明｜铁岚城荣誉市民证"
+  },
+  {
+    "id": 286,
+    "name_EN": "Directions: Ironwind Lumium Map",
+    "name_CHS": "方位：铁岚城汜气分布图",
+    "name_CHT": "方位：鐵嵐城汜氣分布圖",
+    "desc_EN": "Directions provided by Arrigo, a witch who had fled United Mining. They were most likely stolen from their database, which meant following through with them might be risky.\n\n\"Myria neverlasting, serve none but the flower within.\"\n\nShe left this message along with the directions, which let Eda know that Arrigo was one of her master's followers.",
+    "desc_CHS": "逃跑的女巫——艾琳达提供的龙脉方位，应该是由矿业联合数据库偷出来的，探勘多少会有点风险。\n\n「万道无常，花开唯心」\n她寄送方位时留下此言，艾妲才知道，对方也是受到她师父影响的女巫。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 287,
+    "name_EN": "Directions: Ironwind Lumium Map",
+    "name_CHS": "方位：铁岚城汜气分布图",
+    "name_CHT": "方位：鐵嵐城汜氣分布圖",
+    "desc_EN": "Lumen intel we got from Unity News. There was no way of telling what year it was from, so it was very likely that it lead to an excavated cave.",
+    "desc_CHS": "统合新闻台内部的龙脉方位情报，年份不明，极有可能是被探勘过的龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 288,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Lumen intel that came from The Daily Lumen. No one knew what kind of cave we'd find...",
+    "desc_CHS": "来自龙脉日报的情报，不知道会找到什么样的龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 290,
+    "name_EN": "Inscription: Helius to Sanctums",
+    "name_CHS": "乙皇告众道碑文",
+    "name_CHT": "乙皇告眾道碑文",
+    "desc_EN": "9 Orbis, 3 Circum, 1 Gradus\nPraesidio Composes Thus\n\nI hereby command the Four Peaks,\nto search for lumen flora,\nso the Sanctums may gather them,\nand send them to Excidium.\nFor I shall reforge her,\nno matter how long it takes.",
+    "desc_CHS": "万道龙守谱于\n九轮三天一地\n\n仅令四山诸神广寻魂花，\n众道集之，渡往大荒，\n万轮内重炼后土之身。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 268,
+    "name_EN": "Key Directions: United Mining Top Secret Mission",
+    "name_CHS": "重要方位：矿联机密任务",
+    "name_CHT": "重要方位：礦聯機密任務",
+    "desc_EN": "The doctor would always say, \"Maintaining a good relationship with United Mining to help runners is the association's main focus.\"",
+    "desc_CHS": "「一边协助探勘人，一边跟矿联政府交好，是我们协会最大的任务。」\n医生常这么说。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 269,
+    "name_EN": "Key Directions: Banshee Expedition",
+    "name_CHS": "重要方位：黑龙探索任务",
+    "name_CHT": "重要方位：黑龍探索任務",
+    "desc_EN": "At the time, no one in the crew was really excited about this. Even though Banshee could be right within our grasp, the atmosphere was suffocating.",
+    "desc_CHS": "当时团队没有任何人为这个消息兴奋，尽管黑龙可能在眼前，气氛却让我痛苦。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 272,
+    "name_EN": "Chaotic Witch's Starsong",
+    "name_CHS": "混乱的女巫龙鸣",
+    "name_CHT": "混亂的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 271,
+    "name_EN": "Vigilant Witch's Starsong",
+    "name_CHS": "警戒的女巫龙鸣",
+    "name_CHT": "警戒的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 274,
+    "name_EN": "Despairing Witch's Starsong",
+    "name_CHS": "绝望的女巫龙鸣",
+    "name_CHT": "絕望的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 273,
+    "name_EN": "Wrathful Witch's Starsong",
+    "name_CHS": "愤怒的女巫龙鸣",
+    "name_CHT": "憤怒的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 275,
+    "name_EN": "Resigned Witch's Starsong",
+    "name_CHS": "无奈的女巫龙鸣",
+    "name_CHT": "無奈的女巫龍鳴",
+    "desc_EN": "A witch's imitation of the starsong from deep within an asteroid, revealing a facet of the lumen it holds.",
+    "desc_CHS": "由女巫模仿，小行星深处的轰鸣声，反应出龙脉发生的过往今来。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 276,
+    "name_EN": "Directions: Lumen Intel",
+    "name_CHS": "方位：龙脉情报",
+    "name_CHT": "方位：龍脈情報",
+    "desc_EN": "Lumen intel given to us by a runner who worshipped Bones. The Bones Brigade was pretty tough on outsiders, but they were very respected among the Peaks.",
+    "desc_CHS": "崇拜白牙的探勘人送给我们的方位，白帮虽然对外地人不好，但群山人却非常尊敬他们。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 277,
+    "name_EN": "Directions: Unknown Lumen Cave",
+    "name_CHS": "方位：不知名龙脉",
+    "name_CHT": "方位：不知名龍脈",
+    "desc_EN": "Back then, I had a hard time trusting any intel that came from a capybara...",
+    "desc_CHS": "只要是来自水豚的方位情报，当时多少有点不放心...",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 278,
+    "name_EN": "Directions: Ship Traffic Intel",
+    "name_CHS": "方位：往来船只情报",
+    "name_CHT": "方位：往來船隻情報",
+    "desc_EN": "A set of directions that came with records of ship traffic. Identifying some suspicious traffic patterns could lead to some lumen.",
+    "desc_CHS": "记录来往船只情报的方位，可以推算出可疑的交通位置，找出龙脉。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 302,
+    "name_EN": "Lumen Cave 745 Data",
+    "name_CHS": "龙脉745登入情报",
+    "name_CHT": "龍脈745登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 303,
+    "name_EN": "Lumen Cave 819 Data",
+    "name_CHS": "龙脉819登入情报",
+    "name_CHT": "龍脈819登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 304,
+    "name_EN": "Lumen Cave 339 Data",
+    "name_CHS": "龙脉339登入情报",
+    "name_CHT": "龍脈339登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 305,
+    "name_EN": "Lumen Cave 12812 Data",
+    "name_CHS": "龙脉12812登入情报",
+    "name_CHT": "龍脈12812登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 306,
+    "name_EN": "Unknown Lumen Data",
+    "name_CHS": "未知探勘点登入情报",
+    "name_CHT": "未知探勘點登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 307,
+    "name_EN": "Lumen Cave 67 Data",
+    "name_CHS": "龙脉67登入情报",
+    "name_CHT": "龍脈67登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 308,
+    "name_EN": "Lumen Cave 99 Data",
+    "name_CHS": "龙脉99登入情报",
+    "name_CHT": "龍脈99登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 309,
+    "name_EN": "Black Hole Observatory VII Data",
+    "name_CHS": "第七黑洞观测站登入情报",
+    "name_CHT": "第七黑洞觀測站登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 310,
+    "name_EN": "Banshee Data",
+    "name_CHS": "黑龙登入情报",
+    "name_CHT": "黑龍登入情報",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  },
+  {
+    "id": 311,
+    "name_EN": "Inscription: Ten Peaks to Helius",
+    "name_CHS": "十山告乙皇碑文",
+    "name_CHT": "十山告乙皇碑文",
+    "desc_EN": "2 Orbis, 10 Circum, 13 Gradus\nPraesidio Composes Thus\n\nObeying Helius' commandment,\nthe Ten Peaks erected eighty-eight shrines,\ninstructing the Sanctums to sing and inhale,\nthe lumen for life eternal.",
+    "desc_CHS": "万道龙守谱于\n二轮十天十三地\n\n十山诸神尊乙皇命，\n建八十八龙脉神殿，\n并令众道行歌，引气延命。",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 312,
+    "name_EN": "Inscription: Terra to Sanctums",
+    "name_CHS": "后土告众道碑文",
+    "name_CHT": "后土告眾道碑文",
+    "desc_EN": "4 Orbis, 4 Circum, 8 Gradus\nPraesidio Composes Thus\n\nI sing once, to offer one hundred caves from afar to Ignis.\nIgnis roars, and the Sanctums begin anew. \n\nI sing again, to offer one thousand caves from afar to Ignis.\nIgnis roars, and the Sanctums live on.",
+    "desc_CHS": "万道龙守谱于\n四轮四天八地\n\n愿歌一轮，献河外三百龙脉予烛龙，\n烛龙轰鸣，已故众道再起。\n\n愿歌二轮，献河外五千龙脉予烛龙，\n烛龙轰鸣，众道不死续命。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 313,
+    "name_EN": "Loose Pages from a Terra Hymnal 1",
+    "name_CHS": "后土歌本残页1",
+    "name_CHT": "后土歌本殘頁1",
+    "desc_EN": "A songbook with a lot of missing pages, which were likely used to start a fire.\n\nGiven the decline of the Terra faith, these songbooks were hard to come by. However, there were plenty of antique dealers who believed the verses contained mysterious powers that could channel lumen.\n\nIt also appeared to contain decipherments of Myrian inscriptions.",
+    "desc_CHS": "歌谱残缺，应该是被拿去做燃料。\n由于后土的信仰式微，歌本这几年已经很少见，但群山依然有不少古董商，相信解译这些乐句，就有力量引导龙脉。\n\n似乎记载着万道符文解译的方法。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 314,
+    "name_EN": "Vocal Adjustment Device",
+    "name_CHS": "声线调整器",
+    "name_CHT": "聲線調整器",
+    "desc_EN": "A machine for calibrating military vocalizers.\n\nDuring training, Eda's master would ask her to sing the starsong of Ignis, then give the recording to the Lumen Association. If the association did not purchase it, that meant she didn't sing well enough. It took her many years to be accepted by the market and her master.\n\nThe thought of people paying for her voice really embarrassed her.",
+    "desc_CHS": "校正军用发声器的机器。\n\n练习时，艾妲师父会请她反覆哼唱太阳烛龙的声音，再把录制的声音交给协会，如果协会不收购，就代表唱得不好。她花了很多年，才慢慢让市场与师父认同。\n\n一想到很多人可能买到她的声音过，她就觉得很不好意思。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 315,
+    "name_EN": "Rodin Family Brooch",
+    "name_CHS": "罗登家族别针",
+    "name_CHT": "羅登家族別針",
+    "desc_EN": "An expression of friendship and gratitude, the brooch emitted an ice-blue aura and was made of highly refined lumen metal. Holding it in my hands, I could feel it resonating. \n\n\"You'll need this one day,\" Rodin said as he gave this to us.",
+    "desc_CHS": "作为友谊与感谢的证明，散发着冰蓝色的发光胸针，是由纯度最高的汜金属凝练而成，握在手中都能感觉到歌声的震动。\n\n有一天，你一定会用到它，罗登对我们说。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 316,
+    "name_EN": "Reflections on the Lumen War",
+    "name_CHS": "龙脉冲突回忆录",
+    "name_CHT": "龍脈衝突回憶錄",
+    "desc_EN": "8506, Galactic Calendar\n\n\"Initially, all I wanted was to fight for the rights of Thousand Peaks. That was until the fleet of witches destroyed our cave...\"\n\nThis book was popular in the asteroid belt for a long time, and was written by one of the founders of the Lumen War Relief Foundation. A veteran mercenary that participated in a lot of guerrilla warfare... all he wanted now was peace.",
+    "desc_CHS": "银河历8506\n最早我们只是想争取群山人的权益，直到女巫队毁灭了我们的矿场...\n\n这书似乎在小行星带流传已久，作者是抚恤会的创办人之一，曾是前星环自由战线的佣兵，参与过大小零星的游击战役，如今只渴望和平。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 317,
+    "name_EN": "Scripture: Helius Descends",
+    "name_CHS": "乙皇群山降世经",
+    "name_CHT": "乙皇群山降世經",
+    "desc_EN": "This text primarily describes how Helius and the other gods worked together to build the lumen Empire. \n\nHelius is known as the deity who created the Myrian Empire. He fought against the omnipotent Ignis for the good of the gods, and this romantic nature made him beloved by adventurers and scientists alike. As such, he is believed to represent the pursuit of progress.",
+    "desc_CHS": "书中记载的是「乙皇」如何与诸神合作，建立龙脉帝国的故事。\n\n乙皇被公认是打造万道帝国的最高神，也是愿意为了神明福祉，与绝对神烛龙争斗的浪漫神明，特别为冒险家、科学家们喜爱，认为代表追求进步的动力。",
+    "shop_desc_EN": "Written by the asteroid belt adventurer James Wong, most of the source material comes from Helius inscriptions uncovered in Myrian remains.",
+    "shop_desc_CHS": "由小行星带的冒险家「詹姆斯・王」所著，内容多半由来于万道龙脉遗迹中，出土的乙皇建国碑文。"
+  },
+  {
+    "id": 318,
+    "name_EN": "Taiyang Decree of Conferment to the Lee Clan",
+    "name_CHS": "鸢家受封太乙令",
+    "name_CHT": "鳶家受封太乙令",
+    "desc_EN": "As the Cosmos bears witness,\nTaiyang has granted this to East Ocean.\nProtecting us into eternity,\nthe Lee clan here abodes.\n[8506 GC, Year 142 of the East Ocean calendar]\n\nThe Lee clan's place of residence during the Lumen War. After East Ocean was kicked out by United Mining, no one dared mention it. Even I only read about it in historical records of the family.",
+    "desc_CHS": "宇宙见证，领受太乙，\n基业永守，鸢家钦此。\n银河历 8506，瀛海天台142 标准年。\n\n是家族于龙脉冲突时期，经营的群山定居点，被矿业联合赶出去后，族中无人愿意提起，连我都只有于族史中读到。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 319,
+    "name_EN": "Eda's Grand Graffiti",
+    "name_CHS": "艾妲的涂鸦",
+    "name_CHT": "艾妲的塗鴉",
+    "desc_EN": "I have no idea how Eda avoided all the security cameras. Before leaving, she sprayed the flower that symbolized her master. What hurt her the most wasn't the pain and suffering caused by United Mining, but the fact that they took her master away, and did not give her the honor she deserved.\n\nHer master may have been responsible for the loss of many lives, but she did save Eda.",
+    "desc_CHS": "艾妲不知怎么躲过摄像头，临走前喷了象征她师父的花。相比矿联造成的苦难，她更介意将师父抢走的矿联，没赐予她师父应有的荣耀。\n\n就算是刽子手，她还是拯救艾妲的师父。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 320,
+    "name_EN": "Melody of Starsong (Act 1)",
+    "name_CHS": "龙脉长歌上部",
+    "name_CHT": "龍脈長歌上部",
+    "desc_EN": "\"Melody of Starsong\" is an opera about a love between two gods, written by the Rodin family after years of gathering archaeological research. \n\nThe first act describes the birth of Helius from the fires of Ignis, and how he was ordered to watch the Peaks from the void, drifting aimlessly for millennia, tormented and alone. One day, he was drawn in by a mysterious voice: \"Where there is song, you shall find me.\" \n\nTerra, one of the gods, gazed at Helius from afar, hoping to save him with her song. Eventually, he came down from the heavens for her and they fell in love, establishing the Myrian Empire.",
+    "desc_CHS": "龙脉长歌是罗登家族搜集大量考古数据后，杜撰的神明爱情歌剧。\n\n上部故事是，乙皇于烛龙的星火诞生后，为烛龙授命，于虚空看望群山，漂泊亿万年为孤独折磨，一日却为某个声音吸引：\n\n「有歌的地方，你就会找到我。」\n\n那是神明之一的后土，遥望乙皇的她，渴望用歌拯救对方，终于乙皇为她降世，彼此相恋，建立了万道帝国。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 321,
+    "name_EN": "History of the Rumani Clan",
+    "name_CHS": "吉普赛族史",
+    "name_CHT": "吉普賽族史",
+    "desc_EN": "The book recounted the tale of the failed assassination attempt by the Rumani Clan. The chieftain's daughter was said to have been gifted with stunning eyes and beautiful locks. Her duties lay heavy on her shoulders, yet she fatefully fell in love with the chairman, her target, and they eventually bore an illegitimate child.\n\nThe princess was punished according to the laws of the clan, but her daughter was taken away and lost in the chaos of war, never to be found.",
+    "desc_CHS": "里面记载的是吉普赛家族策动暗杀计划的始末，族长的女儿是一位有着美丽金发与眼眸的女子，她身负重任，却爱上了目标对象，跟矿业联合的议长私通款曲。甚至产下一女。\n\n尽管最后公主被族内处刑，但她的女儿却在战乱时被接走，不知所终。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 322,
+    "name_EN": "99 Hybrid Lumium Container",
+    "name_CHS": "99级混合汜气货柜",
+    "name_CHT": "99級混合汜氣貨櫃",
+    "desc_EN": "99 Hybrid Lumium\nManufacturer: United Lumium Refinery\n\nEda said that United Mining's refined lumium was different from the lumen naturally found in caves. Even when she concentrated, she couldn't hear any emotion... Like some vital part of the lumen had been removed.",
+    "desc_CHS": "99级高纯度混合汜气\n制造：矿联汜气精炼厂\n...\n艾妲说，矿联特殊精炼过的汜气，跟龙脉天然蕴藏的不ㄧ样，就算集中注意去聆听，也听不出汜里面的情感，仿佛有什么重要的东西被剔除了。",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 323,
+    "name_EN": "Ten Peaks of Diversity Plaque",
+    "name_CHS": "十山多元碑",
+    "name_CHT": "十山多元碑",
+    "desc_EN": "The Ten Peaks represented the spirit of pluralism and freedom, the motto of the Daily Lumen.\n\n\"To thank the Red Chamber Crew, we honor them with this inscription.\"",
+    "desc_CHS": "十山诸神代表了多元与自由精神，那是日报成立的愿景。\n\n「感谢红楼船队对龙脉日报的协助。特奉此碑。」",
+    "shop_desc_EN": "In the Peaker markets, you can find a buyer for anything if you have the right contact.",
+    "shop_desc_CHS": "在群山的市场上，只要有门道，几乎什么东西都能找到收购者。"
+  },
+  {
+    "id": 324,
+    "name_EN": "Witches' Training Plan Recording",
+    "name_CHS": "女巫训练计划音档",
+    "name_CHT": "女巫訓練計畫音檔",
+    "desc_EN": "The Witching Tower drafted a proposal to cooperate with United Mining once more, signing a contract to help search for lumen. This unprecedented resolution would forever solidify United Mining's position. I could tell that Eda had mixed feelings about it.",
+    "desc_CHS": "巫塔提案与矿联再次合作，签订探索龙脉的契约，这破天荒的提案将永久巩固矿联的地位，看在艾妲的眼中是五味杂陈。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 325,
+    "name_EN": "Presentation on Lumen Refinement",
+    "name_CHS": "龙脉精炼简报",
+    "name_CHT": "龍脈精煉簡報",
+    "desc_EN": "\"Conference Schedule\n- Lumium static: How irregular patterns of consciousness destroys refinement quality and how to deal with it.\"\n\nA presentation issued for a conference that highlighted United Mining's never-ending quest for the lumen of Thousand Peaks.",
+    "desc_CHS": "议程\n- 论汜的杂音调整，如何去除不规则意识扰动，提高精炼品质\n\n研讨会发下的简报，解释了矿联对群山龙脉的无尽渴求。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 326,
+    "name_EN": "Wartime Witches' Register",
+    "name_CHS": "女巫战时名册",
+    "name_CHT": "女巫戰時名冊",
+    "desc_EN": "The register contained a list of witches who were drafted into the war, as well as an account book containing each witch's stipend. \n\nEda looked silently for her name, which she found with a line next to it that read: \"Unable to sing. Giving up for adoption.\"\n\nThe line was crossed out in red. And a second note was written underneath it: \"Adopter - Red Grant\"",
+    "desc_CHS": "名册内是当年女巫参加战事的名单，还有每个人的战时辅助金额的帐目。\n\n艾妲默默找到她的名字，旁边一行纪录\n「无歌者，予以弃养。」被红字划掉。\n\n取代而之的注解是：\n「认养者：红・葛兰特。」",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 327,
+    "name_EN": "Class 4 of the Witching Tower",
+    "name_CHS": "第四届巫塔成员纪录",
+    "name_CHT": "第四屆巫塔成員紀錄",
+    "desc_EN": "Records commemorating Class 4 of the Witching Tower\n\n8519 - Stargazing Festival\n8520 - Witches' Singing Practice\n8521 - Level 4 Advancement Exam\n\nA digital collection of photographs. Eda just stared at the photos for what seemed like eternity. At last, her gaze stopped, glued to a line of words:\n\n8523 - Group Photo w/ Red from the Council of Elders",
+    "desc_CHS": "仅此纪念巫塔第四届女巫培训\n摄于8519- 观星节\n摄于8520- 女巫歌法实习\n摄于8521- 四楼升等考试\n...\n那是数位的相片数据集锦，艾妲看着照片陷入沉思，最后视线停在两行字上：\n\n摄于8523\n长老院女巫「红」与全员合影",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 335,
+    "name_EN": "Lost Handheld Recorder",
+    "name_CHS": "遗落的录音笔",
+    "name_CHT": "遺落的錄音筆",
+    "desc_EN": "A recording by James Wong, a famous Myrian explorer.\n\n\"I'm sure you're very excited to have found my recording. As long as you keep searching for lumen, you will always find me one step ahead.\n\nRecently I've been learning from the witches, inhaling the lumen and reacting to it... It's fantastic... I close my eyes and I can almost sense the location of shrines nearby...\"",
+    "desc_CHS": "录音的来源是詹姆斯・王\n有名的万道探险家\n...\n捡到我录音的你，高兴吧，只要你继续寻找龙脉，我永远会在你前面。\n\n我最近学着女巫，使用吸食汜的方式，让自己感应龙脉...\n很棒的方法...我几乎闭起眼睛，就能感受到神殿的位置...",
+    "shop_desc_EN": "The intel markets are happy to purchase all sorts of documents. What looks like useless information might one day reveal some hidden treasures.",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 338,
+    "name_EN": "Coordinates: Ironwind Border Patrol",
+    "name_CHS": "座标：铁岚城边境巡逻局",
+    "name_CHT": "座標：鐵嵐城邊境巡邏局",
+    "desc_EN": "Wherever Red Chamber was, that was my home. That's what I realized during my stay at border patrol, after being rescued.",
+    "desc_CHS": "只要红楼在的地方，就是我的家，\n从边境巡逻局获救时，我这么想着。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 339,
+    "name_EN": "Coordinates: Dreamer's Pit",
+    "name_CHS": "座标：贫民窟「浮生若梦」",
+    "name_CHT": "座標：貧民窟「浮生若夢」",
+    "desc_EN": "As we journeyed around the Peaks, we would occasionally receive SOS signals. But given the inordinate amount of scammers and pirates, attempting a rescue was something you had to think thrice about.",
+    "desc_CHS": "在群山旅行，不时空域会收发到求救的讯号，但由于诈骗与海盗众多，救援变成需要三思的事情。",
+    "shop_desc_EN": "Non Sellable",
+    "shop_desc_CHS": "不可销售"
+  },
+  {
+    "id": 340,
+    "name_EN": "-",
+    "name_CHS": "未使用Flag",
+    "name_CHT": "未使用Flag",
+    "desc_EN": "-",
+    "desc_CHS": "游戏不显示",
+    "shop_desc_EN": "-",
+    "shop_desc_CHS": "游戏不显示"
+  }
+]

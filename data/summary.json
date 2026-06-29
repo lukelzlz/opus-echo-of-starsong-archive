@@ -1,0 +1,15 @@
+{
+  "game": "OPUS: Echo of Starsong",
+  "developer": "SIGONO",
+  "engine": "Unity 2020.3.35f1",
+  "data_stats": {
+    "characters": 81,
+    "story_dialogues": 4728,
+    "incidents": 615,
+    "choices": 457,
+    "items": 283,
+    "locations": 118,
+    "sublocations": 75,
+    "mails": 51
+  }
+}

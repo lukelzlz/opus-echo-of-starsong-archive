@@ -1,0 +1,602 @@
+[
+  {
+    "id": 40,
+    "name_EN": "Migrant's Bazaar",
+    "name_CHS": "移民交易广场",
+    "name_CHT": "移民交易廣場",
+    "content_EN": "Fortune 9 was an up-and-coming trading hub that served as the transition point between the restricted area and the asteroid belt. Even though it was hard to trust the traders around here, lumen intel was the primary product for sale.\n\nThat's one of the reasons Kay and I came here to investigate lumen.",
+    "content_CHS": "作为新兴的贸易站，九禄是承接官方的管制区域与小行星带的过渡点，常常交易位于灰色地带的龙脉情报。\n\n大魁与我当初选择这里调查龙脉消息，也是这个原因。"
+  },
+  {
+    "id": 134,
+    "name_EN": "Myrian Shrine: Helius",
+    "name_CHS": "万道乙皇殿",
+    "name_CHT": "萬道乙皇殿",
+    "content_EN": "\"May Helius' blessings be upon you.\"\n\nThat's how everyone greeted us as we walked to the center of the shrine. It is said that Helius came down from the heavens, bringing blessings to Thousand Peaks. The myth ends with Ignis calling the wrath of heavens down upon the land, but that does not deter the faithful, who still exist in great numbers.",
+    "content_CHS": "「乙皇赐福。」\n\n行走于殿中，路过的人都会如此问候。作为降世降福于群山的乙皇，即使神话的结局招致恒星烛龙天罚，却依然有不少信众。"
+  },
+  {
+    "id": 147,
+    "name_EN": "Lumen Association: Fortune 9 Branch",
+    "name_CHS": "龙脉协会九碌支部所",
+    "name_CHT": "龍脈協會九碌支部所",
+    "content_EN": "In cooperation with United Mining, the Lumen Association was set up in the 18th and final year of the Lumen War to resolve disputes regarding mining rights.\n\nA system was put in place to resolve conflicts and give intel brokers legal standing, with the goal of maintaining stability in Thousand Peaks and preventing further bloodshed.",
+    "content_CHS": "成立于龙脉冲突第十八年，也是终战年，为解决矿权的冲突，龙脉协会与矿联合作建立制度，以调停民间纠纷，提供合法龙脉情报仲介为己任，只希望能保障群山的和平，避免再一次的流血冲突。"
+  },
+  {
+    "id": 44,
+    "name_EN": "Lumen War Relief Foundation",
+    "name_CHS": "冲突遗族抚恤会",
+    "name_CHT": "衝突遺族撫卹會",
+    "content_EN": "Most of Guifang's residents were crippled veterans who were abandoned after the war. They set up the foundation hoping to provide a place for those who had nowhere to go.\n\nThey hated outsiders... especially those looking for lumen. After all, they're the ones who started the damn war.",
+    "content_CHS": "鬼方居住的，多半是冲突后因为伤残而被遗弃的老兵，他们成立抚恤会，希望能为这群无处可去的同胞寻找栖身之所。\n\n他们向来不怎么喜欢外地人，毕竟是这些觊觎龙脉的人，才会导致龙脉冲突这场灾难。"
+  },
+  {
+    "id": 22,
+    "name_EN": "Myrian Square: Helius",
+    "name_CHS": "万道乙皇广场",
+    "name_CHT": "萬道乙皇廣場",
+    "content_EN": "After space burials were banned by United \nMining, Myrian followers used asteroid craters \nmarked with a carving of Helius instead.\n\nNames of the deceased would be carved along \nthe walls of each crater, as the asteroids were \nconsidered home to them.",
+    "content_CHS": "宇宙葬被矿业联合勒令禁止后，信仰万道的住民会使用雕有乙皇神像的小行星深坑，于表面刻印死者的名字。\n\n对他们而言，小行星是他们的家。"
+  },
+  {
+    "id": 9,
+    "name_EN": "War Orphanage: The Hedge",
+    "name_CHS": "战争孤儿院「槛」",
+    "name_CHT": "戰爭孤兒院「檻」",
+    "content_EN": "Children who lost their family to the war ended up in places like this. The children were often forced into labor, and the place was frequented by human traffickers. There was no warmth to be found here.\n\nRemi abhorred the place.",
+    "content_CHS": "龙脉冲突后，失去家人的孩子们所住的地方，孤儿必须接受各种劳动，也经常有人口贩子出入此地，并不是充满温暖的地方。\n\n菈米亚很讨厌这里。"
+  },
+  {
+    "id": 148,
+    "name_EN": "Lumen Association: Guifang Branch",
+    "name_CHS": "龙脉协会鬼方支部所",
+    "name_CHT": "龍脈協會鬼方支部所",
+    "content_EN": "Members of the association came from all backgrounds, but most were veterans of the war. The amount of lumen intel in their hands came only second to United Mining.",
+    "content_CHS": "协会的人来自各方，多半由龙脉冲突的退役军人，或过往小行星带的地方势力所组成，是除了矿业联合之外，拥有最多龙脉情报的集团。"
+  },
+  {
+    "id": 91,
+    "name_EN": "Memorial Administration Bureau",
+    "name_CHS": "纪念塔管理处",
+    "name_CHT": "紀念塔管理處",
+    "content_EN": "\"If you have any relatives that haven't been \nfound, you can register them here and the \nfoundation will help you locate them.\"\n\nThe voice of the veteran we spoke to sounded \nvery mechanical. He used a speech device much \nlike Eda's, but it was a much older model. Most \nof the workers here were veterans fitted with \nbionic prostheses, who returned after the war to \nlive out their lives.",
+    "content_CHS": "「如果有尚未寻获的亲属，可于此处登记，抚恤会会为您寻找。」\n\n跟我们对话的老兵声音充满机械感，他使用了类似艾妲的声音辅具，只是型号偏旧。这里的工作人员多是冲突后回归生活，使用义体的老兵。"
+  },
+  {
+    "id": 128,
+    "name_EN": "Memorial Cabin",
+    "name_CHS": "冲突纪念塔内船舱",
+    "name_CHT": "衝突紀念塔內船艙",
+    "content_EN": "\"This ship was the main stronghold in the fight against United Mining. After the war was lost, it became a memorial for those who had fallen.\"\n\nUpon entering the massive cabin, the relics of warriors could be seen filling every inch of the vessel. A committee formed by retired soldiers would lead guests into the main hall and softly recount the story of the deceased.",
+    "content_CHS": "「这船是曾是对抗矿联的王牌，战损后成为了亡者们的纪念塔。」\n\n走入了庞大的船舱内，战士们的遗物排满船舰。退役老兵组成的管理委员会带领访客走过厅堂，缓声诉说着逝者的故事。\n"
+  },
+  {
+    "id": 149,
+    "name_EN": "Lumen Association Branch",
+    "name_CHS": "龙脉协会支部所",
+    "name_CHT": "龍脈協會支部所",
+    "content_EN": "The association acted as the runners' guardian, with branches spread out among the Peaks. They periodically purchased lumen products, provided legal loans and rented ships, much like the seafaring guilds from the age of myths.",
+    "content_CHS": "协会作为探勘人的保护者，在群山各地都有分社，他们定期收购各式龙脉商品，提供合法放贷，船体的租借生意，宛如神话时代的航海工会。"
+  },
+  {
+    "id": 14,
+    "name_EN": "Bar: The Vagabond",
+    "name_CHS": "酒吧「像我流浪的人」",
+    "name_CHT": "酒吧「像我流浪的人」",
+    "content_EN": "Legend has it that the owner used to work in United Mining's Border Patrol. One day he got into an argument with one of his superiors and put him in the hospital. As a result, he was fired.\n\nGiven his former position, he knew quite a few drifters, thieves, and fugitives. After losing his job, his old friends helped him build this bar so he could make a few bucks.",
+    "content_CHS": "传闻酒吧老板曾经服役于矿联的边境巡逻局，跟上司起冲突，将对方送进了医院，于是被拔掉职位。\n\n因职务的关系，老板结识不少流浪旅者，窃贼，通缉要犯等，交友甚广。\n\n失去工作后，昔日好友们帮助他搭建起这间酒馆，做起了生意。"
+  },
+  {
+    "id": 47,
+    "name_EN": "Myrian Shrine: Ignis",
+    "name_CHS": "万道烛龙殿",
+    "name_CHT": "萬道燭龍殿",
+    "content_EN": "Ignis' shrine was the largest gathering place for followers of the Myrian religion.\n\nThe crowd was full of peddlers and worshippers surrounding the main hall, turning it into a massive hub of commercial activity. The Ignis faith was led mostly by the Myrian Ignis Guild, who hoped that people would honor the sun through business and good deeds. Due to its simple doctrine, it eventually became the mainstream religion in the post-war Peaks.",
+    "content_CHS": "烛龙殿是万道在小行星带中，最大的宗教聚集地。\n\n路上充斥着叫卖的小贩与信徒，围绕着主殿成为一个巨大的商业生活圈。 「烛龙」的信仰主要由万道烛龙商会所主持，希望人们透过经商与行善荣耀太阳，由于教义单纯，战后渐渐成为群山小行星带的主要信仰。"
+  },
+  {
+    "id": 150,
+    "name_EN": "Myrian Ignis Guild",
+    "name_CHS": "万道烛龙商会",
+    "name_CHT": "萬道燭龍商會",
+    "content_EN": "The Myrian Ignis Guild was the largest religious and commercial organization in the asteroid belt, and was the largest smuggler of lumen goods as well. Most that arrived here came for no other reason than to sell off their ill-gotten items.\n\nBut we had other reasons for coming...",
+    "content_CHS": "主持烛龙信仰的万道烛龙商会，是小行星带最大的宗教与商业势力，更是龙脉商品走私的大本营，来到这里，无非希望销赃手中的龙脉货物。\n\n但那时我们来到这里的原因，却有点不太一样。"
+  },
+  {
+    "id": 132,
+    "name_EN": "Lumen Cave: Ignis No.1",
+    "name_CHS": "龙脉矿场「烛龙一」",
+    "name_CHT": "龍脈礦場「燭龍一」",
+    "content_EN": "\"May Ignis shed light upon your good deeds.\"\n\nThe Guild of Myrian Ignis believes that anyone who excessively extracts lumen will be unable to return to Ignis when they die. So, what they do is sell mining rights to other excavators and take a small commission for themselves. It's quite a unique phenomenon in the asteroid belt.",
+    "content_CHS": "愿烛龙光照，今日众善奉行。\n\n信仰万道烛龙的商会，被认为如果过度挖掘龙脉，死后将无法回归烛龙太阳，为此商会只贩售对外的采矿权，从中抽佣而不亲自挖掘，是小行星带特有的现象。"
+  },
+  {
+    "id": 133,
+    "name_EN": "Lumen Cave: Ignis No.2",
+    "name_CHS": "龙脉矿场「烛龙二」",
+    "name_CHT": "龍脈礦場「燭龍二」",
+    "content_EN": "Even though United Mining had prohibited the possession of caves, law enforcement in the asteroid belt was much more relaxed and tended to turn a blind eye to such regulations.\n\nGiven the massive demand for lumen, the Myrian Ignis Guild continued to develop a number of caves and sold the excavation rights to runners in such a way that it didn't violate their beliefs, which eventually turned into a burgeoning entertainment industry.",
+    "content_CHS": "尽管私下持有龙脉被矿联严厉禁止，法纪松散的小行星带却不受此限。\n\n面对龙脉挖掘的巨大需求，烛龙商会陆续开发多数矿场，在不违背烛龙信仰的前提下，成功的将探勘权逐一分售，成为新兴的采矿娱乐事业。"
+  },
+  {
+    "id": 59,
+    "name_EN": "Pirate Radio: The Krimson Kettle",
+    "name_CHS": "海盗电台「红壶」",
+    "name_CHT": "海盜電台「紅壺」",
+    "content_EN": "No one would have guessed that the most popular broadcasting program in the Thousand Peaks region came from this small, humble space station.\n \nA small group of workers wrestled with faulty equipment in the chaotic space station, attempting to spread their cherished Thousand Peaks culture through entertainment.",
+    "content_CHS": "想不到整个群山地区最受欢迎的节目，就来自这个简陋的小小空间站。\n\n一小群工作人员在杂乱的空间内和不时故障的零件搏斗，尝试在娱乐节目中一点一滴地传播他们珍惜的群山文化。"
+  },
+  {
+    "id": 48,
+    "name_EN": "Outlaw City: Taoyuan",
+    "name_CHS": "非法城市「桃源乡」",
+    "name_CHT": "非法城市「桃源鄉」",
+    "content_EN": "Some memories are best not spoken.",
+    "content_CHS": "有些记忆是不方便说的。"
+  },
+  {
+    "id": 151,
+    "name_EN": "Myrian Ignis Guild",
+    "name_CHS": "万道烛龙商会",
+    "name_CHT": "萬道燭龍商會",
+    "content_EN": "The destructive effects of the Lumen War left the asteroid belt in lawless shambles, prompting United Mining to give up any hope of establishing order. The illicit trade that flowed through these sites turned them into hotbeds for underground factions and an active territory for the Myrian Ignis Guild.\n\nIt's rumored that they would provide services to United Mining officials and use that money to invest in the resistance. That was Thousand Peaks for you.",
+    "content_CHS": "由于龙脉冲突的影响，废墟般的小行星带是矿业联合放弃治理的地方，某些场所更由于其交易的特殊性，成为地下势力，万道烛龙商会活跃的地盘。\n\n有人谣传他们一边招待矿业联合的军官，一边拿赚到的钱转手投资反抗矿业联合的势力，是黑白通吃的群山之影。"
+  },
+  {
+    "id": 51,
+    "name_EN": "Underground Arena: Misty Dragon",
+    "name_CHS": "非法竞技场「云龙」",
+    "name_CHT": "非法競技場「雲龍」",
+    "content_EN": "There was a giant statue of a runner at the entrance. The large billboard inside displayed the contenders who would battle it out that night, as well as the current betting odds.\n\nThe participating runners would climb down a massive, seemingly bottomless quarry, while the crowd surrounded the broadcasting screen, watching the participants pit their excavation techniques against one another, for the glory of Ignis.",
+    "content_CHS": "门口有着的巨大探勘者雕像，内部的大型看板上贴着今晚要上场的选手们，以及他们目前的下注金额。\n\n参赛的探勘者们在一个巨大且深不见底的巨坑中向下攀爬，人群则围绕着转播屏幕，看着参赛者以荣耀烛龙的名义，拼比探勘技术。"
+  },
+  {
+    "id": 27,
+    "name_EN": "Illegal Base Station: Rabbit Hole I",
+    "name_CHS": "非法基地台「兔窟一」",
+    "name_CHT": "非法基地台「兔窟一」",
+    "content_EN": "In every corner of Thousand Peaks, the residents set up private network stations to escape United Mining's control.\n\nThe stations were built on asteroids and exchanged news and information with each other using specialized encryption.",
+    "content_CHS": "为了脱离矿联的管制，群山行星带的住民四处架设网络站。\n\n它们被设立在小行星上，透过特殊的加密技术，互相交流着大小的信息。"
+  },
+  {
+    "id": 30,
+    "name_EN": "Orbital Launch Administration Office ",
+    "name_CHS": "抛射登记管理局",
+    "name_CHT": "拋射登記管理局",
+    "content_EN": "A silent old man kept watch at the registration counter.\n\nA Ring Liberation Front veteran, when he heard that the business we hoped to undertake was a space burial, he said nothing, only silently indicating that we should fill in the designated religion on the form. After all, there were so many forms of Myrian belief that anything was a possibility.\n\nYet, when he saw that the religion was Myria Taiyang, he frowned slightly.",
+    "content_CHS": "一位沉默的老人守在登记局柜台。\n\n他原来是星环自由战线的战士，听到我们希望承办的业务是宇宙葬，他问也不问，只默默的叫我们将指定宗教填入表格，毕竟万道诸神的信仰多元，各种类型都有可能。\n\n唯独发现宗教是万道太乙时，他稍微皱了眉头。"
+  },
+  {
+    "id": 61,
+    "name_EN": "Orbit Launch Station: Ferry Point",
+    "name_CHS": "轨道抛射台「渡头」",
+    "name_CHT": "軌道拋射台「渡頭」",
+    "content_EN": "After the Lumen War, United Mining gained control of Thousand Peaks' transport station. If civilians wanted to avoid the hefty fees required to send goods through the transport station, their only option was to go through the smugglers.\n\nBut neither of these routes were financially feasible for ordinary folk. As a result, Ferry Point was built. Their simple cannon allowed them to quickly send small-to-medium-sized objects to the outer planets.",
+    "content_CHS": "龙脉冲突结束后，矿业联合控制了群山传送港。民间如果需要对外沟通，除了付出高昂的传送使用费外，就只剩下走私一途。\n\n但无论两者，都不是一般住民可以负担，为此渡头因此而生，他们透过简易的抛射台，将中小型质量物体加速，送往外行星。"
+  },
+  {
+    "id": 152,
+    "name_EN": "Myrian Ignis Guild",
+    "name_CHS": "万道烛龙商会",
+    "name_CHT": "萬道燭龍商會",
+    "content_EN": "It's been said that the heads of the Myrian Ignis Guild were a transport crew for the Ring Liberation Front, but an Ignis solar flare paralyzed their engine and kept them out of the final battle.\n\nAfter the war, they became a commercial enterprise. Since they were saved by Ignis, they took him as their god prime. They used their familiarity with the trade routes to help out with transports around the asteroid belt, and were crucial to revitalizing the Peaks.",
+    "content_CHS": "谣传商会组成的元老，曾是龙脉冲突时期，星环自由战线的运输队，却因为烛龙的恒星闪焰瘫痪引擎，让他们躲过最后的战场。\n\n战后转为生意组织，并尊拯救性命的烛龙为主神，透过对航线的熟悉，在小行星带间协助物资的运送，对群山复兴功不可没。"
+  },
+  {
+    "id": 129,
+    "name_EN": "Liberation Monument Inscription",
+    "name_CHS": "解放纪念碑文",
+    "name_CHT": "解放紀念碑文",
+    "content_EN": "The inscription on the Liberation Monument recounted the war between the Ring Liberation Front and United Mining.\n\nThe Front forced United Mining out of the asteroid belt after sacrificing themselves in the final guerrilla operations. Out of gratitude, later generations of Peakers established a Praesidio shrine to pray that they return to the land and lumen.",
+    "content_CHS": "纪念碑文记录着过去星环自由战线与矿业联合的冲突纪录。\n\n最后一次舍身的游击行动后，他们终于将矿业联合赶出小行星带。\n\n后世的群山人感念他们，决心于此立碑，并建立龙守神殿，只愿他们回归土地与汜的怀抱。"
+  },
+  {
+    "id": 138,
+    "name_EN": "Myrian Shrine: Praesidio",
+    "name_CHS": "万道龙守殿",
+    "name_CHT": "萬道龍守殿",
+    "content_EN": "This was the only cave in the asteroid belt where no one dared to touch the lumen.\n\nBuilt within the cave, the shrine's altar was not as large as those in other shrines, but the number of Praesidio idols was staggering.\n\nMost of these idols scattered among the pools were donated to show appreciation for the Front, hoping that lumen would light the way for those who had passed, so that they may return in peace.",
+    "content_CHS": "在小行星带中，唯有这里的龙脉没有任何人挖掘。\n\n建立于龙脉中的龙守神殿，没有一般神殿的巨大神坛，却有著成千成百的龙守神像落于汜水之中。\n\n这些神像多由感念星环自由战线的人们所捐，他们渴望风水为勇士们引路，死后回归龙脉的怀抱。"
+  },
+  {
+    "id": 115,
+    "name_EN": "Mobile Casino: Fortuna",
+    "name_CHS": "移动赌场「贵人」",
+    "name_CHT": "移動賭場「貴人」",
+    "content_EN": "It's rumored that the Fortuna Enterprise Group was formed by veterans of the Ring Liberation Front who got investments from Misty Dragon via the Myrian Ignis Guild.\n\nEnormous sums of credits flow through their famous chain casinos. So much so that they were called \"Caves of the Underworld\".",
+    "content_CHS": "传闻贵人实业集团是由星环自由战线的退役老兵，透过万道烛龙商会牵线云龙会，转投资而组成的集团。\n\n而有名的连锁赌场「贵人」中流通的巨量资金，甚至被人称为地下龙脉。"
+  },
+  {
+    "id": 36,
+    "name_EN": "Ship Recycling Dock ",
+    "name_CHS": "废船解体码头",
+    "name_CHT": "廢船解體碼頭",
+    "content_EN": "Endless rows of dismantled lumen seeking vessels and other military ships could be seen at the dock. This was the center of activity during the war, with decades worth of ship parts piling up here. So much material gathered that Trash Mountain was almost always looking for workers.",
+    "content_CHS": "码头可以看到不少被拆解的龙脉探测船，还有其他的矿业联合军船，这里是冲突时期的核心区域，十几年来的各种废弃船只零件堆叠于此，让垃圾山不时处于缺工的状态。"
+  },
+  {
+    "id": 153,
+    "name_EN": "Trash Mountain Recycling",
+    "name_CHS": "垃圾山船体回收公会",
+    "name_CHT": "垃圾山船體回收公會",
+    "content_EN": "The first branch of the famous recycling station \"Trash Mountain\". Legend has it that Trash Mountain could strip down any ship into spare parts to be recycled and converted to credits. Naturally, this was the first place that came to mind when people were looking for rare parts.",
+    "content_CHS": "著名的回收场「垃圾山」的第一个营业点，传说只要经过这里，任何船体都可以除籍成为零件，回收成为信用点，自然也成为许多人寻找稀有零件的地方。"
+  },
+  {
+    "id": 50,
+    "name_EN": "Slums: Dreamer's Pit",
+    "name_CHS": "贫民窟「浮生若梦」",
+    "name_CHT": "貧民窟「浮生若夢」",
+    "content_EN": "After the Lumen War, many small-scale satellites took in a great number of survivors. As basic facilities broke down, living conditions deteriorated rapidly, eventually turning the satellites into slums.\n \nMost of them cursed the conflict of the past, and prayed for the blessings of Ignis.",
+    "content_CHS": "龙脉冲突后，许多小型卫星由于收纳了过多战争遗民，在民生设施半毁的情况下，生活条件极速劣化，终让卫星贫民窟化。\n\n他们多半咒诅着过往的战争，祈祷烛龙太阳的赐福。"
+  },
+  {
+    "id": 11,
+    "name_EN": "Prosthesis Factory: Re-vital",
+    "name_CHS": "义体工厂「逢春」",
+    "name_CHT": "義體工廠「逢春」",
+    "content_EN": "Only after visiting was it evident that almost all of Thousand Peaks' bionic prostheses came from this factory. \n\nThey operate in a grey zone between the black market and official channels, sending crate after crate of finished product out of the asteroid belt on cargo ships.",
+    "content_CHS": "拜访过才知道，群山著名的各种拾荒机械手臂，几乎都是出自于这间工厂。\n\n他们周旋于黑市与官方之间，透过货船将成品一箱箱地从小行星带输出。"
+  },
+  {
+    "id": 56,
+    "name_EN": "Illegal Base Station: Rabbit Hole II",
+    "name_CHS": "非法基地台「兔窟二」",
+    "name_CHT": "非法基地台「兔窟二」",
+    "content_EN": "The passage through Rabbit Hole II was quiet and deep, and many small recording rooms seemed to be lurking in its depths.\n \nFragments of conversation could be heard from time to time, and the sound of distant singing drifted through the air.",
+    "content_CHS": "兔窟二内的通道幽静而深邃，深处感觉是一间间的小型录音间。\n\n不时有细碎的对话，悠远的歌声传出。"
+  },
+  {
+    "id": 122,
+    "name_EN": "Interstellar Transport Station",
+    "name_CHS": "跨星区传送港「瀛海」",
+    "name_CHT": "跨星區傳送港「瀛海」",
+    "content_EN": "The construction of an interstellar transport station on a rift in subspace was no less costly than the price of developing a planetary system.\n\nAt the time, the station was managed by the East Ocean Alliance, built by the residents of Thousand Peaks, and invested in by the Eiffel League. It was originally believed that it would open up lumen sources in Thousand Peaks, and bring glory to East Ocean. However, it was eventually destroyed by United Mining, leaving a permanent electromagnetic storm.",
+    "content_CHS": "仅能建立于亚空间裂口的传送港，开发金额并不亚于开拓一个行星系的价格。\n\n当年由瀛海同盟主持，群山住民建造，艾菲尔同盟投资的传送港，原以为打通了群山的龙脉矿源，为瀛海带来荣光，最后却是毁于矿业联合之手，导致了永久的电磁风暴。"
+  },
+  {
+    "id": 29,
+    "name_EN": "Subspace Observatory",
+    "name_CHS": "亚空间观测站",
+    "name_CHT": "亞空間觀測站",
+    "content_EN": "The operator of Shiratsuka Parts once worked at the East Ocean Interstellar Transport Station. After it was destroyed, he would periodically see parts of abandoned ships being spit out of the subspace rift, and believing it was a Binarii miracle, he founded this recycling station.\n\nHowever, some say that his lover was pulled into the rift when the transport station collapsed, and everything he did was for his hope that she would one day return.",
+    "content_CHS": "白冢的经营者是过去传送港的工作人员，传送港毁灭后，他观察到废船的零件会不定期从损坏的亚空间裂口喷出，他认为那是万道诸神「二向」的奇迹，他因此成立了回收站。\n\n有人说其实传送港坍缩时，他爱人连船带人被吸入亚空间而消失，而他所做的一切，只是渴望对方归来。"
+  },
+  {
+    "id": 135,
+    "name_EN": "Myrian Shrine: Binarii",
+    "name_CHS": "万道二向殿",
+    "name_CHT": "萬道二向殿",
+    "content_EN": "As the gods of space-time and a symbol of reincarnation, Binarii has relatively few followers. The hardships of post-war life had forced most Peakers to focus on the daily toils of living, rather than some uncertain afterlife.\n\nBut Shiratsuka Parts was an exception. When the workers ended their day, they each chose a part that would be offered up by sending it into the subspace rift.\n\nThey prayed that Binarii would guide the way, sending it back as a signal that their next life would be better.",
+    "content_CHS": "作为时空神的二向少有信众，群山因为战争复兴而苦，多半不重来世，只看今生。\n\n唯有白冢例外，这里的工人在结束一天的打捞作业后，会挑选一个零件供奉，并于明日将它投回亚空间的裂口。\n\n他们祈祷二向引路，希望零件从亚空间回来后，来世能转生为更好的存在。"
+  },
+  {
+    "id": 154,
+    "name_EN": "Shiratsuka Parts Industry",
+    "name_CHS": "白塜零件实业",
+    "name_CHT": "白塜零件實業",
+    "content_EN": "The dark shop was hidden in some corner, and its method of operation was very different from Trash Mountain. Instead of gathering war-torn debris, Shiratsuka Parts got most of its parts from large items shot out of the rift.\n\nThe workers here disassembled gathered debris, and reassembled them into something new, before sending them off with the silent utterance of an ancient blessing...\n\n\"Neverlasting paths, what comes may not be what you ask, and what you ask may not come to pass.\"",
+    "content_CHS": "黑暗中的商店藏在转角，与打捞龙脉冲突残骸的垃圾山不同，白冢取得的零件，多半来自亚空间喷出的大型漂流物。\n\n他们会在这里将打捞的零件解体，重组后送往各方，并淡淡说出古老的祝福「二向无常，遇而无往，无往而遇。」"
+  },
+  {
+    "id": 25,
+    "name_EN": "Frontier Satellite: Taiyang",
+    "name_CHS": "拓荒卫星「太乙」",
+    "name_CHT": "拓荒衛星「太乙」",
+    "content_EN": "This satellite was named after East Ocean's main star, and was their earliest base of operations in the Peaks.\n\nThe Taiyang shrine built inside once attracted many Peakers due to its similarity with Myria's Helius. However, Taiyang's reputation in the Peaks declined rapidly after East Ocean surrendered to United Mining, and the shrine was all but abandoned.",
+    "content_CHS": "卫星用瀛海的主星为名，是为最早的据点。\n\n内部兴建的太乙神殿由于跟万道的乙皇极为神似，曾经在群山吸引了无数信众，却因为瀛海最后与矿联投降，让太乙的名声在群山迅速败坏，徒留荒废的神殿。"
+  },
+  {
+    "id": 136,
+    "name_EN": "Solar Alerting Post",
+    "name_CHS": "恒星警报站",
+    "name_CHT": "恆星警報站",
+    "content_EN": "The unmanned solar alerting post operated independently, as the flares of Ignis encroached upon the asteroid belt from time to time.\n \nPerhaps because of this, in all the many versions of Myria's creation myth, Ignis calls down the wrath of heaven to vanquish Helius, who arrogantly tried to take on his creator.",
+    "content_CHS": "无人的恒星警报站独立运作着，只因恒星烛龙的闪焰不定期的侵扰群山小行星带。\n\n或许是因为这样，万道的宗教创世虽然版本多有，但结局始终是烛龙降下天罚，毁灭了妄自想称神的乙皇。"
+  },
+  {
+    "id": 127,
+    "name_EN": "Illegal Base Station: Rabbit Hole III",
+    "name_CHS": "非法基地台「兔窟三」",
+    "name_CHT": "非法基地台「兔窟三」",
+    "content_EN": "This dilapidated workstation was full of discharged communications veterans. Familiar as they were with official signals, they broadcast news of Thousand Peaks using distributed encryption. \n\nMaybe their field of work explains why they didn't talk much. However, if you brought up the latest news, they were surprisingly enthusiastic.",
+    "content_CHS": "残破的工作站内，都是些龙脉冲突后退役的通讯老兵。熟悉官方讯号的他们，将群山的信息透过分散式加密送出。\n\n或许跟他们专长有关，他们不喜欢多说话，但如果是新的广播内容，他们却意外的热衷。"
+  },
+  {
+    "id": 126,
+    "name_EN": "Grand Crusade Memorial",
+    "name_CHS": "光荣冲突纪念塔",
+    "name_CHT": "光榮衝突紀念塔",
+    "content_EN": "The walls inside the tower were engraved with accounts of the war, primarily focused on how United Mining turned the war in its favor. There wasn't much recorded about the witches, even going so far as to say they were the cause of the chaos.\n\nPublic defacement like this not only threatened the lives of witches, it also left them tormented by guilt, as could be seen in Eda's master.",
+    "content_CHS": "塔内的墙上刻满了龙脉冲突的纪录，主要描写矿业联合如何逆转战局，女巫参战的过却少有记载，甚至被渲染成战乱的原因。\n\n舆论攻击的结果，最后不仅威胁了女巫的生存，连带让许多女巫至今充满负罪感，像是艾妲的师父。"
+  },
+  {
+    "id": 131,
+    "name_EN": "Mt. Aurora Cave: Southern Peak",
+    "name_CHS": "朝山龙脉矿场「南山」",
+    "name_CHT": "朝山龍脈礦場「南山」",
+    "content_EN": "Inside the nearly completed mining facilities, a shrine overflowing with lumen was separated off with glass. Murals and natural formations were both assiduously preserved.\n\nThe construction unit was working hard to share the space fairly with the gods. Coming from East Ocean, it made me feel ashamed. After all, the excessive industrialization back home made even lumen plants hard to come by.",
+    "content_CHS": "即将完工的龙脉矿场内，汜矿脉最丰沛的主殿被透明的玻璃隔离，内部的神像与自然景观都被刻意保留了起来。\n\n施工单位努力的想追求人神共地的保存，这让从瀛海来的我感到惭愧，毕竟多年来的过度开发，工业城的瀛海连龙脉植物都很少见。"
+  },
+  {
+    "id": 7,
+    "name_EN": "Mt. Aurora Municipal Hospital",
+    "name_CHS": "朝山市民医院",
+    "name_CHT": "朝山市民醫院",
+    "content_EN": "Repurposed from a hospital during the war, Mt. Aurora Municipal Hospital is the largest medical institute in Thousand Peaks. The lobby was packed with people from all over the land seeking treatment.\n\nLong lines of scavengers and runners that were injured in caves could be seen waiting to be called as they shared stories of their adventures with one another.",
+    "content_CHS": "由战争时期的医院改建，朝山市民医院是群山民间最大的医疗机构，各地求诊的人占据了登记大厅。\n\n在这里可以看见大量的拾荒工人，还有因为探勘龙脉而受伤的探勘人，他们一边排队等待叫号，一边又分享着各自的冒险故事。"
+  },
+  {
+    "id": 4,
+    "name_EN": "Thousand Peaks Civil College",
+    "name_CHS": "群山公民大学",
+    "name_CHT": "群山公民大學",
+    "content_EN": "Located in the free, neutral city of Mt. Aurora, Thousand Peaks Civil College was the only college in the Peaks. Here, a select few gathered for academic research regarding the reconstruction of Thousand Peaks and the miracles of lumen.\n\nThe institution would regularly send out excavation parties, and their presence could be found in caves far and wide.",
+    "content_CHS": "在中立的自由都市「朝山」内，座落着群山仅有的一所大学。少数幸运的青年聚集此处，研究那些可以重建群山的知识与信仰，尤其是关于「龙脉」的种种奇迹。\n\n大学不时会送出探勘团，在各地的龙脉常能找到他们研究万道的足迹。"
+  },
+  {
+    "id": 1,
+    "name_EN": "Mt. Aurora Distribution Center",
+    "name_CHS": "朝山贸易物流中心",
+    "name_CHT": "朝山貿易物流中心",
+    "content_EN": "Barrel after barrel marked with the label \"United Mining - Thousand Peaks\" were filled with lumium and loaded up on large cargo ships to be sent to the far reaches of Thousand Peaks. \n\nUnder the supervision of the Mt. Aurora Distribution Center, an endless stream of ships and people slowly but surely repaired the scars of war. ",
+    "content_CHS": "一桶桶标记「行星矿业联合 - 群山原产」的汜气，由这里分装进大型货船，运向群山各地。\n\n在朝山的物流中心引导下，川流不息的船只和忙碌的人们，缓慢但持续地修复战争留下的伤口。"
+  },
+  {
+    "id": 140,
+    "name_EN": "Myrian Shrine: The Ten Peaks",
+    "name_CHS": "万道十山殿",
+    "name_CHT": "萬道十山殿",
+    "content_EN": "\"Lumen of the Peaks, flow without end.\"\n\nThe Myrian Shrine located next to the Lumen Association, was not built for worshipping Ignis, nor the two gods Helius and Terra, but for worshipping the ten planetary gods of Thousand Peaks. They symbolize the diversity of the Lumen Association, and the people that come from every part of the solar system.",
+    "content_CHS": "「群山龙脉，川流不止」\n\n建立在龙脉协会旁的万道神殿，祭祀的不是烛龙，也不是乙皇与后土双神，而是万道信仰中，主持群山的十位行星神。它们象征了龙脉协会的多元性，这里的人来自群山各方。"
+  },
+  {
+    "id": 155,
+    "name_EN": "Lumen Association Headquarters",
+    "name_CHS": "龙脉协会朝山本部所",
+    "name_CHT": "龍脈協會朝山本部所",
+    "content_EN": "The Council of Ten, located at the association's headquarters, was composed of the earliest members of the Lumen Association, and was the highest level of decision-making.\n \nIt was through their efforts that the mining disputes at Thousand Peaks were settled. They fought tirelessly for the rights and interests of the runners, making them a well respected organization among the people.",
+    "content_CHS": "位于协会本部的十人会，是由龙脉协会的元老组成，决策的最高层级。\n\n是他们的努力让群山的矿业纠纷平息，并且为探勘人争取无数权益，成为探勘人们尊敬的存在。"
+  },
+  {
+    "id": 119,
+    "name_EN": "Illiterati Academy: Oceania",
+    "name_CHS": "无字教育院「海国」",
+    "name_CHT": "無字教育院「海國」",
+    "content_EN": "Founded many years ago, when the orphanage took in many children from the Aurora region who were abandoned during the war. Some of the orphans were from Zhao Ghe or the Rumani Clan, while some of the older ones were even exiled witches.\n\nThough the dean rarely showed his face, everyone said his hope was that one day the discrimination would end. He was a gentle, but determined man that hoped to create a future for Thousand Peaks.",
+    "content_CHS": "成立于早期，孤儿院收了许多早年龙脉冲突，朝山一带各方会战留下的战争孤儿，可能是朝歌人，也可能是吉普赛家族的遗子，年纪稍大的也有流亡的女巫。\n\n负责的院长不常出现，但大家都说他希望所有人不分彼此，一同学习打造未来的群山，是个温和而坚定的老人。"
+  },
+  {
+    "id": 24,
+    "name_EN": "The Daily Lumen",
+    "name_CHS": "龙脉日报通讯台",
+    "name_CHT": "龍脈日報通訊台",
+    "content_EN": "Despite its unremarkable exterior, the office was wall-to-wall with circulating leads and intel. The shouts of editors and reporters coming and going could be heard in waves. Every runner in Thousand Peaks was relying on the information being exchanged here.",
+    "content_CHS": "尽管外观不起眼，办公空间却是布满墙面的流通情报，编辑与记者们的吆喝声此起彼落，全群山的探勘人就是靠着这里交流情报。"
+  },
+  {
+    "id": 121,
+    "name_EN": "Thousand Peaks Culture Foundation",
+    "name_CHS": "群山艺术基金会",
+    "name_CHT": "群山藝術基金會",
+    "content_EN": "The Rodin family, founders of the Thousand Peaks Culture Foundation, were the very first to discover lumen in Thousand Peaks. They developed their wealth through the sale of mining rights, and became a famous family of adventurers.\n \nThey extended across the whole of Thousand Peaks, with the mission to promote and preserve the Myrian culture. The famous opera \"Melody of Starsong\" was created for this purpose, and was one of the most popular pieces among Peakers.",
+    "content_CHS": "建立基金会的罗登家族，是早年第一个于群山发现龙脉的人，他们透过销售矿权致富，成为著名的探险家族。\n\n他们人马遍及群山，以推动与保存万道文化艺术为己任，为此推出的歌剧「龙脉长歌」更是群山民间热爱的著名歌剧。"
+  },
+  {
+    "id": 120,
+    "name_EN": "Processing Plant: Luma Caverna",
+    "name_CHS": "综合加工厂「龙洞」",
+    "name_CHT": "綜合加工廠「龍洞」",
+    "content_EN": "Although this place was not nearly as massive as United Mining's military bases, it was still the largest factory that served runners in Thousand Peaks.\n \nCommonly seen synthescepters, as well as most scavenging equipment used by the runners, were all developed here.",
+    "content_CHS": "虽然比起矿联的军事基地，规模完全不是一个等级，但这里却是为群山探勘人服务的最大工厂。\n\n常见的龙鸣仿声器，还有探勘用的拾荒装备都是出自于他们的研究。"
+  },
+  {
+    "id": 123,
+    "name_EN": "Opus News Agency",
+    "name_CHS": "奥伯斯通讯社",
+    "name_CHT": "奧伯斯通訊社",
+    "content_EN": "On the surface, the agency looks like an enormous observation spacecraft equipped with advanced technology.\n \nHowever, we searched the entire site, and did not find a single employee.",
+    "content_CHS": "通讯社看起来像是巨大的观测用飞船，技术十分先进。\n\n然而我们找遍了全站，却没看到任何通讯社的员工。"
+  },
+  {
+    "id": 130,
+    "name_EN": "Mt. Aurora Cave: West Mount Tonitrus",
+    "name_CHS": "朝山龙脉矿场「西雷山」",
+    "name_CHT": "朝山龍脈礦場「西雷山」",
+    "content_EN": "As construction of the cave's mining facilities was only halfway done, it was possible to see ancient Myrian structures being carefully moved, piece by piece.\n\nSomeone from the association ordered that every part be carefully inventoried, while witches performed rituals and promised the Myrian gods that they'd be taken to a better resting place.",
+    "content_CHS": "矿脉工程施工到一半，可以看到古老的万道建筑正被小心翼翼的搬迁。\n\n协会的人指挥着，仔细的将各种部件标号，而后万道女巫在旁祭祀，重复承诺万道的神灵，她们会将它们移驾至更好的居所。"
+  },
+  {
+    "id": 28,
+    "name_EN": "Mount Aurora Border Patrol",
+    "name_CHS": "朝山边境巡逻局",
+    "name_CHT": "朝山邊境巡邏局",
+    "content_EN": "The Border Patrol office located far from Aurora City marked the border between United Mining and Mount Aurora airspace. It received a variety of complaints, like those from civilians protesting United Mining's seizure of excavation finds and their willingness to attack civilian vessels for whatever reason they saw fit.\n",
+    "content_CHS": "远离朝山市的巡逻局是矿业联合空域与朝山空域的边境，常会收到各种投诉，像是民间船抗议矿业联合官方侵占探勘成果，甚至借各种名义攻击民间船。"
+  },
+  {
+    "id": 156,
+    "name_EN": "Lumen Association: Border Branch",
+    "name_CHS": "龙脉协会边境支部所",
+    "name_CHT": "龍脈協會邊境支部所",
+    "content_EN": "In those past few years, due to the expansion of United Mining's range of excavation, the caves of civilian runners on the borders started to be taken through dubious political means and sometimes even brute force.\n\nAs a result, the Lumen Association established a number of border outposts, hoping to moderate the frequency of conflicts.",
+    "content_CHS": "近几年来，由于矿业联合官方的探索范围扩大，导致位于边界，民间探勘人的矿脉被各种巧取豪夺，甚至有直接占领的丑事。\n\n这些传闻，导致协会设立边境的营业所，只希望调停频繁发生的冲突。"
+  },
+  {
+    "id": 124,
+    "name_EN": "Thousand Peaks Frontier Memorial",
+    "name_CHS": "群山拓荒纪念塔",
+    "name_CHT": "群山拓荒紀念塔",
+    "content_EN": "United Mining built this memorial to commemorate their victory over the Rumani Clan. It was filled with written accounts of the twenty-year history of Thousand Peaks' development, from the perspective of United Mining.\n\nThe development of Thousand Peaks began with the arrival of United Mining and the subsequent establishment of Ironwind. Ultimately, United Mining settled the conflicts of the Lumen War, bringing about a long-sought peace for the people.",
+    "content_CHS": "那是为了纪念与吉普赛家族争战胜利后，矿联立下的拓荒纪念塔，塔内写满了矿联视角的群山二十年拓荒历史。\n\n群山的开拓以矿联的到来，建立铁岚城为开端，到最终矿联平定龙脉冲突，带来人们期待的和平。"
+  },
+  {
+    "id": 68,
+    "name_EN": "United Lumium Research Center",
+    "name_CHS": "矿联汜气研究中心",
+    "name_CHT": "礦聯汜氣研究中心",
+    "content_EN": "The research center was like a labyrinth, twisting and turning through checkpoints and high-security zones. The researchers kept a close watch, gesturing to follow the designated visiting route. \n\nAccording to the tour guide, the main goal of the research was to uncover the essence of lumen, how it might be utilized and regenerated, and ultimately to solve the Galactic Empire's energy problems, bringing eternal prosperity to United Mining.",
+    "content_CHS": "重重防备的研究中心蜿蜒如迷宫，研究员紧盯着，要求照指定的参观路线前进。\n\n研究员的导览中说，这里的研究主旨是找出汜气的本质，如何引导，如何再生，最终是为统合体的人类解决能源问题，为矿业联合带来永世繁荣。"
+  },
+  {
+    "id": 105,
+    "name_EN": "Lumen Cave: Ironwind 34",
+    "name_CHS": "龙脉矿场「铁岚34」",
+    "name_CHT": "龍脈礦場「鐵嵐34」",
+    "content_EN": "One of United Mining's lumium caves, rumored in running circles to be the site of a huge Myrian ruin. The Lumen Association applied many times for permission to investigate, but have yet to receive it.",
+    "content_CHS": "矿联拥有的汜气矿场之一，在探勘人的圈内谣传，说这里藏着超大型万道遗址。\n\n然而龙脉协会多次提出的探访申请，却从未得到批准。"
+  },
+  {
+    "id": 31,
+    "name_EN": "Ironwind Shipbuilding Factory",
+    "name_CHS": "铁岚城轨道造船厂",
+    "name_CHT": "鐵嵐城軌道造船廠",
+    "content_EN": "The Ironwind Shipbuilding Factory was United Mining's main shipyard and the only one in Thousand Peaks that was permitted to build military vessels.\n \nAfter a recent expansion, it had the ability to manufacture medium-sized vessels. The cruising speed and firepower of the newly-built warships were sufficient to suppress and control the civilian ships commonly seen in Thousand Peaks.",
+    "content_CHS": "行星矿业联合的主要造船厂，也是群山唯一合法的军用船机构。\n\n在近年扩建后，已具备制造中型军用舰艇的能力。这里新造舰艇的巡航速度和火力，足以压制群山民间船。"
+  },
+  {
+    "id": 32,
+    "name_EN": "United Provision Farm",
+    "name_CHS": "矿联粮食农场",
+    "name_CHT": "礦聯糧食農場",
+    "content_EN": "After the war, basic facilities in Thousand Peaks were devastated, leading to a famine that spread over the course of several years.\n \nAfterward, it was only through United Mining's farms and the short-term food rationing system that the chaotic solar system could be brought back under control. This was also why United Mining, despite its harsh practices, still had a large number of supporters.",
+    "content_CHS": "战后群山的民生设施崩坏，导致蔓延了数载的饥荒。\n\n后来反而是靠着矿联的统一农场，以及短暂的粮食配给制度，才让纷乱的太阳系回归正轨。这也是为什么矿业联合虽然做法严酷，却依然有着大量拥护人潮。"
+  },
+  {
+    "id": 16,
+    "name_EN": "Lumen War Memorial",
+    "name_CHS": "冲突纪念馆",
+    "name_CHT": "衝突紀念館",
+    "content_EN": "This was where United Mining showcased its glory. In the lobby, a retired lumen seeking vessel was displayed and the names of various war heroes could be seen on the walls. Since it was built before the witches were vilified, those with substantial contributions, like Red, were also included.",
+    "content_CHS": "矿联歌颂荣耀之处，大厅放着退役的龙脉探测船，墙上可见各种战争英雄的名字。\n由于兴建于尚未诋毁女巫的早期，部分战功卓越的女巫也被列入，像是红。"
+  },
+  {
+    "id": 5,
+    "name_EN": "Council of Commerce",
+    "name_CHS": "行星商业议会",
+    "name_CHT": "行星商業議會",
+    "content_EN": "In the center of this space station, where every inch was worth its weight in gold, there was a large open space with unobstructed views. This was the center of power for United Mining in Thousand Peaks.\n\nBehind the walls of this beautiful ring-shaped building, the rulers voted on legislation regarding the future of lumen. Depending on whom you talked to, this building was either a coveted sanctuary of hope or a loathed bastion of sin.",
+    "content_CHS": "寸土寸金的空间站中，却有一片视野开阔的空地，这是矿联在群山的权力中枢。\n\n统治者们在这栋美丽的环形建筑墙后，决定了攸关矿脉探勘的各种法规。\n\n这里是一些人憧憬的希望之地，也是一些人憎恨的罪恶堡垒。"
+  },
+  {
+    "id": 2,
+    "name_EN": "Iron Stars City Square",
+    "name_CHS": "铁火星辰广场",
+    "name_CHT": "鐵火星辰廣場",
+    "content_EN": "As we walked through the square, a thousand languages from across the Galactic Empire filled the air. Vendors of all shapes and sizes could be found scattered about, with merchants walking to and fro doing business.\n\nRegardless of what people say, United Mining has ensured successful commerce between solar systems. Only here was I able to buy local goods from East Ocean.",
+    "content_CHS": "在这个广场上，可以听见统合体内各式各样的语言。各种不同风格的商铺错落在广场上，商人们游走在其中进行交易。\n\n不管怎么说，矿联确实维持了各星系间商业交流的顺利进行。也只有在这里，才能让我买到来自瀛海的特产。"
+  },
+  {
+    "id": 10,
+    "name_EN": "Cave Verification Bureau",
+    "name_CHS": "龙脉认证保护局",
+    "name_CHT": "龍脈認證保護局",
+    "content_EN": "With the help of the Lumen Verification Bureau, United Mining legalized lumen excavation. By using starsong verification technology, adventurers who sampled perfect starsongs could declare the rights to a cave and obtain legal protection.\n\nCritics believed that the bureau was just another system put in place to strengthen United Mining's control. On the other hand, people who needed the protection had no choice but to accept it.",
+    "content_CHS": "透过认证局，矿联成功将龙脉开采合法化，藉由龙鸣认证技术，让冒险家取得纯度最高的样本后，便可以合法宣告矿脉所有权，并接受合法保护。\n\n批评者相信认证局只是矿联加强控制的又一个官僚机构，希望得到保护的人则选择了接受认证局管理。"
+  },
+  {
+    "id": 157,
+    "name_EN": "Galactic Trade Center",
+    "name_CHS": "综合贸易中心",
+    "name_CHT": "綜合貿易中心",
+    "content_EN": "Even the Lumen Association doesn't have the right to set up a branch here. Massive numbers of people flow to and from all the major solar systems. Under the tight regulations of United Mining, interstellar trade here churns... like a giant machine.",
+    "content_CHS": "即使是龙脉协会，也没有权力于这里设立分部，巨大的人流鱼贯出入，他们来自于各大行星系，在矿业联合的规定下，人们如机械一般运行庞大的金流贸易。"
+  },
+  {
+    "id": 23,
+    "name_EN": "United Lumenide Processing Plant",
+    "name_CHS": "矿联汜水加工厂",
+    "name_CHT": "礦聯汜水加工廠",
+    "content_EN": "Lumenide sped through the pipelines, giving off an unnatural radiance that wasn't like anything you would see in the caves.\n\nBased on differences in purity, United Mining separated the lumenide into 15 export quality grades, from 95 to 110. They knew it was an ancient energy source, but they didn't care. To them, it was just a highly profitable resource worth exploiting, nothing more.",
+    "content_CHS": "汜水在管道内奔驰，散发出迥异于龙脉中的光芒。\n\n矿联依据矿脉的纯度，将汜水分装隔离，并条列出口品质标签，从95到110，一共15种等级。对他们而言，这就是一种高价有用，值得大量开发的古代能源，仅此而已。"
+  },
+  {
+    "id": 20,
+    "name_EN": "Unity News Channel 79",
+    "name_CHS": "79号统合新闻台",
+    "name_CHT": "79號統合新聞台",
+    "content_EN": "Unity News 79 was a news channel controlled directly by United Mining and its validity was highly questioned by the Peakers. And yet, United Mining did nothing to hide this fact.\n\nAs the mouthpiece for United Mining, propaganda concerning amendments to the Lumen Mining Act and restrictions on the witches were all promoted here.",
+    "content_CHS": "79号统合新闻台是矿业联合直属的新闻台，客观性备受群山人质疑，尽管如此，矿业联合并不避讳这点。\n\n作为矿业联合行政的传声筒，龙脉指定法的修正案、女巫的各种禁令都是在这里录制推广节目。"
+  },
+  {
+    "id": 6,
+    "name_EN": "United Lumium Refinery",
+    "name_CHS": "矿联汜气精炼厂",
+    "name_CHT": "礦聯汜氣精煉廠",
+    "content_EN": "Cargo containers were stacked one on top of each other at the refinery docks, while workers hustled to load raw materials and products. \n\nLumium was refined and extracted at different temperatures to produce various types of hybrid lumium fuel, industrial raw materials, solvents, and armor coatings. Everything was produced and packaged at astonishing speeds. ",
+    "content_CHS": "精炼厂的港口堆满着货柜，工人忙碌的装卸原料和产品。\n\n随着温度的变化，透过分离与精练，各种比例的混合汜气燃料、工业原料、溶剂到装甲涂料，都在这里以惊人的速度被生产封装。"
+  },
+  {
+    "id": 82,
+    "name_EN": "Lumen Cave: Ironwind 35",
+    "name_CHS": "龙脉矿场「铁岚35」",
+    "name_CHT": "龍脈礦場「鐵嵐35」",
+    "content_EN": "I remember seeing guards at every turn along the path through the ruins. \n\nThere were none of the familiar gods in the vast halls. Only huge iron pumps and piledrivers. \"This is our latest excavation technique,\" the researcher in charge of the tour said. He stood on a temporary floorboard cut from a mural of Helius, smiling as he continued, \"May fire and iron light the stars.\"",
+    "content_CHS": "记得遗迹的走道中，经过的每个路口都站着看守的警卫。\n\n深处的大厅没有熟悉的群山诸神，只有巨大的钢铁抽水管跟打桩机。\n\n「最新的探勘技术。」负责解说的研究员踩在用乙皇雕像切割的临时地板上，笑着说：「愿铁火于星辰闪耀。」"
+  },
+  {
+    "id": 26,
+    "name_EN": "United Lumium Transport Station",
+    "name_CHS": "矿联汜气转运站",
+    "name_CHT": "礦聯汜氣轉運站",
+    "content_EN": "After we successfully got into the transport station, we didn't encounter many more guards inside. \n\nGigantic United Mining machines relentlessly processed raw lumium and packaged according to the varying concentrations. Then, it would be shipped out on another cargo vessel.",
+    "content_CHS": "成功进入转运站后，厂内没遇到几个警卫。\n\n矿联巨大的提纯设施不停歇地处理运来的汜气原料，依照不同的浓度分装，再经由另外的货船运走。"
+  },
+  {
+    "id": 41,
+    "name_EN": "Border Customs",
+    "name_CHS": "出入境管理局",
+    "name_CHT": "出入境管理局",
+    "content_EN": "Even though it was responsible for inspecting large numbers of transiting ships, compared to the massive gate beside it, customs looked like a measly space station. Nevertheless, there was always a long line of ships waiting to undergo an onboard examination.\n\nTo prevent the smuggling of lumen plants and minerals, the examination squad was always fully-armed, and extremely hostile towards all visitors.",
+    "content_CHS": "审查着大量出入船舰的管理局，相较于旁的巨大闸门，只是座不起眼的小空间站，却总是有数十艘舰艇排队接受登机检验。\n\n为防止龙脉植物、矿物的走私，管理局的登机警备团都是全武装，对任何来访者都是充满敌意。"
+  },
+  {
+    "id": 52,
+    "name_EN": "Interstellar Space Gate",
+    "name_CHS": "跨星区闸门",
+    "name_CHT": "跨星區閘門",
+    "content_EN": "This large-scale space gate leading to the other solar systems was the only gateway for interstellar travel.\n \nUnited Mining deployed heavy troops here. After entering, trade ships belonging to all parties would stop for a short time and were required to reduce their engines to minimum power. When the electronic certification was confirmed, they would then be moved to deeper space for docking.",
+    "content_CHS": "通往外行星系的大型太空闸门，是星际间旅行的唯一闸道。\n\n矿联在此部署重兵，各方贸易船舰进入后会在此短暂停留，并要求关闭引擎至最低功率，直至确认电子签证无误后，才会往更深入的空间停泊。"
+  },
+  {
+    "id": 125,
+    "name_EN": "Terra Witching Tower Ruins",
+    "name_CHS": "后土塔残骸",
+    "name_CHT": "后土塔殘骸",
+    "content_EN": "After the war, United Mining attempted to recommission the abandoned Witching Tower as a museum.\n \nBut the impression that witches were used as weapons has already been deeply ingrained in the collective consciousness, and under the pressure of public criticism, they quickly abandoned the place.",
+    "content_CHS": "冲突后，矿业联合曾试图将废弃的巫塔改造为博物馆。\n\n但女巫被当成兵器的印象根深蒂固，舆论抨击之下，很快就将这里废弃了。"
+  },
+  {
+    "id": 139,
+    "name_EN": "Myrian Shrine: Terra",
+    "name_CHS": "万道后土殿",
+    "name_CHT": "萬道后土殿",
+    "content_EN": "Hidden in the corner of the tower is the shrine of Myria's god of earth and song, Terra, who channels the flow of lumen through her melodies, and gives life to the land. As such, she is the primary deity for those with unwavering belief in song, and is worshipped by witches.\n\nTerra was once one of the most admired gods among the people, but the war had tarnished the reputation of the witches, and most remaining Terra shrines besides the Witching Tower were demolished.",
+    "content_CHS": "藏在塔中的一隅，是群山仅存的后土殿，作为万道土地与歌的神祇，后土透过歌法引导汜的流动，赋予土地生命，是笃信歌法，女巫信仰的主神。\n\n后土曾是民间最受景仰的神明之一，但因为龙脉冲突让多数人对女巫反感，除了巫塔外，多数后土殿皆已拆除。"
+  },
+  {
+    "id": 74,
+    "name_EN": "Unison Telecom HQ",
+    "name_CHS": "行星通讯局",
+    "name_CHT": "行星通訊局",
+    "content_EN": "Behind the gleaming white hall, a smiling member of staff warmly welcomed the guests. He was a recently graduated communications officer from United Mining, and he was very excited to explain the advantages of the new communications network to us. \n\nBut the Peakers knew that once they entered United Mining's database, they'd no longer be able to afford taking any risks.",
+    "content_CHS": "洁白而整洁的大厅后面，面露微笑的承办人员亲切的招待客户。他是矿业联合刚毕业的通讯军官，充满热诚地向我们介绍新通讯网络的优点。\n\n但群山人都知道，一旦连接矿联的数据库，这辈子就别想冒险了。"
+  },
+  {
+    "id": 43,
+    "name_EN": "Helius Witching Tower Ruins",
+    "name_CHS": "乙皇塔残骸",
+    "name_CHT": "乙皇塔殘骸",
+    "content_EN": "The inner walls of the Helius Tower, which were soon to be demolished, were engraved with the serial numbers of the tower's previous members. Eda's number was 108. Before becoming a witch, they were not permitted to have names.\n \nShe didn't know who her parents were, only the group that sent her to the tower. They were generously compensated, but she didn't blame them, as it wouldn't otherwise have been possible for her to meet her master and become Eda.",
+    "content_CHS": "即将拆除的乙皇塔内墙，上面刻满巫塔成员的编号，艾妲的编号是108，在成为女巫前，她们没法拥有名字。\n\n艾妲不知道自己出生，只知道将她送来塔内的团体，因此获得丰厚的抚恤金，她不怪她们，是因为这样她才能遇到师父，才能成为艾妲。"
+  },
+  {
+    "id": 158,
+    "name_EN": "Ironwind Border Patrol",
+    "name_CHS": "铁岚城边境巡逻局",
+    "name_CHT": "鐵嵐城邊境巡邏局",
+    "content_EN": "Small border patrol offices don't have United Mining's usual oppressive atmosphere. Soldiers and civilians talk freely about various daily routines, complain about the slow pace of their shifts, and why incoming supplies never come with any entertainment.",
+    "content_CHS": "小型的边境巡逻局没有矿业联合日常的压迫感，军民们谈论著各种日常，抱怨着边境轮班的缓慢，以及补给为何都没有送来各类娱乐用品。"
+  }
+]
