@@ -6,24 +6,13 @@
 <title>OPUS: Echo of Starsong — Narrative Flowchart</title>
 <style>
 :root {
-  --bg-deep: #06060f;
-  --bg-mid: #0d0d22;
-  --bg-card: #111130;
-  --bg-card-hover: #1a1a44;
-  --border: #1e1e48;
-  --gold: #c9a84c;
-  --gold-dim: #8a7030;
-  --gold-bright: #e8c965;
-  --text: #c8c8d8;
-  --text-dim: #7a7a9a;
-  --text-bright: #e8e4f0;
-  --accent-teal: #4ca8a0;
-  --accent-red: #a84c4c;
-  --amber: #3a2a10;
-  --amber-bright: #e8c965;
+  --bg-deep: #06060f; --bg-mid: #0d0d22; --bg-card: #111130;
+  --bg-card-hover: #1a1a44; --border: #1e1e48;
+  --gold: #c9a84c; --gold-dim: #8a7030; --gold-bright: #e8c965;
+  --text: #c8c8d8; --text-dim: #7a7a9a; --text-bright: #e8e4f0;
+  --accent-teal: #4ca8a0; --accent-red: #a84c4c;
   --branch-glow: rgba(201,168,76,0.15);
-  --radius: 6px;
-  --radius-lg: 12px;
+  --radius: 6px; --radius-lg: 12px;
   --font-display: Georgia, 'Times New Roman', serif;
   --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --font-mono: 'SF Mono', 'Menlo', 'Consolas', monospace;
@@ -31,44 +20,32 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 html { font-size: 15px; scroll-behavior: smooth; }
 body {
   font-family: var(--font-body);
-  background: var(--bg-deep);
-  color: var(--text);
-  line-height: 1.6;
-  min-height: 100vh;
+  background: var(--bg-deep); color: var(--text);
+  line-height: 1.6; min-height: 100vh;
 }
 .starfield {
-  position: fixed; inset: 0; z-index: 0; overflow: hidden;
+  position: fixed; inset: 0; z-index: 0;
   background: radial-gradient(ellipse at 50% 30%, #0f0f2e 0%, #08081c 40%, #040410 100%);
 }
 .starfield::before {
-  content: '';
-  position: absolute; inset: -50%;
+  content: ''; position: absolute; inset: -50%;
   background-image:
     radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.9), transparent),
     radial-gradient(1px 1px at 25% 35%, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 40% 10%, rgba(255,255,255,0.8), transparent),
     radial-gradient(1.5px 1.5px at 55% 45%, rgba(201,168,76,0.6), transparent),
     radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 85% 55%, rgba(255,255,255,0.9), transparent),
-    radial-gradient(1px 1px at 15% 65%, rgba(255,255,255,0.6), transparent),
-    radial-gradient(1px 1px at 30% 75%, rgba(201,168,76,0.5), transparent),
-    radial-gradient(1px 1px at 50% 80%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 30% 75%, rgba(201,168,76,0.5), transparent),
     radial-gradient(1px 1px at 65% 70%, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 80% 85%, rgba(255,255,255,0.6), transparent),
     radial-gradient(1.5px 1.5px at 95% 40%, rgba(201,168,76,0.7), transparent),
-    radial-gradient(1px 1px at 5% 85%, rgba(255,255,255,0.8), transparent),
-    radial-gradient(1px 1px at 20% 5%, rgba(255,255,255,0.9), transparent),
-    radial-gradient(1px 1px at 60% 60%, rgba(255,255,255,0.6), transparent);
+    radial-gradient(1px 1px at 20% 5%, rgba(255,255,255,0.9), transparent);
   background-size: 200% 200%;
   animation: starDrift 120s linear infinite;
 }
 .starfield::after {
-  content: '';
-  position: absolute; inset: 0;
+  content: ''; position: absolute; inset: 0;
   background: radial-gradient(ellipse at 50% 40%, transparent 40%, rgba(6,6,15,0.6) 100%);
 }
 @keyframes starDrift {
@@ -82,15 +59,12 @@ body {
 
 .header {
   position: sticky; top: 0; z-index: 100;
-  padding: 14px 20px;
-  display: flex; align-items: center; flex-wrap: wrap; gap: 12px;
+  padding: 14px 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px;
   border-bottom: 1px solid var(--border);
-  background: rgba(6,6,15,0.92);
-  backdrop-filter: blur(8px);
+  background: rgba(6,6,15,0.92); backdrop-filter: blur(8px);
 }
 .header-title {
-  font-family: var(--font-display);
-  font-size: 1.35rem; font-weight: 400;
+  font-family: var(--font-display); font-size: 1.35rem; font-weight: 400;
   letter-spacing: 0.05em; color: var(--gold);
   text-shadow: 0 0 30px rgba(201,168,76,0.2);
 }
@@ -99,16 +73,15 @@ body {
   letter-spacing: 0.1em; text-transform: uppercase;
 }
 .header-spacer { flex: 1; min-width: 8px; }
+.header-nav { display: flex; gap: 4px; }
 .header-nav a {
   color: var(--text-dim); text-decoration: none;
   font-size: 0.76rem; padding: 4px 10px;
-  border-radius: var(--radius);
-  border: 1px solid transparent;
-  transition: var(--transition);
-  letter-spacing: 0.03em;
+  border-radius: var(--radius); border: 1px solid transparent;
+  transition: var(--transition); letter-spacing: 0.03em;
 }
 .header-nav a:hover { color: var(--text-bright); border-color: var(--border); }
-.header-nav a.active { background: rgba(201,168,76,0.12); border-color: var(--gold-dim); color: var(--gold-bright); }
+.header-nav a.on { background: rgba(201,168,76,0.12); border-color: var(--gold-dim); color: var(--gold-bright); }
 .lang-btn {
   background: var(--bg-card); border: 1px solid var(--border);
   color: var(--text-dim); padding: 4px 10px;
@@ -120,217 +93,189 @@ body {
 .lang-btn.on { background: rgba(201,168,76,0.15); border-color: var(--gold); color: var(--gold); }
 
 .loader {
-  position: fixed; inset: 0; z-index: 200;
-  background: var(--bg-deep);
+  position: fixed; inset: 0; z-index: 200; background: var(--bg-deep);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   transition: opacity 0.5s, visibility 0.5s;
 }
 .loader.off { opacity: 0; visibility: hidden; pointer-events: none; }
 .loader-ring {
   width: 40px; height: 40px;
-  border: 2px solid var(--border);
-  border-top-color: var(--gold);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+  border: 2px solid var(--border); border-top-color: var(--gold);
+  border-radius: 50%; animation: spin 0.8s linear infinite;
 }
-.loader-text {
-  margin-top: 14px; color: var(--text-dim);
-  font-size: 0.82rem; letter-spacing: 0.08em;
-}
+.loader-text { margin-top: 14px; color: var(--text-dim); font-size: 0.82rem; letter-spacing: 0.08em; }
 
 .flow {
   position: relative; z-index: 1;
-  max-width: 1080px; margin: 0 auto;
-  padding: 40px 20px 80px;
+  max-width: 1000px; margin: 0 auto;
+  padding: 40px 20px 120px;
   display: flex; flex-direction: column; align-items: center; gap: 0;
 }
 
 .card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 20px 24px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 18px 22px;
   width: 420px; max-width: 100%;
-  transition: var(--transition);
-  position: relative;
-  cursor: default;
+  transition: var(--transition); position: relative;
 }
-.card:hover {
-  border-color: var(--gold-dim);
-  box-shadow: 0 4px 24px rgba(201,168,76,0.08);
-}
+.card:hover { border-color: var(--gold-dim); box-shadow: 0 4px 24px rgba(201,168,76,0.06); }
 .card.branch {
   border-color: rgba(201,168,76,0.3);
   box-shadow: 0 0 20px var(--branch-glow);
 }
-.card.branch::before {
-  content: '';
-  position: absolute; top: -1px; left: 50px; right: 50px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  border-radius: 1px;
-}
 .card.terminal {
-  opacity: 0.7;
-  border-style: dashed;
+  opacity: 0.65; border-style: dashed;
 }
 
-.card-head {
+.card-top {
   display: flex; align-items: baseline; justify-content: space-between;
-  margin-bottom: 10px; flex-wrap: wrap; gap: 6px;
+  margin-bottom: 8px; flex-wrap: wrap; gap: 6px;
 }
 .card-chapter {
-  font-family: var(--font-display);
-  font-size: 1rem; color: var(--gold);
-  letter-spacing: 0.03em;
+  font-family: var(--font-display); font-size: 0.88rem;
+  color: var(--gold); letter-spacing: 0.03em;
 }
 .card-range {
-  font-family: var(--font-mono);
-  font-size: 0.66rem; color: var(--text-dim);
+  font-family: var(--font-mono); font-size: 0.64rem; color: var(--text-dim);
 }
+
 .card-chars {
-  display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px;
+  display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px;
 }
 .chip {
-  font-size: 0.66rem; padding: 2px 8px; border-radius: 3px;
-  background: rgba(76,168,160,0.12); color: var(--accent-teal);
+  font-size: 0.64rem; padding: 2px 7px; border-radius: 3px;
+  background: rgba(76,168,160,0.1); color: var(--accent-teal);
   font-family: var(--font-mono); letter-spacing: 0.02em;
 }
 
 .card-snippets {
-  font-size: 0.82rem; line-height: 1.8; color: var(--text);
-  max-height: 220px; overflow-y: auto;
-  padding-right: 6px;
-  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  font-size: 0.8rem; line-height: 1.8; color: var(--text);
+  max-height: 180px; overflow-y: auto; padding-right: 6px;
+  mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
 }
-.card-snippets.expanded {
-  max-height: none;
-  mask-image: none;
-  -webkit-mask-image: none;
+.card-snippets.open {
+  max-height: none; mask-image: none; -webkit-mask-image: none;
 }
 .card-snippets::-webkit-scrollbar { width: 4px; }
 .card-snippets::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-
 .snip-line {
-  padding: 3px 0; border-bottom: 1px solid rgba(30,30,72,0.3);
-  line-height: 1.7;
+  padding: 2px 0; border-bottom: 1px solid rgba(30,30,72,0.25);
+  line-height: 1.75; word-break: break-word;
 }
 .snip-line:last-child { border-bottom: none; }
 .snip-id {
-  font-family: var(--font-mono); font-size: 0.6rem;
-  color: var(--text-dim); margin-right: 6px;
-  opacity: 0.5;
+  font-family: var(--font-mono); font-size: 0.58rem;
+  color: var(--text-dim); margin-right: 5px; opacity: 0.4;
 }
 
 .card-toggle {
-  display: block; width: 100%; margin-top: 10px;
+  display: block; width: 100%; margin-top: 8px;
   background: none; border: 1px solid var(--border);
-  color: var(--text-dim); font-size: 0.7rem;
-  padding: 5px; border-radius: var(--radius);
+  color: var(--text-dim); font-size: 0.66rem;
+  padding: 4px; border-radius: var(--radius);
   cursor: pointer; transition: var(--transition);
-  font-family: var(--font-body);
-  letter-spacing: 0.04em;
+  font-family: var(--font-body); letter-spacing: 0.04em; line-height: 1;
 }
 .card-toggle:hover { border-color: var(--gold-dim); color: var(--gold-dim); }
-
 .card-count {
-  font-size: 0.66rem; color: var(--text-dim);
-  margin-top: 8px; opacity: 0.6;
+  font-size: 0.62rem; color: var(--text-dim); margin-top: 6px; opacity: 0.5;
 }
 
 .connector {
-  width: 2px; height: 28px;
-  background: var(--border);
-  flex-shrink: 0;
+  width: 2px; height: 22px;
+  background: var(--border); flex-shrink: 0;
+}
+.connector.branch {
+  background: linear-gradient(to bottom, var(--gold-dim), var(--border));
+  height: 32px;
 }
 
-.choice-bar {
-  display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
-  margin: 8px 0 4px;
-  max-width: 800px;
+.branch-choice-bar {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+  margin: 0; max-width: 900px;
 }
-.choice-btn {
-  padding: 8px 18px;
-  background: rgba(201,168,76,0.08);
-  border: 1px solid rgba(201,168,76,0.25);
+.branch-choice-btn {
+  padding: 7px 14px;
+  background: rgba(201,168,76,0.1);
+  border: 1px solid rgba(201,168,76,0.3);
   border-radius: var(--radius-lg);
   color: var(--gold-bright);
-  font-size: 0.8rem; cursor: pointer;
+  font-size: 0.76rem; cursor: default;
   transition: var(--transition);
-  font-family: var(--font-body);
-  letter-spacing: 0.03em;
-  text-align: center;
-  max-width: 300px;
-  line-height: 1.5;
+  font-family: var(--font-body); letter-spacing: 0.03em;
+  text-align: center; max-width: 360px; line-height: 1.5;
 }
-.choice-btn:hover {
-  background: rgba(201,168,76,0.18);
-  border-color: var(--gold);
-  box-shadow: 0 2px 12px var(--branch-glow);
-}
-.choice-btn.em {
-  font-size: 0.64rem; color: var(--text-dim); border-style: dashed;
+.branch-choice-btn.em {
+  background: rgba(255,255,255,0.02); border-style: dashed;
+  color: var(--text-dim); font-size: 0.68rem; font-style: italic;
 }
 
 .branch-row {
-  display: flex; justify-content: center; gap: 20px;
+  display: flex; justify-content: center; gap: 18px;
   flex-wrap: wrap; width: 100%;
 }
 .branch-col {
   display: flex; flex-direction: column; align-items: center;
-  gap: 0; min-width: 320px; flex: 1 1 320px; max-width: 480px;
+  gap: 0; min-width: 280px; flex: 1 1 280px; max-width: 460px;
 }
 
-.branch-label {
-  font-size: 0.68rem; color: var(--gold-dim);
-  text-align: center; margin-bottom: 4px;
-  letter-spacing: 0.05em;
-  padding: 4px 10px;
-  border-bottom: 1px solid rgba(201,168,76,0.15);
-  max-width: 90%;
-  line-height: 1.4;
+.choice-label {
+  padding: 5px 14px; margin-bottom: 2px;
+  background: rgba(201,168,76,0.07);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: var(--radius);
+  color: var(--gold-dim);
+  font-size: 0.74rem;
+  letter-spacing: 0.03em; text-align: center;
+  max-width: 380px; line-height: 1.5;
 }
 
-.branch-merge {
-  display: flex; align-items: center; justify-content: center;
-  gap: 12px; margin: 12px 0;
+.merge-indicator {
+  display: flex; align-items: center; gap: 6px;
+  padding: 12px 16px; margin: 4px 0;
+  background: rgba(201,168,76,0.03);
+  border: 1px dashed rgba(201,168,76,0.1);
+  border-radius: var(--radius);
 }
-.merge-line {
-  width: 24px; height: 2px; background: var(--border);
-}
-.merge-dot {
-  width: 8px; height: 8px; background: var(--gold-dim);
-  border-radius: 50%;
+.merge-arrow { color: var(--text-dim); font-size: 0.9rem; }
+.merge-text {
+  font-size: 0.62rem; color: var(--text-dim);
+  letter-spacing: 0.04em; font-style: italic;
 }
 
 .the-end {
-  text-align: center; padding: 40px 20px;
+  text-align: center; padding: 30px 20px 8px;
   font-family: var(--font-display);
-  font-size: 1.2rem; color: var(--gold-dim);
-  letter-spacing: 0.1em; opacity: 0.6;
+  font-size: 1.1rem; color: var(--gold-dim);
+  letter-spacing: 0.1em; opacity: 0.55;
 }
 
-.flow-controls {
+.footer {
+  text-align: center; padding: 20px;
+  font-size: 0.66rem; color: var(--text-dim);
+  letter-spacing: 0.05em; opacity: 0.5;
+}
+
+.controls {
   position: fixed; bottom: 16px; right: 16px; z-index: 50;
   display: flex; gap: 6px;
 }
-.fc-btn {
+.ctrl-btn {
   width: 36px; height: 36px;
   background: var(--bg-card); border: 1px solid var(--border);
-  color: var(--text-dim); font-size: 0.9rem;
+  color: var(--text-dim); font-size: 0.85rem;
   cursor: pointer; border-radius: var(--radius);
   display: flex; align-items: center; justify-content: center;
-  transition: var(--transition);
-  font-family: var(--font-body);
+  transition: var(--transition); font-family: var(--font-body);
 }
-.fc-btn:hover { border-color: var(--gold-dim); color: var(--text-bright); }
+.ctrl-btn:hover { border-color: var(--gold-dim); color: var(--text-bright); }
 
 @media (max-width: 768px) {
-  .card { width: 100%; padding: 16px 18px; }
-  .branch-row { gap: 12px; }
+  .card { width: 100%; padding: 14px 16px; }
+  .branch-row { gap: 10px; }
   .branch-col { min-width: 100%; }
-  .choice-btn { max-width: 100%; }
+  .branch-choice-btn { max-width: 100%; }
   .header { padding: 10px 14px; }
   .header-title { font-size: 1.1rem; }
 }
@@ -350,7 +295,7 @@ body {
   <span class="header-spacer"></span>
   <div class="header-nav">
     <a href="index.html">Archive</a>
-    <a href="flowchart.html" class="active">Flowchart</a>
+    <a href="flowchart.html" class="on">Flowchart</a>
   </div>
   <button class="lang-btn on" data-lang="CHS">简中</button>
   <button class="lang-btn" data-lang="EN">EN</button>
@@ -358,22 +303,27 @@ body {
 </header>
 
 <div class="flow" id="flow"></div>
-<div class="flow-controls">
-  <button class="fc-btn" id="btnTop" title="Scroll to Top">▲</button>
-  <button class="fc-btn" id="btnBottom" title="Scroll to Bottom">▼</button>
+
+<footer class="footer">
+  OPUS: Echo of Starsong &copy; SIGONO · Branching narrative extracted from Unity build
+</footer>
+
+<div class="controls">
+  <button class="ctrl-btn" id="btnTop" title="Top">▲</button>
+  <button class="ctrl-btn" id="btnBot" title="Bottom">▼</button>
 </div>
 
 <script>
 (function() {
   'use strict';
 
-  const $ = s => document.querySelector(s);
-  const $$ = s => document.querySelectorAll(s);
-  const esc = s => { if (!s) return ''; return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); };
+  var $ = function(s) { return document.querySelector(s); };
+  var $$ = function(s) { return document.querySelectorAll(s); };
+  var esc = function(s) { if (!s) return ''; return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); };
 
-  let currentLang = 'CHS';
-  let sceneMap = {};
-  let rootScene = null;
+  var currentLang = 'CHS';
+  var sceneMap = {};
+  var rootScene = null;
 
   function getSnippets(scene) {
     if (currentLang === 'CHS' && scene.snippetsCHS && scene.snippetsCHS.length > 0)
@@ -381,46 +331,41 @@ body {
     return scene.snippets;
   }
 
-  function getBranchLabels(scene) {
-    return scene.branchLabels || [];
-  }
-
   function renderCard(scene, isBranch, isTerminal) {
-    const snippets = getSnippets(scene);
-    const previewCount = 5;
-    const hasMore = snippets.length > previewCount;
+    var snippets = getSnippets(scene);
+    var preview = 5;
+    var hasMore = snippets.length > preview;
+    var cls = 'card';
+    if (isBranch) cls += ' branch';
+    if (isTerminal) cls += ' terminal';
 
-    let classes = 'card';
-    if (isBranch) classes += ' branch';
-    if (isTerminal) classes += ' terminal';
-
-    let charsHtml = '';
-    const chars = scene.characters || [];
+    var charsHtml = '';
+    var chars = scene.characters || [];
     if (chars.length > 0) {
-      charsHtml = '<div class="card-chars">' +
-        chars.map(c => '<span class="chip">' + esc(c) + '</span>').join('') +
-        '</div>';
+      charsHtml = '<div class="card-chars">' + chars.map(function(c) {
+        return '<span class="chip">' + esc(c) + '</span>';
+      }).join('') + '</div>';
     }
 
-    let snipsHtml = '';
-    snippets.slice(0, previewCount).forEach(s => {
+    var snipsHtml = '';
+    snippets.slice(0, preview).forEach(function(s) {
       snipsHtml += '<div class="snip-line"><span class="snip-id">#' + s.id + '</span>' + esc(s.text) + '</div>';
     });
     if (hasMore) {
-      snippets.slice(previewCount).forEach(s => {
-        snipsHtml += '<div class="snip-line extra" style="display:none"><span class="snip-id">#' + s.id + '</span>' + esc(s.text) + '</div>';
+      snippets.slice(preview).forEach(function(s) {
+        snipsHtml += '<div class="snip-line ex" style="display:none"><span class="snip-id">#' + s.id + '</span>' + esc(s.text) + '</div>';
       });
     }
 
-    let toggleHtml = '';
+    var toggleHtml = '';
     if (hasMore) {
-      toggleHtml = '<button class="card-toggle" onclick="this.closest(\'.card\').querySelector(\'.card-snippets\').classList.toggle(\'expanded\');var es=this.closest(\'.card\').querySelectorAll(\'.extra\');var vis=es.length>0&&es[0].style.display!==\'none\'?\'none\':\'\';es.forEach(function(e){e.style.display=vis});this.textContent=vis?\'Show All \'+' + (snippets.length) + '+\' Lines\':\'Collapse\';" type="button">Show All ' + snippets.length + ' Lines</button>';
+      toggleHtml = '<button class="card-toggle" onclick="var c=this.closest(\'.card\');var ss=c.querySelector(\'.card-snippets\');ss.classList.toggle(\'open\');var es=c.querySelectorAll(\'.ex\');var v=es.length&&es[0].style.display!==\'none\'?\'none\':\'\';es.forEach(function(e){e.style.display=v});this.textContent=v?\'Show All \'+' + snippets.length + '+\'Lines\':\'Collapse\';" type="button">Show All ' + snippets.length + ' Lines</button>';
     }
 
-    return '<div class="' + classes + '" data-scene="' + scene.id + '">' +
-      '<div class="card-head">' +
+    return '<div class="' + cls + '" data-scene="' + scene.id + '">' +
+      '<div class="card-top">' +
         '<span class="card-chapter">' + esc(scene.chapter) + '</span>' +
-        '<span class="card-range">' + esc(String(scene.startId)) + '–' + esc(String(scene.endId)) + ' · ' + esc(String(scene.nodeCount)) + ' nodes</span>' +
+        '<span class="card-range">#' + esc(String(scene.startId)) + '–' + esc(String(scene.endId)) + ' · ' + esc(String(scene.nodeCount)) + ' nodes</span>' +
       '</div>' +
       charsHtml +
       '<div class="card-snippets">' + snipsHtml + '</div>' +
@@ -429,65 +374,83 @@ body {
     '</div>';
   }
 
-  function renderChoiceBar(labels) {
+  function renderConnector(isBranch) {
+    return '<div class="connector' + (isBranch ? ' branch' : '') + '"></div>';
+  }
+
+  function renderBranchChoiceBar(scene) {
+    var labels = scene.branchLabels || [];
     if (!labels || labels.length === 0) return '';
-    let html = '<div class="choice-bar">';
-    labels.forEach(l => {
-      if (l && l.trim()) {
-        html += '<div class="choice-btn">' + esc(l) + '</div>';
+    var html = '<div class="branch-choice-bar">';
+    labels.forEach(function(l) {
+      var txt = l.label && l.label.trim();
+      if (txt) {
+        html += '<div class="branch-choice-btn">' + esc(txt) + '</div>';
       } else {
-        html += '<div class="choice-btn em">(unlabeled branch)</div>';
+        html += '<div class="branch-choice-btn em">(unlabeled)</div>';
       }
     });
     html += '</div>';
     return html;
   }
 
-  function renderConnector() {
-    return '<div class="connector"></div>';
-  }
+  function renderBranchRow(scene) {
+    var branches = scene.branches || [];
+    var labels = scene.branchLabels || [];
+    if (!branches || branches.length === 0) return '';
 
-  function renderBranchRow(scenes, labels) {
-    let html = '<div class="branch-row">';
-    if (scenes) {
-      scenes.forEach((childId, i) => {
-        const childScene = sceneMap[childId];
-        if (!childScene) {
-          html += '<div class="branch-col"><div class="the-end" style="font-size:0.8rem;padding:20px">∅</div></div>';
-          return;
+    var html = '<div class="branch-row">';
+    branches.forEach(function(b, i) {
+      html += '<div class="branch-col">';
+      var lbl = labels[i] && labels[i].label && labels[i].label.trim();
+
+      if (typeof b === 'string') {
+        if (lbl) {
+          html += '<div class="choice-label">' + esc(lbl) + '</div>';
         }
-        html += '<div class="branch-col">';
-        if (labels && labels[i]) {
-          html += '<div class="branch-label">' + esc(labels[i]) + '</div>';
+        var childScene = sceneMap[b];
+        if (childScene) {
+          html += renderTree(b, 1);
+        } else {
+          html += '<div class="the-end" style="font-size:0.75rem;padding:16px">∅</div>';
         }
-        html += renderTree(childId, 1);
-        html += '</div>';
-      });
-    }
+      } else if (b && typeof b === 'object') {
+        if (lbl) {
+          html += '<div class="choice-label">' + esc(lbl) + '</div>';
+        }
+        var status = b.status || '?';
+        if (status === 'merge') {
+          html += '<div class="merge-indicator"><span class="merge-arrow">↩</span><span class="merge-text">path rejoins main flow</span></div>';
+        } else if (status === 'visited') {
+          html += '<div class="merge-indicator"><span class="merge-arrow">◎</span><span class="merge-text">already shown above</span></div>';
+        }
+      }
+      html += '</div>';
+    });
     html += '</div>';
     return html;
   }
 
   function renderTree(sceneId, depth) {
-    const scene = sceneMap[sceneId];
+    var scene = sceneMap[sceneId];
     if (!scene) return '';
 
-    let html = '';
-    const branches = scene.branches || [];
-    const labels = scene.branchLabels || [];
-    const isBranchPoint = branches.length > 1;
-    const isTerminal = branches.length === 0;
+    var html = '';
+    var branches = scene.branches || [];
+    var nBranches = branches.length;
+    var isBranchPoint = nBranches > 1;
+    var isTerminal = nBranches === 0;
 
     html += renderCard(scene, isBranchPoint, isTerminal);
 
     if (isBranchPoint) {
-      html += renderConnector();
-      html += renderChoiceBar(labels);
-      html += renderBranchRow(branches, labels);
-    } else if (branches.length === 1) {
-      html += renderConnector();
+      html += renderConnector(true);
+      html += renderBranchChoiceBar(scene);
+      html += renderBranchRow(scene);
+    } else if (nBranches === 1 && typeof branches[0] === 'string') {
+      html += renderConnector(false);
       html += renderTree(branches[0], depth + 1);
-    } else {
+    } else if (nBranches === 0) {
       html += '<div class="the-end">— END OF PATH —</div>';
     }
 
@@ -495,23 +458,21 @@ body {
   }
 
   function renderAll() {
-    const flow = $('#flow');
-    flow.innerHTML = renderTree(rootScene, 0);
+    $('#flow').innerHTML = renderTree(rootScene, 0);
   }
 
   function refreshAll() {
-    const flow = $('#flow');
-    const scrollTop = window.scrollY;
-    flow.innerHTML = renderTree(rootScene, 0);
-    window.scrollTo(0, scrollTop);
+    var st = window.scrollY;
+    $('#flow').innerHTML = renderTree(rootScene, 0);
+    window.scrollTo(0, st);
   }
 
   async function boot() {
     try {
-      const resp = await fetch('data/scenes.json');
+      var resp = await fetch('data/scenes.json');
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      const data = await resp.json();
-      data.scenes.forEach(s => { sceneMap[s.id] = s; });
+      var data = await resp.json();
+      data.scenes.forEach(function(s) { sceneMap[s.id] = s; });
       rootScene = data.rootScene;
       renderAll();
       $('#loader').classList.add('off');
@@ -521,17 +482,17 @@ body {
     }
   }
 
-  $$('.lang-btn').forEach(btn => {
+  $$('.lang-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       currentLang = this.dataset.lang;
-      $$('.lang-btn').forEach(b => b.classList.remove('on'));
+      $$('.lang-btn').forEach(function(b) { b.classList.remove('on'); });
       this.classList.add('on');
       refreshAll();
     });
   });
 
-  $('#btnTop').addEventListener('click', () => window.scrollTo({top: 0, behavior: 'smooth'}));
-  $('#btnBottom').addEventListener('click', () => window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'}));
+  $('#btnTop').addEventListener('click', function() { window.scrollTo({top: 0, behavior: 'smooth'}); });
+  $('#btnBot').addEventListener('click', function() { window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'}); });
 
   boot();
 })();
