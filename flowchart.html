@@ -252,6 +252,25 @@ body {
   letter-spacing: 0.1em; opacity: 0.55;
 }
 
+.merge-col {
+  min-width: 160px; max-width: 200px; flex: 0 0 auto;
+  justify-content: center;
+}
+.merge-summary {
+  text-align: center; padding: 12px;
+  font-size: 0.68rem; color: var(--text-dim);
+  letter-spacing: 0.04em; font-style: italic;
+  border: 1px dashed rgba(201,168,76,0.12);
+  border-radius: var(--radius);
+}
+.merge-chip {
+  text-align: center; padding: 3px 8px; margin: 2px 0;
+  font-size: 0.62rem; color: var(--gold-dim);
+  letter-spacing: 0.03em;
+  max-width: 180px; word-break: break-word;
+  line-height: 1.4;
+}
+
 .footer {
   text-align: center; padding: 20px;
   font-size: 0.66rem; color: var(--text-dim);
@@ -416,34 +435,45 @@ body {
     var labels = scene.branchLabels || [];
     if (!branches || branches.length === 0) return '';
 
-    var html = '<div class="branch-row">';
+    var sceneBranches = [];
+    var mergeLabels = [];
+    var mergeCount = 0;
     branches.forEach(function(b, i) {
-      html += '<div class="branch-col">';
-      var lbl = labels[i] && labels[i].label && labels[i].label.trim();
-
       if (typeof b === 'string') {
-        if (lbl) {
-          html += '<div class="choice-label">' + cleanText(lbl) + '</div>';
+        sceneBranches.push({childId: b, label: (labels[i] && labels[i].label) || ''});
+      } else {
+        mergeCount++;
+        if (labels[i] && labels[i].label && labels[i].label.trim()) {
+          mergeLabels.push(labels[i].label.trim());
         }
-        var childScene = sceneMap[b];
-        if (childScene) {
-          html += renderTree(b, 1);
-        } else {
-          html += '<div class="the-end" style="font-size:0.75rem;padding:16px">∅</div>';
-        }
-      } else if (b && typeof b === 'object') {
-        if (lbl) {
-          html += '<div class="choice-label">' + cleanText(lbl) + '</div>';
-        }
-        var status = b.status || '?';
-        if (status === 'merge') {
-          html += '<div class="merge-indicator"><span class="merge-arrow">↩</span><span class="merge-text">path rejoins main flow</span></div>';
-        } else if (status === 'visited') {
-          html += '<div class="merge-indicator"><span class="merge-arrow">◎</span><span class="merge-text">already shown above</span></div>';
-        }
+      }
+    });
+
+    var html = '';
+    if (sceneBranches.length === 0 && mergeCount === 0) return '';
+
+    html += '<div class="branch-row">';
+
+    sceneBranches.forEach(function(sb) {
+      html += '<div class="branch-col">';
+      var childScene = sceneMap[sb.childId];
+      if (childScene) {
+        html += renderTree(sb.childId, 1);
       }
       html += '</div>';
     });
+
+    if (mergeCount > 0) {
+      html += '<div class="branch-col merge-col">';
+      if (mergeCount <= 3) {
+        mergeLabels.forEach(function(l) {
+          html += '<div class="merge-chip"><span>' + cleanText(l) + '</span></div>';
+        });
+      }
+      html += '<div class="merge-summary">' + mergeCount + ' path' + (mergeCount > 1 ? 's' : '') + ' merge back</div>';
+      html += '</div>';
+    }
+
     html += '</div>';
     return html;
   }
