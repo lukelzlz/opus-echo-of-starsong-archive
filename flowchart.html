@@ -339,7 +339,7 @@ body {
     <div class="stat-item"><span class="stat-label">Incidents</span><span class="stat-val" id="statIncidents">-</span></div>
     <div class="stat-item"><span class="stat-label">Choices</span><span class="stat-val" id="statChoices">-</span></div>
     <div class="stat-item"><span class="stat-label">Edges</span><span class="stat-val" id="statEdges">-</span></div>
-    <div class="stat-item"><span class="stat-label">Gap Edges</span><span class="stat-val" id="statGaps">-</span></div>
+    <div class="stat-item"><span class="stat-label">Branches</span><span class="stat-val" id="statGaps">-</span></div>
     <span class="spacer"></span>
     <span class="graph-hint">Click nodes for details · Scroll to zoom · Drag to pan</span>
   </div>
@@ -436,10 +436,10 @@ body {
 
   function init() {
     const stats = flowchartData.stats;
-    $('#statIncidents').textContent = stats.totalIncidents;
-    $('#statChoices').textContent = stats.totalChoices;
+    $('#statIncidents').textContent = stats.totalNodes;
+    $('#statChoices').textContent = stats.choiceNodes;
     $('#statEdges').textContent = stats.totalEdges;
-    $('#statGaps').textContent = stats.gapEdges;
+    $('#statGaps').textContent = stats.branchEdges;
 
     buildNodeMap();
     buildGraph();
@@ -487,9 +487,9 @@ body {
       elements.push({
         data: {
           id: n.id,
-          label: String(n.incidentId),
+          label: String(n.id),
           parent: chapterParentMap[n.id] || undefined,
-          incidentId: n.incidentId,
+          incidentId: parseInt(n.id) || 0,
           snippet: n.snippet || '',
           snippet_CHS: n.snippet_CHS || '',
           characters: n.characters || [],
@@ -505,16 +505,16 @@ body {
 
     // Edges
     for (const e of flowchartData.edges) {
+      const hasLabel = e.label && e.label.trim();
       elements.push({
         data: {
           id: 'e-' + e.source + '-' + e.target,
           source: e.source,
           target: e.target,
           isGap: e.isGap,
-          option_EN: e.option_EN || '',
-          option_CHS: e.option_CHS || '',
+          edgeLabel: hasLabel ? e.label.substring(0, 40) : '',
         },
-        classes: e.isGap ? 'gap' : 'normal'
+        classes: hasLabel ? 'branch' : (e.isGap ? 'gap' : 'normal')
       });
     }
 
@@ -617,6 +617,18 @@ body {
         }
       },
       {
+        selector: 'edge.branch',
+        style: {
+          'width': 2.5,
+          'line-color': '#e8c965',
+          'target-arrow-color': '#e8c965',
+          'target-arrow-shape': 'triangle',
+          'arrow-scale': 1.0,
+          'curve-style': 'bezier',
+          'control-point-step-size': 40,
+        }
+      },
+      {
         selector: 'edge',
         style: {
           'label': 'data(edgeLabel)',
@@ -706,10 +718,9 @@ body {
     if (!cy) return;
     cy.edges().forEach(function(edge) {
       const data = edge.data();
-      const opt = isCnLang() ? (data.option_CHS || '') : (data.option_EN || '');
-      // Filter out placeholder values and empty strings
-      if (opt && opt !== '｜＿' && opt !== '|_' && opt !== '-' && opt.trim()) {
-        edge.data('edgeLabel', opt.length > 40 ? opt.substring(0, 37) + '...' : opt);
+      const label = data.edgeLabel || '';
+      if (label && label.trim()) {
+        edge.data('edgeLabel', label.length > 40 ? label.substring(0, 37) + '...' : label);
       } else {
         edge.removeData('edgeLabel');
       }
