@@ -161,7 +161,7 @@ body {
 .card-snippets::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 .snip-line {
   padding: 2px 0; border-bottom: 1px solid rgba(30,30,72,0.25);
-  line-height: 1.75; word-break: break-word;
+  line-height: 1.75; word-break: break-word; white-space: pre-wrap;
 }
 .snip-line:last-child { border-bottom: none; }
 .snip-id {
@@ -205,6 +205,7 @@ body {
   transition: var(--transition);
   font-family: var(--font-body); letter-spacing: 0.03em;
   text-align: center; max-width: 360px; line-height: 1.5;
+  white-space: pre-wrap;
 }
 .branch-choice-btn.em {
   background: rgba(255,255,255,0.02); border-style: dashed;
@@ -320,6 +321,17 @@ body {
   var $ = function(s) { return document.querySelector(s); };
   var $$ = function(s) { return document.querySelectorAll(s); };
   var esc = function(s) { if (!s) return ''; return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); };
+  var cleanText = function(s) {
+    if (!s) return '';
+    s = s.replace(/#AVATAR:\w+#/g, '');
+    s = s.replace(/#OUTFITS:\w+#/g, '');
+    s = s.replace(/#NONAME#/g, '');
+    s = s.replace(/#EFFECT_(START|END):\w+#/g, '');
+    s = s.replace(/<p>/gi, '\n');
+    s = s.replace(/\n{3,}/g, '\n\n');
+    s = s.trim();
+    return esc(s);
+  };
 
   var currentLang = 'CHS';
   var sceneMap = {};
@@ -354,11 +366,11 @@ body {
 
     var snipsHtml = '';
     snippets.slice(0, preview).forEach(function(s) {
-      snipsHtml += '<div class="snip-line"><span class="snip-id">#' + s.id + '</span>' + esc(s.text) + '</div>';
+      snipsHtml += '<div class="snip-line"><span class="snip-id">#' + s.id + '</span>' + cleanText(s.text) + '</div>';
     });
     if (hasMore) {
       snippets.slice(preview).forEach(function(s) {
-        snipsHtml += '<div class="snip-line ex" style="display:none"><span class="snip-id">#' + s.id + '</span>' + esc(s.text) + '</div>';
+        snipsHtml += '<div class="snip-line ex" style="display:none"><span class="snip-id">#' + s.id + '</span>' + cleanText(s.text) + '</div>';
       });
     }
 
@@ -390,7 +402,7 @@ body {
     labels.forEach(function(l) {
       var txt = l.label && l.label.trim();
       if (txt) {
-        html += '<div class="branch-choice-btn">' + esc(txt) + '</div>';
+        html += '<div class="branch-choice-btn">' + cleanText(txt) + '</div>';
       } else {
         html += '<div class="branch-choice-btn em">(unlabeled)</div>';
       }
@@ -411,7 +423,7 @@ body {
 
       if (typeof b === 'string') {
         if (lbl) {
-          html += '<div class="choice-label">' + esc(lbl) + '</div>';
+          html += '<div class="choice-label">' + cleanText(lbl) + '</div>';
         }
         var childScene = sceneMap[b];
         if (childScene) {
@@ -421,7 +433,7 @@ body {
         }
       } else if (b && typeof b === 'object') {
         if (lbl) {
-          html += '<div class="choice-label">' + esc(lbl) + '</div>';
+          html += '<div class="choice-label">' + cleanText(lbl) + '</div>';
         }
         var status = b.status || '?';
         if (status === 'merge') {
