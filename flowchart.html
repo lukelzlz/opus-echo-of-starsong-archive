@@ -300,7 +300,6 @@ body {
   <button class="lang-btn on" data-lang="CHS">简中</button>
   <button class="lang-btn" data-lang="EN">EN</button>
   <button class="lang-btn" data-lang="CHT">繁中</button>
-  <button class="lang-btn" data-lang="JP">日本語</button>
 </header>
 
 <div class="flow" id="flow"></div>
@@ -330,8 +329,7 @@ body {
     var langMap = {
       'EN': scene.snippets,
       'CHS': scene.snippetsCHS,
-      'CHT': scene.snippetsCHT,
-      'JP': scene.snippetsJP
+      'CHT': scene.snippetsCHT
     };
     var target = langMap[currentLang];
     if (target && target.length > 0) return target;
